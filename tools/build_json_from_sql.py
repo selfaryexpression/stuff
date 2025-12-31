@@ -3,7 +3,7 @@ import pyodbc
 import json
 
 # Read connection string from environment variable
-CONNECTION_STRING = os.getenv("Driver={ODBC Driver 18 for SQL Server};Server=tcp:employer-search.database.windows.net,1433; Database=employersearch; Uid=Selfaryadmin; Pwd=akdivHYF23#%@; Encrypt=yes; TrustServerCertificate=no; Connection Timeout=30;")
+CONNECTION_STRING = os.getenv("Server=tcp:employer-search.database.windows.net,1433; Database=employersearch; Uid=Selfaryadmin; Pwd=akdivHYF23#%@; Encrypt=yes; TrustServerCertificate=no; Connection Timeout=30;")
 
 def get_connection():
     conn_str = (
