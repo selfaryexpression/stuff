@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 function loadStates() {
     try {
         const states = [...new Set(allRegions.map(item => item.State))].sort();
-        populateDropdown(stateSelect, states, "Select State/Territory");
+        populateDropdown(stateSelect, states, "State/Territory");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -51,9 +51,9 @@ function loadCities(state) {
                 .map(item => item.City_Town_Other)
         )].sort();
 
-        populateDropdown(citySelect, cities, "Select City/Town/Other");
+        populateDropdown(citySelect, cities, "City/Town/Other");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -71,9 +71,9 @@ function loadScales(state, city) {
                 .map(item => item.Scale)
         )].sort();
 
-        populateDropdown(scaleSelect, scales, "Select Scale");
+        populateDropdown(scaleSelect, scales, "Scale");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -92,9 +92,9 @@ function loadTypes(state, city, scale) {
                 .map(item => item.Type)
         )].sort();
 
-        populateDropdown(typeSelect, types, "Select Type");
+        populateDropdown(typeSelect, types, "Type");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 

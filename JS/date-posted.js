@@ -37,7 +37,7 @@ function loadDateOptions() {
         "Last 14 Days"
     ];
 
-    populateDropdown(datepostedSelect, dateRanges, "Select Date Range");
+    populateDropdown(datepostedSelect, dateRanges, "Date Posted");
 }
 
 // ---------------------------------------------
@@ -51,9 +51,9 @@ function loadScales(dateRange) {
                 .map(item => item.Scale)
         )].sort();
 
-        populateDropdown(scaleSelect, scales, "Select Scale");
+        populateDropdown(scaleSelect, scales, "Scale");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load scales.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -71,9 +71,9 @@ function loadTypes(dateRange, scale) {
                 .map(item => item.Type)
         )].sort();
 
-        populateDropdown(typeSelect, types, "Select Type");
+        populateDropdown(typeSelect, types, "Type");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load types.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 

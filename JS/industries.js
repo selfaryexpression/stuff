@@ -37,9 +37,9 @@ function loadIndustries() {
             allIndustries.map(item => item.Industry)
         )].sort();
 
-        populateDropdown(industrySelect, industries, "Select an Industry");
+        populateDropdown(industrySelect, industries, "Industry");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load industries.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -54,9 +54,9 @@ function loadSubindustries(industry) {
                 .map(item => item.Subindustry)
         )].sort();
 
-        populateDropdown(subindustrySelect, subindustries, "Select a Subindustry");
+        populateDropdown(subindustrySelect, subindustries, "Subindustry");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load subindustries.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -74,9 +74,9 @@ function loadScales(industry, subindustry) {
                 .map(item => item.Scale)
         )].sort();
 
-        populateDropdown(scaleSelect, scales, "Select Scale");
+        populateDropdown(scaleSelect, scales, "Scale");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load scales.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
@@ -95,9 +95,9 @@ function loadTypes(industry, subindustry, scale) {
                 .map(item => item.Type)
         )].sort();
 
-        populateDropdown(typeSelect, types, "Select Type");
+        populateDropdown(typeSelect, types, "Type");
     } catch (err) {
-        renderError(resultsContainer, "Failed to load types.");
+        renderError(resultsContainer, "Unable to load.");
     }
 }
 
