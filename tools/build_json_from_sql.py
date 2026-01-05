@@ -19,10 +19,10 @@ def fetch_regions(cursor):
             State,
             City_Town_Other,
             EmployerLink,
-            EmployerName,
+            EmployerCareers,
             Scale,
             Type,
-            Population
+            EmployerContact
         FROM Regions
     """)
     cols = [col[0] for col in cursor.description]
@@ -34,7 +34,7 @@ def fetch_industries(cursor):
             ID,
             Industry,
             Subindustry,
-            EmployerLink,
+            EmployerCareers,
             EmployerName,
             Scale,
             Type
@@ -48,7 +48,7 @@ def fetch_dateposted(cursor):
         SELECT         
             ID,
             DatePosted,
-            EmployerLink,
+            EmployerCareers,
             EmployerName,
             Scale,
             Type
@@ -70,13 +70,13 @@ def main():
 
     os.makedirs("public", exist_ok=True)
 
-    with open("public/regionsdata.json", "w", encoding="utf-8") as f:
+    with open("/public/regionsdata.json", "w", encoding="utf-8") as f:
         json.dump(regions, f, ensure_ascii=False)
 
-    with open("public/industriesdata.json", "w", encoding="utf-8") as f:
+    with open("/public/industriesdata.json", "w", encoding="utf-8") as f:
         json.dump(industries, f, ensure_ascii=False)
 
-    with open("public/dateposteddata.json", "w", encoding="utf-8") as f:
+    with open("/public/dateposteddata.json", "w", encoding="utf-8") as f:
         json.dump(dateposted, f, ensure_ascii=False)
 
     print(f"Wrote {len(regions)} regions, {len(industries)} industries, {len(dateposted)} dateposted rows")

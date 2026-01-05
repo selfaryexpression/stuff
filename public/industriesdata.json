@@ -3,7 +3,7 @@
     "ID": 75,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent"
@@ -12,7 +12,7 @@
     "ID": 76,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary"
@@ -21,7 +21,7 @@
     "ID": 77,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent"
@@ -30,7 +30,7 @@
     "ID": 78,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary"
@@ -39,7 +39,7 @@
     "ID": 79,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent"
@@ -48,7 +48,7 @@
     "ID": 80,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary"
@@ -57,7 +57,7 @@
     "ID": 81,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent"
@@ -66,7 +66,7 @@
     "ID": 82,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary"
@@ -75,7 +75,7 @@
     "ID": 83,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent"
@@ -84,7 +84,7 @@
     "ID": 84,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary"
@@ -93,7 +93,7 @@
     "ID": 85,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent"
@@ -102,7 +102,7 @@
     "ID": 86,
     "Industry": "Healthcare",
     "Subindustry": "Hospitals",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary"
@@ -111,7 +111,7 @@
     "ID": 87,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent"
@@ -120,7 +120,7 @@
     "ID": 88,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary"
@@ -129,7 +129,7 @@
     "ID": 89,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent"
@@ -138,7 +138,7 @@
     "ID": 90,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary"
@@ -147,7 +147,7 @@
     "ID": 91,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent"
@@ -156,7 +156,7 @@
     "ID": 92,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary"
@@ -165,7 +165,7 @@
     "ID": 93,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent"
@@ -174,7 +174,7 @@
     "ID": 94,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary"
@@ -183,7 +183,7 @@
     "ID": 95,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent"
@@ -192,7 +192,7 @@
     "ID": 96,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary"
@@ -201,7 +201,7 @@
     "ID": 97,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent"
@@ -210,7 +210,7 @@
     "ID": 98,
     "Industry": "Engineering",
     "Subindustry": "Software",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary"
@@ -219,7 +219,7 @@
     "ID": 99,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent"
@@ -228,7 +228,7 @@
     "ID": 100,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary"
@@ -237,7 +237,7 @@
     "ID": 101,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent"
@@ -246,7 +246,7 @@
     "ID": 102,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary"
@@ -255,7 +255,7 @@
     "ID": 103,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent"
@@ -264,7 +264,7 @@
     "ID": 104,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary"
@@ -273,7 +273,7 @@
     "ID": 105,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent"
@@ -282,7 +282,7 @@
     "ID": 106,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary"
@@ -291,7 +291,7 @@
     "ID": 107,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent"
@@ -300,7 +300,7 @@
     "ID": 108,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary"
@@ -309,7 +309,7 @@
     "ID": 109,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent"
@@ -318,7 +318,7 @@
     "ID": 110,
     "Industry": "Administration",
     "Subindustry": "Office",
-    "EmployerLink": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary"

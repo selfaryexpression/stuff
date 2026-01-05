@@ -116,29 +116,77 @@ function loadResults(state, city, scale, type) {
             return;
         }
 
-        resultsContainer.innerHTML = employers
+        // Build summary text
+        const summaryHTML = `
+            <div class="results-summary">
+                <h2>Showing ${employers.length} Employers</h2>
+                <p>
+                    <strong>State:</strong> ${state} &nbsp; | &nbsp;
+                    <strong>City/Town:</strong> ${city} &nbsp; | &nbsp;
+                    <strong>Scale:</strong> ${scale} &nbsp; | &nbsp;
+                    <strong>Type:</strong> ${type}
+                </p>
+            </div>
+        `;
+
+        // Build results table
+        const tableHeader = `
+            <div class="results-table">
+                <div class="results-row header">
+                    <div class="results-col"><strong>Employer Contact</strong></div>
+                    <div class="results-col"><strong>Employer Careers Page by Region</strong></div>
+                </div>
+        `;
+
+        const tableRows = employers
             .map(item => {
                 const name = item.EmployerName;
-                const link = item.EmployerLink;
+                const contactLink = item.EmployerContact;
+                const careersLink = item.EmployerCareers; // renamed from EmployerLink
 
                 return `
-                    <div class="region-card">
-                        <h3>
+                    <div class="results-row">
+                        <div class="results-col">
                             ${
-                                link
-                                    ? `<a href="${link}" target="_blank">${name}</a>`
-                                    : name
+                                contactLink
+                                    ? `<a href="${contactLink}" target="_blank">${name} Contact</a>`
+                                    : `${name} Contact`
                             }
-                        </h3>
+                        </div>
+                        <div class="results-col">
+                            ${
+                                careersLink
+                                    ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>`
+                                    : `${name} Careers Page`
+                            }
+                        </div>
                     </div>
                 `;
             })
             .join("");
 
+        const closingMessage = `
+            <div class="results-footer">
+                <p>
+                    If you are currently in an unstable or unsafe position financially and you do not have a job through no fault of your own, it may be worth checking to see if you qualify for unemployment in your state.
+                </p>
+            </div>
+        `;
+
+        // Combine everything
+        resultsContainer.innerHTML = `
+            ${summaryHTML}
+            ${tableHeader}
+                ${tableRows}
+            </div>
+            ${closingMessage}
+        `;
+
     } catch (err) {
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 // ---------------------------------------------
 // EVENT LISTENERS

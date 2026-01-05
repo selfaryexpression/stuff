@@ -122,7 +122,7 @@ function loadResults(industry, subindustry, scale, type) {
         resultsContainer.innerHTML = employers
             .map(item => {
                 const name = item.EmployerName;
-                const link = item.EmployerLink;
+                const link = item.EmployerCareers;
 
                 return `
                     <div class="industry-card">

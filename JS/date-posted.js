@@ -97,7 +97,7 @@ function loadResults(dateRange, scale, type) {
         resultsContainer.innerHTML = employers
             .map(item => {
                 const name = item.EmployerName;
-                const link = item.EmployerLink;
+                const link = item.EmployerCareers;
 
                 return `
                     <div class="dateposted-card">
