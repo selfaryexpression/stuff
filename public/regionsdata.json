@@ -3,6120 +3,6120 @@
     "ID": 1229,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
-    "EmployerName": null,
+    "EmployerCareers": "www.google.com",
+    "EmployerName": "Example Business",
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": "www.bing.com"
   },
   {
     "ID": 1230,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
-    "EmployerName": null,
+    "EmployerCareers": null,
+    "EmployerName": "Another Example",
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": "www.selfaryexpression.com"
   },
   {
     "ID": 1231,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1232,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1233,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1234,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1235,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1236,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1237,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1238,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1239,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1240,
     "State": "Alabama",
     "City_Town_Other": "Birmingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1241,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1242,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1243,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1244,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1245,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1246,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1247,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1248,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1249,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1250,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1251,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1252,
     "State": "Alaska",
     "City_Town_Other": "Anchorage",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1253,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1254,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1255,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1256,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1257,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1258,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1259,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1260,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1261,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1262,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1263,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1264,
     "State": "Arkansas",
     "City_Town_Other": "Banks",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1265,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1266,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1267,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1268,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1269,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1270,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1271,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1272,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1273,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1274,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1275,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1276,
     "State": "Arizona",
     "City_Town_Other": "Bullhead City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1277,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1278,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1279,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1280,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1281,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1282,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1283,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1284,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1285,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1286,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1287,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1288,
     "State": "California",
     "City_Town_Other": "Escondido",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1289,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1290,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1291,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1292,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1293,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1294,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1295,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1296,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1297,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1298,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1299,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1300,
     "State": "Colorado",
     "City_Town_Other": "Colorado Springs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1301,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1302,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1303,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1304,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1305,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1306,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1307,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1308,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1309,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1310,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1311,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1312,
     "State": "Connecticut",
     "City_Town_Other": "Burlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1313,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1314,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1315,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1316,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1317,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1318,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1319,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1320,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1321,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1322,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1323,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1324,
     "State": "Delaware",
     "City_Town_Other": "Dover",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1325,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1326,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1327,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1328,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1329,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1330,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1331,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1332,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1333,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1334,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1335,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1336,
     "State": "Florida",
     "City_Town_Other": "Fort Lauderdale",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1337,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1338,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1339,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1340,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1341,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1342,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1343,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1344,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1345,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1346,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1347,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1348,
     "State": "Georgia",
     "City_Town_Other": "Atlanta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1349,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1350,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1351,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1352,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1353,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1354,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1355,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1356,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1357,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1358,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1359,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1360,
     "State": "Hawaii",
     "City_Town_Other": "Honolulu",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1361,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1362,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1363,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1364,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1365,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1366,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1367,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1368,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1369,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1370,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1371,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1372,
     "State": "Idaho",
     "City_Town_Other": "Boise",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1373,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1374,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1375,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1376,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1377,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1378,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1379,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1380,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1381,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1382,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1383,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1384,
     "State": "Illinois",
     "City_Town_Other": "Chicago",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1385,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1386,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1387,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1388,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1389,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1390,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1391,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1392,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1393,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1394,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1395,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1396,
     "State": "Indiana",
     "City_Town_Other": "Indianapolis",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1397,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1398,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1399,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1400,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1401,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1402,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1403,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1404,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1405,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1406,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1407,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1408,
     "State": "Iowa",
     "City_Town_Other": "Council Bluffs",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1409,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1410,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1411,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1412,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1413,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1414,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1415,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1416,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1417,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1418,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1419,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1420,
     "State": "Kansas",
     "City_Town_Other": "Kansas City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1421,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1422,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1423,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1424,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1425,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1426,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1427,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1428,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1429,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1430,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1431,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1432,
     "State": "Kentucky",
     "City_Town_Other": "Lexington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1433,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1434,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1435,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1436,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1437,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1438,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1439,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1440,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1441,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1442,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1443,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1444,
     "State": "Louisiana",
     "City_Town_Other": "New Orleans",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1445,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1446,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1447,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1448,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1449,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1450,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1451,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1452,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1453,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1454,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1455,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1456,
     "State": "Maine",
     "City_Town_Other": "Detroit",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1457,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1458,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1459,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1460,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1461,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1462,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1463,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1464,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1465,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1466,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1467,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1468,
     "State": "Maryland",
     "City_Town_Other": "Queenstown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1469,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1470,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1471,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1472,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1473,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1474,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1475,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1476,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1477,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1478,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1479,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1480,
     "State": "Massachusetts",
     "City_Town_Other": "Arlington Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1481,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1482,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1483,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1484,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1485,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1486,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1487,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1488,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1489,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1490,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1491,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1492,
     "State": "Michigan",
     "City_Town_Other": "Augusta",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1493,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1494,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1495,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1496,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1497,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1498,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1499,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1500,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1501,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1502,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1503,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1504,
     "State": "Minnesota",
     "City_Town_Other": "Evansville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1505,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1506,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1507,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1508,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1509,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1510,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1511,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1512,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1513,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1514,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1515,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1516,
     "State": "Mississippi",
     "City_Town_Other": "Columbus",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1517,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1518,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1519,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1520,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1521,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1522,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1523,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1524,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1525,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1526,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1527,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1528,
     "State": "Missouri",
     "City_Town_Other": "Jackson",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1529,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1530,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1531,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1532,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1533,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1534,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1535,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1536,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1537,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1538,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1539,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1540,
     "State": "Montana",
     "City_Town_Other": "Jefferson City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1541,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1542,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1543,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1544,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1545,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1546,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1547,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1548,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1549,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1550,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1551,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1552,
     "State": "Nebraska",
     "City_Town_Other": "Bloomington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1553,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1554,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1555,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1556,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1557,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1558,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1559,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1560,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1561,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1562,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1563,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1564,
     "State": "Nevada",
     "City_Town_Other": "Laughlin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1565,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1566,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1567,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1568,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1569,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1570,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1571,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1572,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1573,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1574,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1575,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1576,
     "State": "New Hampshire",
     "City_Town_Other": "Effingham",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1577,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1578,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1579,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1580,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1581,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1582,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1583,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1584,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1585,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1586,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1587,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1588,
     "State": "New Jersey",
     "City_Town_Other": "Clarksburg",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1589,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1590,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1591,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1592,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1593,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1594,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1595,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1596,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1597,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1598,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1599,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1600,
     "State": "New Mexico",
     "City_Town_Other": "Albuquerque",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1601,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1602,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1603,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1604,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1605,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1606,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1607,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1608,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1609,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1610,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1611,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1612,
     "State": "New York",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1613,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1614,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1615,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1616,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1617,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1618,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1619,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1620,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1621,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1622,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1623,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1624,
     "State": "North Carolina",
     "City_Town_Other": "Charlotte",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1625,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1626,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1627,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1628,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1629,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1630,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1631,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1632,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1633,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1634,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1635,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1636,
     "State": "North Dakota",
     "City_Town_Other": "Jamestown",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1637,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1638,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1639,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1640,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1641,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1642,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1643,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1644,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1645,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1646,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1647,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1648,
     "State": "Ohio",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1649,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1650,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1651,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1652,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1653,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1654,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1655,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1656,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1657,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1658,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1659,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1660,
     "State": "Oklahoma",
     "City_Town_Other": "Chattanooga",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1661,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1662,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1663,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1664,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1665,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1666,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1667,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1668,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1669,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1670,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1671,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1672,
     "State": "Oregon",
     "City_Town_Other": "Arlington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1673,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1674,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1675,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1676,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1677,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1678,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1679,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1680,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1681,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1682,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1683,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1684,
     "State": "Pennsylvania",
     "City_Town_Other": "Fayetteville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1685,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1686,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1687,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1688,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1689,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1690,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1691,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1692,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1693,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1694,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1695,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1696,
     "State": "Rhode Island",
     "City_Town_Other": "Newport",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1697,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1698,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1699,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1700,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1701,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1702,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1703,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1704,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1705,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1706,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1707,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1708,
     "State": "South Carolina",
     "City_Town_Other": "Greenville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1709,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1710,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1711,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1712,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1713,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1714,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1715,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1716,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1717,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1718,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1719,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1720,
     "State": "South Dakota",
     "City_Town_Other": "Big Stone City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1721,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1722,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1723,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1724,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1725,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1726,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1727,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1728,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1729,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1730,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1731,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1732,
     "State": "Tennessee",
     "City_Town_Other": "Friendsville",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1733,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1734,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1735,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1736,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1737,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1738,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1739,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1740,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1741,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1742,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1743,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1744,
     "State": "Texas",
     "City_Town_Other": "Austin",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1745,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1746,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1747,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1748,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1749,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1750,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1751,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1752,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1753,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1754,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1755,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1756,
     "State": "Utah",
     "City_Town_Other": "Farmington",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1757,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1758,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1759,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1760,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1761,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1762,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1763,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1764,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1765,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1766,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1767,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1768,
     "State": "Vermont",
     "City_Town_Other": "Albany",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1769,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1770,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1771,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1772,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1773,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1774,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1775,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1776,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1777,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1778,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1779,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1780,
     "State": "Virginia",
     "City_Town_Other": "Alexandria",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1781,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1782,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1783,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1784,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1785,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1786,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1787,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1788,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1789,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1790,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1791,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1792,
     "State": "Washington",
     "City_Town_Other": "Airway Heights",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1793,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1794,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1795,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1796,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1797,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1798,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1799,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1800,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1801,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1802,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1803,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1804,
     "State": "West Virginia",
     "City_Town_Other": "Aurora",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1805,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1806,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1807,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1808,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1809,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1810,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1811,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1812,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1813,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1814,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1815,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1816,
     "State": "Wisconsin",
     "City_Town_Other": "Fountain City",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1817,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1818,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1819,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1820,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1821,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1822,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1823,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1824,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1825,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1826,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1827,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1828,
     "State": "Wyoming",
     "City_Town_Other": "Buffalo",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1829,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1830,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "National Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1831,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1832,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1833,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1834,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Business",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1835,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1836,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Federal Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1837,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1838,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "State Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1839,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Permanent",
-    "EmployerCareers": null
+    "EmployerContact": null
   },
   {
     "ID": 1840,
     "State": "Washington, D.C.",
     "City_Town_Other": "Washington, D.C.",
-    "EmployerContact": null,
+    "EmployerCareers": null,
     "EmployerName": null,
     "Scale": "Local Government",
     "Type": "Temporary",
-    "EmployerCareers": null
+    "EmployerContact": null
   }
 ]
