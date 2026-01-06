@@ -168,7 +168,7 @@ function loadResults(state, city, scale, type) {
                 const contactHTML = contactLink
                     ? `
                         <a href="${contactLink}" target="_blank">${name} Contact</a>
-                        <button class="copy-btn" onclick="copyToClipboard('${contactLink}', this)">Copy</button>
+                        <button class="copy-btn" onclick="copyToClipboard(decodeURIComponent('${encodeURIComponent(contactLink)}'), this)">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
@@ -176,7 +176,7 @@ function loadResults(state, city, scale, type) {
                 const careersHTML = careersLink
                     ? `
                         <a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                        <button class="copy-btn" onclick="copyToClipboard('${careersLink}', this)">Copy</button>
+                        <button class="copy-btn" onclick="copyToClipboard(decodeURIComponent('${encodeURIComponent(careersLink)}'), this)">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
