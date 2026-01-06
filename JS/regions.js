@@ -134,6 +134,10 @@ function loadResults(state, city, scale, type) {
             item.EmployerName
         );
 
+        // Sort employers A → Z by name
+        employers.sort((a, b) => a.EmployerName.localeCompare(b.EmployerName));
+
+
         if (employers.length === 0) {
             resultsContainer.innerHTML = `<p>No Employers Shown At This Time</p>`;
             return;
