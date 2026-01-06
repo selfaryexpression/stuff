@@ -101,6 +101,29 @@ function loadTypes(industry, subindustry, scale) {
     }
 }
 
+// Helper: Ensure URLs always open as absolute links
+function normalizeUrl(url) {
+    if (!url) return null;
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+        return url;
+    }
+    return "https://" + url;
+}
+
+// Helper: Copy text + show tooltip
+function copyToClipboard(text, buttonElement) {
+    if (!text) return;
+
+    navigator.clipboard.writeText(text).then(() => {
+        buttonElement.classList.add("copied");
+        setTimeout(() => {
+            buttonElement.classList.remove("copied");
+        }, 1500);
+    }).catch(err => {
+        console.error("Clipboard error:", err);
+    });
+}
+
 // ---------------------------------------------
 // STEP 5: Load Results for Selected Type
 // ---------------------------------------------
@@ -114,34 +137,54 @@ function loadResults(industry, subindustry, scale, type) {
             item.EmployerName
         );
 
+        // Sort A → Z
+        employers.sort((a, b) => a.EmployerName.localeCompare(b.EmployerName));
+
         if (employers.length === 0) {
             resultsContainer.innerHTML = `<p>No Employers Shown At This Time</p>`;
             return;
         }
 
-        resultsContainer.innerHTML = employers
+        // Build results
+        const resultsHTML = employers
             .map(item => {
                 const name = item.EmployerName;
-                const link = item.EmployerCareers;
+                const careersLink = normalizeUrl(item.EmployerCareers);
+
+                const careersHTML = careersLink
+                    ? `
+                        <a href="${careersLink}" target="_blank">${name}</a>
+                        <button class="copy-btn" data-link="${careersLink}">Copy</button>
+                      `
+                    : `<span>${name} — No link available at this time</span>`;
 
                 return `
                     <div class="industry-card">
-                        <h3>
-                            ${
-                                link
-                                    ? `<a href="${link}" target="_blank">${name}</a>`
-                                    : name
-                            }
-                        </h3>
+                        <h3>${careersHTML}</h3>
                     </div>
                 `;
             })
             .join("");
 
+        resultsContainer.innerHTML = resultsHTML;
+
+        // EVENT DELEGATION — attach once, works for all dynamic buttons
+        resultsContainer.addEventListener("click", function (event) {
+            if (event.target.classList.contains("copy-btn")) {
+                const btn = event.target;
+                const link = btn.getAttribute("data-link");
+                if (link) {
+                    copyToClipboard(link, btn);
+                }
+            }
+        });
+
     } catch (err) {
+        console.error(err);
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 // ---------------------------------------------
 // EVENT LISTENERS
