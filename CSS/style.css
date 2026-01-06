@@ -514,28 +514,43 @@ select:disabled {
 }
 
 /* ============================
-   MOBILE RESPONSIVENESS
+   MOBILE CARD LAYOUT
 ============================ */
 @media (max-width: 600px) {
+
+    /* Turn each row into a card */
     .results-row {
         flex-direction: column;
-        padding: 12px 0;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.08);
     }
 
+    /* Hide the table header on mobile */
+    .results-row.header {
+        display: none;
+    }
+
+    /* Stack columns cleanly */
     .results-col {
         padding-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
-    .results-row.header {
-        display: none; /* Hide header on mobile */
+    .results-col:last-child {
+        margin-bottom: 0;
     }
 
+    /* Make links easier to tap */
     .results-col a {
         display: inline-block;
         margin-bottom: 5px;
     }
 }
+
 
 
 /* PHOTOS */
