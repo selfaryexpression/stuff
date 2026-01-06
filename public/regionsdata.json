@@ -6118,5 +6118,15 @@
     "Scale": "Local Government",
     "Type": "Temporary",
     "EmployerContact": null
+  },
+  {
+    "ID": 1841,
+    "State": "Alabama",
+    "City_Town_Other": "Birmingham",
+    "EmployerCareers": "https://example.com",
+    "EmployerName": "Selfary",
+    "Scale": "National Business",
+    "Type": "Permanent",
+    "EmployerContact": "https://selfaryexpression.com"
   }
 ]
