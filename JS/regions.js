@@ -100,24 +100,50 @@ function loadTypes(state, city, scale) {
 
 // Helper: Ensure URLs always open as absolute links
 function normalizeUrl(url) {
-    if (!url) return null; // return null instead of empty string
+    if (!url) return null;
     if (url.startsWith("http://") || url.startsWith("https://")) {
         return url;
     }
     return "https://" + url;
 }
 
-// Helper: Copy text + show tooltip
+// Helper: Copy text + show tooltip (with fallback)
 function copyToClipboard(text, buttonElement) {
-    if (!text) return; // safety check
+    if (!text) return;
 
-    navigator.clipboard.writeText(text).then(() => {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+            buttonElement.classList.add("copied");
+            setTimeout(() => {
+                buttonElement.classList.remove("copied");
+            }, 1500);
+        }).catch(err => {
+            console.error("Clipboard error:", err);
+            fallbackCopy(text, buttonElement);
+        });
+    } else {
+        fallbackCopy(text, buttonElement);
+    }
+}
+
+// Fallback for older browsers
+function fallbackCopy(text, buttonElement) {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+        document.execCommand("copy");
         buttonElement.classList.add("copied");
-
         setTimeout(() => {
             buttonElement.classList.remove("copied");
         }, 1500);
-    });
+    } catch (err) {
+        console.error("Fallback copy failed:", err);
+    }
+    document.body.removeChild(textarea);
 }
 
 // ---------------------------------------------
@@ -138,7 +164,6 @@ function loadResults(state, city, scale, type) {
             return;
         }
 
-        // Summary on separate lines
         const summaryHTML = `
             <div class="results-summary">
                 <h2>Showing ${employers.length} Employers</h2>
@@ -164,19 +189,17 @@ function loadResults(state, city, scale, type) {
                 const contactLink = normalizeUrl(item.EmployerContact);
                 const careersLink = normalizeUrl(item.EmployerCareers);
 
-                // Contact column
                 const contactHTML = contactLink
                     ? `
                         <a href="${contactLink}" target="_blank">${name} Contact</a>
-                        <button class="copy-btn" onclick="copyToClipboard(decodeURIComponent('${encodeURIComponent(contactLink)}'), this)">Copy</button>
+                        <button class="copy-btn" data-link="${encodeURIComponent(contactLink)}">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
-                // Careers column
                 const careersHTML = careersLink
                     ? `
                         <a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                        <button class="copy-btn" onclick="copyToClipboard(decodeURIComponent('${encodeURIComponent(careersLink)}'), this)">Copy</button>
+                        <button class="copy-btn" data-link="${encodeURIComponent(careersLink)}">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
@@ -205,10 +228,23 @@ function loadResults(state, city, scale, type) {
             ${closingMessage}
         `;
 
+        // Attach copy handlers AFTER rendering
+        const copyButtons = resultsContainer.querySelectorAll(".copy-btn");
+        copyButtons.forEach(btn => {
+            const encodedLink = btn.getAttribute("data-link");
+            const link = encodedLink ? decodeURIComponent(encodedLink) : null;
+
+            btn.addEventListener("click", function () {
+                copyToClipboard(link, btn);
+            });
+        });
+
     } catch (err) {
+        console.error(err);
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 
 // ---------------------------------------------
