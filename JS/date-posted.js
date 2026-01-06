@@ -100,6 +100,29 @@ function copyToClipboard(text, buttonElement) {
     });
 }
 
+// Helper: Ensure URLs always open as absolute links
+function normalizeUrl(url) {
+    if (!url) return null;
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+        return url;
+    }
+    return "https://" + url;
+}
+
+// Helper: Copy text + show tooltip
+function copyToClipboard(text, buttonElement) {
+    if (!text) return;
+
+    navigator.clipboard.writeText(text).then(() => {
+        buttonElement.classList.add("copied");
+        setTimeout(() => {
+            buttonElement.classList.remove("copied");
+        }, 1500);
+    }).catch(err => {
+        console.error("Clipboard error:", err);
+    });
+}
+
 // ---------------------------------------------
 // STEP 4: Load Results for Selected Type
 // ---------------------------------------------
@@ -120,7 +143,17 @@ function loadResults(dateRange, scale, type) {
             return;
         }
 
-        // Build results
+        // Summary header
+        const summaryHTML = `
+            <div class="results-summary">
+                <h2>Showing ${employers.length} Employers</h2>
+                <p><strong>Date Posted:</strong> ${dateRange}</p>
+                <p><strong>Scale:</strong> ${scale}</p>
+                <p><strong>Type:</strong> ${type}</p>
+            </div>
+        `;
+
+        // Build results list
         const resultsHTML = employers
             .map(item => {
                 const name = item.EmployerName;
@@ -141,7 +174,22 @@ function loadResults(dateRange, scale, type) {
             })
             .join("");
 
-        resultsContainer.innerHTML = resultsHTML;
+        // Closing message
+        const closingMessage = `
+            <div class="results-footer">
+                <p>
+                    If you are currently in an unstable or unsafe position financially and you do not have a job through no fault of your own, 
+                    it may be worth checking to see if you qualify for unemployment in your state.
+                </p>
+            </div>
+        `;
+
+        // Combine everything
+        resultsContainer.innerHTML = `
+            ${summaryHTML}
+            ${resultsHTML}
+            ${closingMessage}
+        `;
 
         // EVENT DELEGATION — attach once, works for all dynamic buttons
         resultsContainer.addEventListener("click", function (event) {
@@ -159,6 +207,7 @@ function loadResults(dateRange, scale, type) {
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 
 // ---------------------------------------------
