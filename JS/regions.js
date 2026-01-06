@@ -100,7 +100,7 @@ function loadTypes(state, city, scale) {
 
 // Helper: Ensure URLs always open as absolute links
 function normalizeUrl(url) {
-    if (!url) return "";
+    if (!url) return null; // return null instead of empty string
     if (url.startsWith("http://") || url.startsWith("https://")) {
         return url;
     }
@@ -109,6 +109,8 @@ function normalizeUrl(url) {
 
 // Helper: Copy text + show tooltip
 function copyToClipboard(text, buttonElement) {
+    if (!text) return; // safety check
+
     navigator.clipboard.writeText(text).then(() => {
         buttonElement.classList.add("copied");
 
@@ -162,24 +164,26 @@ function loadResults(state, city, scale, type) {
                 const contactLink = normalizeUrl(item.EmployerContact);
                 const careersLink = normalizeUrl(item.EmployerCareers);
 
+                // Contact column
+                const contactHTML = contactLink
+                    ? `
+                        <a href="${contactLink}" target="_blank">${name} Contact</a>
+                        <button class="copy-btn" onclick="copyToClipboard('${contactLink}', this)">Copy</button>
+                      `
+                    : `<span>No link available at this time</span>`;
+
+                // Careers column
+                const careersHTML = careersLink
+                    ? `
+                        <a href="${careersLink}" target="_blank">${name} Careers Page</a>
+                        <button class="copy-btn" onclick="copyToClipboard('${careersLink}', this)">Copy</button>
+                      `
+                    : `<span>No link available at this time</span>`;
+
                 return `
                     <div class="results-row">
-                        <div class="results-col">
-                            ${
-                                contactLink
-                                    ? `<a href="${contactLink}" target="_blank">${name} Contact</a>
-                                       <button class="copy-btn" onclick="copyToClipboard('${contactLink}', this)">Copy</button>`
-                                    : `${name} Contact`
-                            }
-                        </div>
-                        <div class="results-col">
-                            ${
-                                careersLink
-                                    ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                                       <button class="copy-btn" onclick="copyToClipboard('${careersLink}', this)">Copy</button>`
-                                    : `${name} Careers Page`
-                            }
-                        </div>
+                        <div class="results-col">${contactHTML}</div>
+                        <div class="results-col">${careersHTML}</div>
                     </div>
                 `;
             })
@@ -205,6 +209,7 @@ function loadResults(state, city, scale, type) {
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 // ---------------------------------------------
 // EVENT LISTENERS
