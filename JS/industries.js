@@ -124,29 +124,6 @@ function copyToClipboard(text, buttonElement) {
     });
 }
 
-// Helper: Ensure URLs always open as absolute links
-function normalizeUrl(url) {
-    if (!url) return null;
-    if (url.startsWith("http://") || url.startsWith("https://")) {
-        return url;
-    }
-    return "https://" + url;
-}
-
-// Helper: Copy text + show tooltip
-function copyToClipboard(text, buttonElement) {
-    if (!text) return;
-
-    navigator.clipboard.writeText(text).then(() => {
-        buttonElement.classList.add("copied");
-        setTimeout(() => {
-            buttonElement.classList.remove("copied");
-        }, 1500);
-    }).catch(err => {
-        console.error("Clipboard error:", err);
-    });
-}
-
 // ---------------------------------------------
 // STEP 5: Load Results for Selected Type
 // ---------------------------------------------
