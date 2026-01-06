@@ -473,6 +473,13 @@ select:disabled {
     font-style: italic;
 }
 
+.results-table button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
 
 /* PHOTOS */
 /* Space between menu and photo */

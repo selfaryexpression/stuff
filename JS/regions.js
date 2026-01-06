@@ -98,6 +98,22 @@ function loadTypes(state, city, scale) {
     }
 }
 
+// Helper: Ensure URLs always open as absolute links
+function normalizeUrl(url) {
+    if (!url) return "";
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+        return url;
+    }
+    return "https://" + url;
+}
+
+// Helper: Copy text to clipboard
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        alert("Link copied to clipboard");
+    });
+}
+
 // ---------------------------------------------
 // STEP 5: Load Results for Selected Type
 // ---------------------------------------------
@@ -116,16 +132,14 @@ function loadResults(state, city, scale, type) {
             return;
         }
 
-        // Build summary text
+        // Build summary text (each on its own line)
         const summaryHTML = `
             <div class="results-summary">
                 <h2>Showing ${employers.length} Employers</h2>
-                <p>
-                    <strong>State:</strong> ${state} &nbsp; | &nbsp;
-                    <strong>City/Town:</strong> ${city} &nbsp; | &nbsp;
-                    <strong>Scale:</strong> ${scale} &nbsp; | &nbsp;
-                    <strong>Type:</strong> ${type}
-                </p>
+                <p><strong>State:</strong> ${state}</p>
+                <p><strong>City/Town:</strong> ${city}</p>
+                <p><strong>Scale:</strong> ${scale}</p>
+                <p><strong>Type:</strong> ${type}</p>
             </div>
         `;
 
@@ -141,22 +155,26 @@ function loadResults(state, city, scale, type) {
         const tableRows = employers
             .map(item => {
                 const name = item.EmployerName;
-                const contactLink = item.EmployerContact;
-                const careersLink = item.EmployerCareers; // renamed from EmployerLink
+
+                // Normalize URLs
+                const contactLink = normalizeUrl(item.EmployerContact);
+                const careersLink = normalizeUrl(item.EmployerCareers);
 
                 return `
                     <div class="results-row">
                         <div class="results-col">
                             ${
                                 contactLink
-                                    ? `<a href="${contactLink}" target="_blank">${name} Contact</a>`
+                                    ? `<a href="${contactLink}" target="_blank">${name} Contact</a>
+                                       <button onclick="copyToClipboard('${contactLink}')">Copy Link</button>`
                                     : `${name} Contact`
                             }
                         </div>
                         <div class="results-col">
                             ${
                                 careersLink
-                                    ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>`
+                                    ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>
+                                       <button onclick="copyToClipboard('${careersLink}')">Copy Link</button>`
                                     : `${name} Careers Page`
                             }
                         </div>
@@ -186,6 +204,7 @@ function loadResults(state, city, scale, type) {
         renderError(resultsContainer, "Failed to load results.");
     }
 }
+
 
 
 // ---------------------------------------------
