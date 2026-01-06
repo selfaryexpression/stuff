@@ -107,43 +107,18 @@ function normalizeUrl(url) {
     return "https://" + url;
 }
 
-// Helper: Copy text + show tooltip (with fallback)
+// Helper: Copy text + show tooltip
 function copyToClipboard(text, buttonElement) {
     if (!text) return;
 
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => {
-            buttonElement.classList.add("copied");
-            setTimeout(() => {
-                buttonElement.classList.remove("copied");
-            }, 1500);
-        }).catch(err => {
-            console.error("Clipboard error:", err);
-            fallbackCopy(text, buttonElement);
-        });
-    } else {
-        fallbackCopy(text, buttonElement);
-    }
-}
-
-// Fallback for older browsers
-function fallbackCopy(text, buttonElement) {
-    const textarea = document.createElement("textarea");
-    textarea.value = text;
-    textarea.style.position = "fixed";
-    textarea.style.left = "-9999px";
-    document.body.appendChild(textarea);
-    textarea.select();
-    try {
-        document.execCommand("copy");
+    navigator.clipboard.writeText(text).then(() => {
         buttonElement.classList.add("copied");
         setTimeout(() => {
             buttonElement.classList.remove("copied");
         }, 1500);
-    } catch (err) {
-        console.error("Fallback copy failed:", err);
-    }
-    document.body.removeChild(textarea);
+    }).catch(err => {
+        console.error("Clipboard error:", err);
+    });
 }
 
 // ---------------------------------------------
@@ -192,14 +167,14 @@ function loadResults(state, city, scale, type) {
                 const contactHTML = contactLink
                     ? `
                         <a href="${contactLink}" target="_blank">${name} Contact</a>
-                        <button class="copy-btn" data-link="${encodeURIComponent(contactLink)}">Copy</button>
+                        <button class="copy-btn" data-link="${contactLink}">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
                 const careersHTML = careersLink
                     ? `
                         <a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                        <button class="copy-btn" data-link="${encodeURIComponent(careersLink)}">Copy</button>
+                        <button class="copy-btn" data-link="${careersLink}">Copy</button>
                       `
                     : `<span>No link available at this time</span>`;
 
@@ -228,15 +203,15 @@ function loadResults(state, city, scale, type) {
             ${closingMessage}
         `;
 
-        // Attach copy handlers AFTER rendering
-        const copyButtons = resultsContainer.querySelectorAll(".copy-btn");
-        copyButtons.forEach(btn => {
-            const encodedLink = btn.getAttribute("data-link");
-            const link = encodedLink ? decodeURIComponent(encodedLink) : null;
-
-            btn.addEventListener("click", function () {
-                copyToClipboard(link, btn);
-            });
+        // EVENT DELEGATION — attach once, works for all dynamic buttons
+        resultsContainer.addEventListener("click", function (event) {
+            if (event.target.classList.contains("copy-btn")) {
+                const btn = event.target;
+                const link = btn.getAttribute("data-link");
+                if (link) {
+                    copyToClipboard(link, btn);
+                }
+            }
         });
 
     } catch (err) {
