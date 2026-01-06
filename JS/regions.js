@@ -107,10 +107,14 @@ function normalizeUrl(url) {
     return "https://" + url;
 }
 
-// Helper: Copy text to clipboard
-function copyToClipboard(text) {
+// Helper: Copy text + show tooltip
+function copyToClipboard(text, buttonElement) {
     navigator.clipboard.writeText(text).then(() => {
-        alert("Link copied to clipboard");
+        buttonElement.classList.add("copied");
+
+        setTimeout(() => {
+            buttonElement.classList.remove("copied");
+        }, 1500);
     });
 }
 
@@ -132,7 +136,7 @@ function loadResults(state, city, scale, type) {
             return;
         }
 
-        // Build summary text (each on its own line)
+        // Summary on separate lines
         const summaryHTML = `
             <div class="results-summary">
                 <h2>Showing ${employers.length} Employers</h2>
@@ -143,7 +147,6 @@ function loadResults(state, city, scale, type) {
             </div>
         `;
 
-        // Build results table
         const tableHeader = `
             <div class="results-table">
                 <div class="results-row header">
@@ -156,7 +159,6 @@ function loadResults(state, city, scale, type) {
             .map(item => {
                 const name = item.EmployerName;
 
-                // Normalize URLs
                 const contactLink = normalizeUrl(item.EmployerContact);
                 const careersLink = normalizeUrl(item.EmployerCareers);
 
@@ -166,7 +168,7 @@ function loadResults(state, city, scale, type) {
                             ${
                                 contactLink
                                     ? `<a href="${contactLink}" target="_blank">${name} Contact</a>
-                                       <button onclick="copyToClipboard('${contactLink}')">Copy Link</button>`
+                                       <button class="copy-btn" onclick="copyToClipboard('${contactLink}', this)">Copy</button>`
                                     : `${name} Contact`
                             }
                         </div>
@@ -174,7 +176,7 @@ function loadResults(state, city, scale, type) {
                             ${
                                 careersLink
                                     ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                                       <button onclick="copyToClipboard('${careersLink}')">Copy Link</button>`
+                                       <button class="copy-btn" onclick="copyToClipboard('${careersLink}', this)">Copy</button>`
                                     : `${name} Careers Page`
                             }
                         </div>
@@ -191,7 +193,6 @@ function loadResults(state, city, scale, type) {
             </div>
         `;
 
-        // Combine everything
         resultsContainer.innerHTML = `
             ${summaryHTML}
             ${tableHeader}
@@ -204,8 +205,6 @@ function loadResults(state, city, scale, type) {
         renderError(resultsContainer, "Failed to load results.");
     }
 }
-
-
 
 // ---------------------------------------------
 // EVENT LISTENERS

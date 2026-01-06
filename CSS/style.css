@@ -442,6 +442,9 @@ select:disabled {
 }
 
 
+/* ============================
+   RESULTS TABLE LAYOUT
+============================ */
 .results-table {
     display: flex;
     flex-direction: column;
@@ -450,7 +453,7 @@ select:disabled {
 
 .results-row {
     display: flex;
-    padding: 8px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -464,6 +467,9 @@ select:disabled {
     padding-right: 20px;
 }
 
+/* ============================
+   SUMMARY + FOOTER
+============================ */
 .results-summary {
     margin-bottom: 20px;
 }
@@ -473,11 +479,62 @@ select:disabled {
     font-style: italic;
 }
 
-.results-table button {
+/* ============================
+   COPY BUTTON + TOOLTIP
+============================ */
+.copy-btn {
     margin-left: 10px;
     padding: 4px 8px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     cursor: pointer;
+    position: relative;
+}
+
+/* Tooltip when copied */
+.copy-btn.copied::after {
+    content: "Copied!";
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: #4caf50;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hidden tooltip default state */
+.copy-btn::after {
+    opacity: 0;
+    transform: translateY(5px);
+}
+
+/* ============================
+   MOBILE RESPONSIVENESS
+============================ */
+@media (max-width: 600px) {
+    .results-row {
+        flex-direction: column;
+        padding: 12px 0;
+    }
+
+    .results-col {
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .results-row.header {
+        display: none; /* Hide header on mobile */
+    }
+
+    .results-col a {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
 }
 
 
