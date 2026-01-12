@@ -12,8 +12,6 @@ import {
     initRegions
 } from "./main.js";
 
-import { getRegions } from "./api.js";
-
 // DOM elements
 const stateSelect = document.getElementById("stateSelect");
 const citySelect = document.getElementById("citySelect");
@@ -23,7 +21,7 @@ const resultsContainer = document.getElementById("results");
 
 // Load initial data when page loads
 document.addEventListener("DOMContentLoaded", async () => {
-    await initRegions(); // NEW: load full dataset once
+    await initRegions();   // loads all JSON chunks
     loadStates();
     setupListeners();
 });

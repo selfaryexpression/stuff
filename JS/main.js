@@ -3,42 +3,47 @@
 // ===============================
 
 // ---------------------------------------------
-// GLOBAL DATA CACHES — Now using static JSON files
+// GLOBAL DATA CACHES — Now using split JSON files
 // ---------------------------------------------
 
-// Regions dataset
+// Regions dataset (SPLIT JSON FILES)
 export let allRegions = [];
+
+// Load all split JSON files and merge them
 export async function initRegions() {
+    const files = [
+        "/regionsdata_1.json",
+        "/regionsdata_2.json",
+        "/regionsdata_3.json",
+        "/regionsdata_4.json",
+        "/regionsdata_5.json",
+        "/regionsdata_6.json",
+        "/regionsdata_7.json",
+        "/regionsdata_8.json",
+        "/regionsdata_9.json",
+        "/regionsdata_10.json"
+    ];
+
     try {
-        const res = await fetch('/public/regionsdata.json');
-        allRegions = await res.json();
-        console.log("Full Regions dataset loaded:", allRegions.length, "rows");
+        const promises = files.map(file =>
+            fetch(file).then(res => {
+                if (!res.ok) {
+                    throw new Error(`Failed to load ${file}`);
+                }
+                return res.json();
+            })
+        );
+
+        const results = await Promise.all(promises);
+
+        // Merge all chunks into one array
+        allRegions = results.flat();
+
+        console.log(`Loaded ${allRegions.length} total region records.`);
+
     } catch (err) {
         console.error("Failed to load Regions dataset:", err);
-    }
-}
-
-// Jobs-by-date dataset
-export let allJobsByDate = [];
-export async function initJobsByDate() {
-    try {
-        const res = await fetch('/public/dateposteddata.json');
-        allJobsByDate = await res.json();
-        console.log("Full Jobs-by-Date dataset loaded:", allJobsByDate.length, "rows");
-    } catch (err) {
-        console.error("Failed to load Jobs-by-Date dataset:", err);
-    }
-}
-
-// Industries dataset
-export let allIndustries = [];
-export async function initIndustries() {
-    try {
-        const res = await fetch('/public/industriesdata.json');
-        allIndustries = await res.json();
-        console.log("Full Industries dataset loaded:", allIndustries.length, "rows");
-    } catch (err) {
-        console.error("Failed to load Industries dataset:", err);
+        throw err;
     }
 }
 

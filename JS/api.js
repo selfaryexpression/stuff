@@ -18,13 +18,3 @@ async function apiGet(endpoint, filters = {}) {
 export function getRegions(filters = {}) {
     return apiGet("regions", filters);
 }
-
-// Industries API
-export function getIndustries(filters = {}) {
-    return apiGet("industries", filters);
-}
-
-// Date Posted API
-export function getJobsByDate(filters = {}) {
-    return apiGet("date-posted", filters);
-}
