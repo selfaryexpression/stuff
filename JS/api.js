@@ -1,4 +1,3 @@
-// api.js
 const API_BASE_URL = "https://employer-search-api-dnaqgeekeubtdsgq.westus3-01.azurewebsites.net";
 
 // Generic helper for GET requests with optional filters
@@ -14,7 +13,11 @@ async function apiGet(endpoint, filters = {}) {
     return response.json();
 }
 
-// Regions API
-export function getRegions(filters = {}) {
-    return apiGet("regions", filters);
+// Keep only the endpoints you actually use:
+export function searchEmployers(query) {
+    return apiGet("search", { q: query });
+}
+
+export function getEmployerResults(employerName) {
+    return apiGet("results", { employer: employerName });
 }
