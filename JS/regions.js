@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 // ---------------------------------------------
-// STEP 1: Load States (local filtering)
+// STEP 1: Load States
 // ---------------------------------------------
 function loadStates() {
     try {
@@ -39,7 +39,7 @@ function loadStates() {
 }
 
 // ---------------------------------------------
-// STEP 2: Load Cities for Selected State
+// STEP 2: Load Cities
 // ---------------------------------------------
 function loadCities(state) {
     try {
@@ -56,7 +56,7 @@ function loadCities(state) {
 }
 
 // ---------------------------------------------
-// STEP 3: Load Scales for Selected City
+// STEP 3: Load Scales
 // ---------------------------------------------
 function loadScales(state, city) {
     try {
@@ -76,7 +76,7 @@ function loadScales(state, city) {
 }
 
 // ---------------------------------------------
-// STEP 4: Load Types for Selected Scale
+// STEP 4: Load Types
 // ---------------------------------------------
 function loadTypes(state, city, scale) {
     try {
@@ -96,51 +96,57 @@ function loadTypes(state, city, scale) {
     }
 }
 
-// Helper: Ensure URLs always open as absolute links
+// ---------------------------------------------
+// URL Normalization Helper
+// ---------------------------------------------
 function normalizeUrl(url) {
     if (!url) return null;
-    if (url.startsWith("http://") || url.startsWith("https://")) {
-        return url;
-    }
+    if (url.startsWith("http://") || url.startsWith("https://")) return url;
     return "https://" + url;
 }
 
-// Helper: Copy text + show tooltip
+// ---------------------------------------------
+// Copy-to-Clipboard Helper
+// ---------------------------------------------
 function copyToClipboard(text, buttonElement) {
     if (!text) return;
 
     navigator.clipboard.writeText(text).then(() => {
         buttonElement.classList.add("copied");
-        setTimeout(() => {
-            buttonElement.classList.remove("copied");
-        }, 1500);
-    }).catch(err => {
-        console.error("Clipboard error:", err);
+        setTimeout(() => buttonElement.classList.remove("copied"), 1500);
     });
 }
 
 // ---------------------------------------------
-// STEP 5: Load Results for Selected Type
+// STEP 5: Load Results (Updated for Employers Array)
 // ---------------------------------------------
 function loadResults(state, city, scale, type) {
     try {
-        const employers = allRegions.filter(item =>
+        // 1. Find matching regions
+        const matchingRegions = allRegions.filter(item =>
             item.State === state &&
             item.City_Town_Other === city &&
             item.Scale === scale &&
-            item.Type === type &&
-            item.EmployerName
+            item.Type === type
         );
 
-        // Sort employers A → Z by name
-        employers.sort((a, b) => a.EmployerName.localeCompare(b.EmployerName));
+        if (matchingRegions.length === 0) {
+            resultsContainer.innerHTML = `<p>No Employers Shown At This Time</p>`;
+            return;
+        }
 
+        // 2. Flatten all employers from all matching regions
+        const employers = matchingRegions.flatMap(region => region.Employers || []);
 
         if (employers.length === 0) {
             resultsContainer.innerHTML = `<p>No Employers Shown At This Time</p>`;
             return;
         }
 
+        // Sort employers alphabetically
+        employers.sort((a, b) => a.EmployerName.localeCompare(b.EmployerName));
+
+        // 3. Build summary
         const summaryHTML = `
             <div class="results-summary">
                 <h2>Showing ${employers.length} Employers</h2>
@@ -151,44 +157,40 @@ function loadResults(state, city, scale, type) {
             </div>
         `;
 
+        // 4. Build table header
         const tableHeader = `
             <div class="results-table">
                 <div class="results-row header">
                     <div class="results-col"><strong>Employer Contact</strong></div>
-                    <div class="results-col"><strong>Employer Careers Page by Region</strong></div>
+                    <div class="results-col"><strong>Employer Careers Page</strong></div>
                 </div>
         `;
 
-        const tableRows = employers
-            .map(item => {
-                const name = item.EmployerName;
+        // 5. Build employer rows
+        const tableRows = employers.map(emp => {
+            const name = emp.EmployerName;
+            const contactLink = normalizeUrl(emp.EmployerContact);
+            const careersLink = normalizeUrl(emp.EmployerCareers);
 
-                const contactLink = normalizeUrl(item.EmployerContact);
-                const careersLink = normalizeUrl(item.EmployerCareers);
+            const contactHTML = contactLink
+                ? `<a href="${contactLink}" target="_blank">${name} Contact</a>
+                   <button class="copy-btn" data-link="${contactLink}">Copy</button>`
+                : `<span>No link available</span>`;
 
-                const contactHTML = contactLink
-                    ? `
-                        <a href="${contactLink}" target="_blank">${name} Contact</a>
-                        <button class="copy-btn" data-link="${contactLink}">Copy</button>
-                      `
-                    : `<span>No link available at this time</span>`;
+            const careersHTML = careersLink
+                ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>
+                   <button class="copy-btn" data-link="${careersLink}">Copy</button>`
+                : `<span>No link available</span>`;
 
-                const careersHTML = careersLink
-                    ? `
-                        <a href="${careersLink}" target="_blank">${name} Careers Page</a>
-                        <button class="copy-btn" data-link="${careersLink}">Copy</button>
-                      `
-                    : `<span>No link available at this time</span>`;
+            return `
+                <div class="results-row">
+                    <div class="results-col">${contactHTML}</div>
+                    <div class="results-col">${careersHTML}</div>
+                </div>
+            `;
+        }).join("");
 
-                return `
-                    <div class="results-row">
-                        <div class="results-col">${contactHTML}</div>
-                        <div class="results-col">${careersHTML}</div>
-                    </div>
-                `;
-            })
-            .join("");
-
+        // 6. Closing message
         const closingMessage = `
             <div class="results-footer">
                 <p>
@@ -197,6 +199,7 @@ function loadResults(state, city, scale, type) {
             </div>
         `;
 
+        // 7. Render final HTML
         resultsContainer.innerHTML = `
             ${summaryHTML}
             ${tableHeader}
@@ -205,79 +208,59 @@ function loadResults(state, city, scale, type) {
             ${closingMessage}
         `;
 
-        // EVENT DELEGATION — attach once, works for all dynamic buttons
-        resultsContainer.addEventListener("click", function (event) {
-            if (event.target.classList.contains("copy-btn")) {
-                const btn = event.target;
-                const link = btn.getAttribute("data-link");
-                if (link) {
-                    copyToClipboard(link, btn);
-                }
-            }
-        });
-
     } catch (err) {
         console.error(err);
         renderError(resultsContainer, "Failed to load results.");
     }
 }
 
-
-
 // ---------------------------------------------
 // EVENT LISTENERS
 // ---------------------------------------------
 function setupListeners() {
 
-    // When state changes → load cities
     attachDropdownListener(stateSelect, (state) => {
         resetDependentDropdowns([citySelect, scaleSelect, typeSelect]);
         clearResults();
-
-        if (state) {
-            loadCities(state);
-        }
+        if (state) loadCities(state);
     });
 
-    // When city changes → load scales
     attachDropdownListener(citySelect, (city) => {
         resetDependentDropdowns([scaleSelect, typeSelect]);
         clearResults();
-
         const state = stateSelect.value;
-        if (state && city) {
-            loadScales(state, city);
-        }
+        if (state && city) loadScales(state, city);
     });
 
-    // When scale changes → load types
     attachDropdownListener(scaleSelect, (scale) => {
         resetDependentDropdowns([typeSelect]);
         clearResults();
-
         const state = stateSelect.value;
         const city = citySelect.value;
-
-        if (state && city && scale) {
-            loadTypes(state, city, scale);
-        }
+        if (state && city && scale) loadTypes(state, city, scale);
     });
 
-    // When type changes → load results
     attachDropdownListener(typeSelect, (type) => {
         clearResults();
-
         const state = stateSelect.value;
         const city = citySelect.value;
         const scale = scaleSelect.value;
+        if (state && city && scale && type) loadResults(state, city, scale, type);
+    });
 
-        if (state && city && scale && type) {
-            loadResults(state, city, scale, type);
+    // Copy button event delegation
+    resultsContainer.addEventListener("click", function (event) {
+        if (event.target.classList.contains("copy-btn")) {
+            const btn = event.target;
+            const link = btn.getAttribute("data-link");
+            if (link) copyToClipboard(link, btn);
         }
     });
 }
 
-// Clear results container
+// ---------------------------------------------
+// Clear Results
+// ---------------------------------------------
 function clearResults() {
     resultsContainer.innerHTML = "";
 }
