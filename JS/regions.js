@@ -161,8 +161,8 @@ function loadResults(state, city, scale, type) {
         const tableHeader = `
             <div class="results-table">
                 <div class="results-row header">
-                    <div class="results-col"><strong>Employer General/Contact Pages</strong></div>
-                    <div class="results-col"><strong>Employer Region Specific/Careers Pages</strong></div>
+                    <div class="results-col"><strong>Employer General/Contact Links</strong></div>
+                    <div class="results-col"><strong>Employer Region Specific/Careers Links</strong></div>
                 </div>
         `;
 
