@@ -173,12 +173,12 @@ function loadResults(state, city, scale, type) {
             const careersLink = normalizeUrl(emp.EmployerCareers);
 
             const contactHTML = contactLink
-                ? `<a href="${contactLink}" target="_blank">${name} Contact</a>
+                ? `<a href="${contactLink}" target="_blank">${name} General/Contact Page</a>
                    <button class="copy-btn" data-link="${contactLink}">Copy</button>`
                 : `<span>No link available</span>`;
 
             const careersHTML = careersLink
-                ? `<a href="${careersLink}" target="_blank">${name} Careers Page</a>
+                ? `<a href="${careersLink}" target="_blank">${name} Region Specific/Careers Page</a>
                    <button class="copy-btn" data-link="${careersLink}">Copy</button>`
                 : `<span>No link available</span>`;
 
