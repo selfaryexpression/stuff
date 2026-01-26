@@ -168,12 +168,12 @@ input[type="checkbox"]:checked::after {
     transition: 0.15s ease;
 }
 
-/* Submenu container */
+/* Submenu container (top-level menu item) */
 .has-submenu {
     position: relative;
-    display: flex;
-    flex-direction: column;   /* ensures labels + submenus stack vertically */
-    align-items: flex-start;
+    display: inline-flex;      /* keeps this item inline with Home, About, etc. */
+    flex-direction: row;       /* label + toggle stay side-by-side */
+    align-items: center;
     gap: 0.25rem;
 }
 
@@ -187,14 +187,15 @@ input[type="checkbox"]:checked::after {
 /* Submenu panel */
 .submenu {
     display: none;
-    position: relative; /* prevents overlapping */
-    margin-top: 8px;    /* spacing below label */
-    margin-bottom: 16px; /* spacing before next label */
+    position: absolute;        /* dropdown behavior */
+    top: 100%;
+    left: 0;
     border: 2px solid var(--wp--preset--color--primary);
     background: var(--wp--preset--color--background);
     padding: var(--wp--preset--spacing--20);
     list-style: none;
-    width: 100%; /* ensures consistent width */
+    width: max-content;        /* prevents stretching full width */
+    z-index: 999;              /* prevents overlap issues */
 }
 
 /* Submenu links */
@@ -218,6 +219,12 @@ input[type="checkbox"]:checked::after {
 .submenu.open {
     display: block;
 }
+
+/* Ensures the second submenu appears BELOW the first */
+.has-submenu .submenu + .submenu {
+    margin-top: 10px;
+}
+
 
 /* Mobile nav */
 .nav-toggle {
@@ -294,6 +301,18 @@ select:hover {
         font-size: 0.75rem;
     }
 }
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+}
+
+.footer-inner {
+    max-width: 900px;   /* optional: keeps it nicely contained */
+    margin: 0 auto;     /* centers the footer block itself */
+    padding: 1.5rem 1rem;
+}
+
 
 
 /* ============================================================
