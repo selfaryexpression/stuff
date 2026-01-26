@@ -86,10 +86,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     submenuButtons.forEach(button => {
         button.addEventListener("click", () => {
-            const parent = button.closest(".has-submenu");
-            const submenu = parent.querySelector(".submenu");
 
-            submenu.classList.toggle("open");
+            // Find the submenu *directly after* this button
+            const submenu = button.nextElementSibling;
+
+            // Safety check: ensure it's actually a submenu
+            if (submenu && submenu.classList.contains("submenu")) {
+                submenu.classList.toggle("open");
+            }
         });
     });
 

@@ -168,11 +168,11 @@ input[type="checkbox"]:checked::after {
     transition: 0.15s ease;
 }
 
-/* Submenu container (top-level menu item) */
+/* Submenu container */
 .has-submenu {
     position: relative;
-    display: inline-flex;      /* keeps this item inline with Home, About, etc. */
-    flex-direction: row;       /* label + toggle stay side-by-side */
+    display: inline-flex;
+    flex-direction: row;
     align-items: center;
     gap: 0.25rem;
 }
@@ -184,18 +184,18 @@ input[type="checkbox"]:checked::after {
     cursor: pointer;
 }
 
-/* Submenu panel */
+/* Submenu panel (desktop) */
 .submenu {
     display: none;
-    position: absolute;        /* dropdown behavior */
+    position: absolute;
     top: 100%;
     left: 0;
     border: 2px solid var(--wp--preset--color--primary);
     background: var(--wp--preset--color--background);
     padding: var(--wp--preset--spacing--20);
     list-style: none;
-    width: max-content;        /* prevents stretching full width */
-    z-index: 999;              /* prevents overlap issues */
+    width: max-content;
+    z-index: 999;
 }
 
 /* Submenu links */
@@ -210,23 +210,22 @@ input[type="checkbox"]:checked::after {
     color: var(--wp--preset--color--background);
 }
 
-/* Hover behavior (desktop) */
+/* Desktop hover */
 .has-submenu:hover > .submenu {
     display: block;
 }
 
-/* JS toggle class support */
+/* JS toggle */
 .submenu.open {
     display: block;
 }
 
-/* Ensures the second submenu appears BELOW the first */
+/* Space between the two dropdowns */
 .has-submenu .submenu + .submenu {
     margin-top: 10px;
 }
 
-
-/* Mobile nav */
+/* MOBILE NAVIGATION */
 .nav-toggle {
     display: none;
     background: none;
@@ -235,6 +234,7 @@ input[type="checkbox"]:checked::after {
 }
 
 @media (max-width: 768px) {
+
     .nav-toggle { display: block; }
 
     .nav-menu {
@@ -247,13 +247,23 @@ input[type="checkbox"]:checked::after {
         top: 100%;
         right: 0;
         width: 220px;
+        z-index: 1000;
     }
 
     .nav-menu.open { display: flex; }
 
-    .submenu { position: static; border: none; padding-left: 1rem; }
+    /* Mobile submenu behavior */
+    .submenu {
+        position: static;
+        border: none;
+        padding-left: 1rem;
+        margin-top: 0;
+        width: 100%;
+    }
+
     .submenu.open { display: block; }
 
+    /* Disable hover on mobile */
     .has-submenu:hover .submenu { display: none; }
 }
 
