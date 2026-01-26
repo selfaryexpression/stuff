@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Endangered Species</title>
+
+    <!-- Your external stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+<header class="site-header">
+    <div class="site-header-inner">
+
+        <div class="site-title">
+            <a href="index.html">
+                <img src="/images/logo.png" alt="Selfary Expression logo" class="site-logo">
+            </a>
+        </div>
+
+        <a href="cart.html" class="floating-cart">
+            🛒
+            <span class="cart-badge" id="cart-count">0</span>
+        </a>
+
+        <nav class="site-nav">
+            <button class="nav-toggle" aria-label="Open menu">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4 7.5h16v1.5H4z"></path>
+                    <path d="M4 15h16v1.5H4z"></path>
+                </svg>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+
+                <li class="has-submenu">
+                    <span class="submenu-label">Educational Items</span>
+                    <button class="submenu-toggle">
+                        <svg width="12" height="12"><path d="M1.5 4L6 8l4.5-4"></path></svg>
+                    </button>
+                    <ul class="submenu">
+                        <li><a href="Endangered Species.html">Endangered Species</a></li>
+                        <li><a href="Flags.html">Flags</a></li>
+                        <li><a href="Maps.html">Maps</a></li>
+                    </ul>
+
+                    <span class="submenu-label">Self-Expressive Items</span>
+                    <button class="submenu-toggle">
+                        <svg width="12" height="12"><path d="M1.5 4L6 8l4.5-4"></path></svg>
+                    </button>
+                    <ul class="submenu">
+                        <li><a href="Adult Experience.html">Adult Experience</a></li>
+                        <li><a href="Inner Child.html">Inner Child</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="Articles.html">Articles</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<main id="main">
+    <div class="content">
+
+        <h2 class="about-heading">Endangered Species</h2>
+
+        <figure class="home">
+            <img src="/images/home.png" alt="Home">
+        </figure>
+
+        <p>
+            These items highlight species that are threatened, endangered, or vulnerable.  
+            Each purchase helps raise awareness and supports conservation education.
+        </p>
+
+        <!-- FILTERS -->
+        <div class="filter-container">
+            <select id="filter-category">
+                <option value="all">All Categories</option>
+                <option value="endangered">Endangered</option>
+                <option value="threatened">Threatened</option>
+                <option value="vulnerable">Vulnerable</option>
+            </select>
+        </div>
+
+        <!-- GALLERY -->
+        <div id="gallery" class="gallery"></div>
+
+        <button id="loadMore">Load More Photos</button>
+
+    </div>
+</main>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox-overlay">
+    <div class="lightbox-close" onclick="closeLightbox()">×</div>
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+</div>
+
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>Questions?</p>
+        <ol>
+            <li>Email: selfaryexpression@yahoo.com</li>
+            <li>Responses are sent within 1 business day.</li>
+            <li>Calls are only given on a case-by-case basis.</li>
+        </ol>
+        <p class="footer-copy">© 2025-2026 Selfary Expression. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<!-- PAGE-SPECIFIC PHOTO LIST -->
+<script>
+/* -----------------------------------------
+   Endangered Species – Manual Photo List
+----------------------------------------- */
+const photos = [
+  {
+    src: "/images/endangered/pic1.webp",
+    caption: "Amur Leopard",
+    price: 24.99,
+    category: "endangered"
+  },
+  {
+    src: "/images/endangered/pic2.webp",
+    caption: "Black Rhino",
+    price: 29.99,
+    category: "endangered"
+  },
+  {
+    src: "/images/endangered/pic3.webp",
+    caption: "Hawksbill Sea Turtle",
+    price: 19.99,
+    category: "threatened"
+  },
+  {
+    src: "/images/endangered/pic4.webp",
+    caption: "Mountain Gorilla",
+    price: 27.99,
+    category: "endangered"
+  },
+  {
+    src: "/images/endangered/pic5.webp",
+    caption: "African Grey Parrot",
+    price: 17.99,
+    category: "vulnerable"
+  }
+
+  // Add more species here...
+];
+</script>
+
+<!-- SHARED GALLERY SCRIPT -->
+<script src="/js/gallery.js"></script>
+
+<!-- FLOATING CART -->
+<script src="floating-cart.js"></script>
+
+</body>
+</html>

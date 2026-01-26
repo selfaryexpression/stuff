@@ -31,6 +31,7 @@ Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, fu
     --wp--custom--shadow: 4px 4px 0 var(--wp--preset--color--primary);
 }
 
+
 /* ============================================================
    2. GLOBAL BASE STYLES
    ============================================================ */
@@ -43,7 +44,6 @@ html, body {
     font-family: "Courier New", Courier, "IBM Plex Mono", "Source Code Pro", monospace;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: normal;
 }
 
 a:where(:not(.wp-element-button)) {
@@ -54,41 +54,33 @@ a:where(:not(.wp-element-button)) {
     box-shadow: var(--wp--custom--shadow);
 }
 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: left;
+}
+
+
 /* ============================================================
    3. TYPOGRAPHY
    ============================================================ */
 
 h1, h2, h3, h4, h5, h6,
 .entry-title,
-.page-title {
-    font-family: "Courier New", Courier, "IBM Plex Mono", "Source Code Pro", monospace;
+.page-title,
+.site-title,
+.site-title a {
+    font-family: inherit;
     font-weight: bold;
 }
 
-h1, .entry-title, .page-title {
-    font-size: 1.75rem;
-}
-
+h1, .entry-title, .page-title { font-size: 1.75rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.3rem; }
 h4 { font-size: 1.15rem; }
 h5 { font-size: 1.05rem; }
 h6 { font-size: 1rem; }
-
-/* Site title fix */
-.site-title,
-.site-title a {
-    font-family: "Courier New", Courier, "IBM Plex Mono", "Source Code Pro", monospace;
-    font-weight: bold;
-}
-
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 3rem; 
-    padding-bottom: 3rem;
-    text-align: left; /* keeps text left-aligned */
-}
 
 
 /* ============================================================
@@ -114,7 +106,6 @@ input[type="checkbox"] {
     min-width: 0.75rem;
     height: 0.75rem;
     position: relative;
-    margin-left: 0;
 }
 
 input[type="checkbox"]:checked::after {
@@ -123,18 +114,15 @@ input[type="checkbox"]:checked::after {
     position: absolute;
     width: 75%;
     height: 75%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
     margin: auto;
 }
 
+
 /* ============================================================
-   5. NAVIGATION & HEADER (CLEAN + CONSOLIDATED)
+   5. NAVIGATION & HEADER
    ============================================================ */
 
-/* Header */
 .site-header {
     background: var(--wp--preset--color--background);
     padding: 0.25rem;
@@ -149,77 +137,38 @@ input[type="checkbox"]:checked::after {
     align-items: center;
 }
 
-/* Logo */
 .site-logo {
     height: 30px;
-    width: auto;
-    display: block;
     border: 2px solid var(--wp--preset--color--primary);
 }
 
-/* Navigation container */
-.site-nav {
-    position: relative;
-}
+.site-nav { position: relative; }
 
-/* Desktop menu */
 .nav-menu {
     display: flex;
-    justify-content: center;
     gap: var(--wp--preset--spacing--30);
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     align-items: center;
 }
 
-.nav-menu > li {
-    text-align: center;
-}
-
-/* Main menu link base styling */
-.nav-menu a {
+.nav-menu a,
+.submenu-label {
     color: var(--wp--preset--color--foreground);
     text-decoration: none;
     padding: 0.5rem 0.75rem;
-    white-space: nowrap;
     border-radius: 4px;
 }
 
-/* Submenu parent label base styling */
-.submenu-label {
-    color: var(--wp--preset--color--foreground);
-    padding: 0.5rem 0.75rem; /* matches main menu */
-    border-radius: 4px;      /* matches main menu */
-    display: inline-block;   /* ensures padding behaves like a link */
-    cursor: default;         /* keeps it feeling like a label, not a link */
-}
-
-
-/* Main menu hover */
-.nav-menu > li > a:hover,
-.nav-menu > li > a:active {
+.nav-menu a:hover,
+.submenu-label:hover {
     background: var(--wp--preset--color--foreground);
     color: var(--wp--preset--color--background);
-    padding: 0.5rem 0.75rem;
-    border-radius: 4px;
-    transition: background 0.15s ease, color 0.15s ease;
+    transition: 0.15s ease;
 }
 
-/* Hover highlight for submenu parent label */
-.has-submenu .submenu-label:hover {
-    background: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
-    padding: 0.5rem 0.75rem;
-    border-radius: 4px;
-    transition: background 0.15s ease, color 0.15s ease;
-}
-
-/* ============================
-   SUBMENU (keep behavior, de-dupe only)
-   ============================ */
-
-/* Parent item: keep text + arrow inline */
+/* Submenu */
 .has-submenu {
     position: relative;
     display: flex;
@@ -227,24 +176,12 @@ input[type="checkbox"]:checked::after {
     gap: 0.25rem;
 }
 
-/* Arrow button (unstyled) */
 .submenu-toggle {
     background: none;
     border: none;
-    padding: 0;
-    margin: 0;
     cursor: pointer;
-    display: flex;
-    align-items: center;
 }
 
-.submenu-toggle:hover,
-.submenu-toggle:focus {
-    background: none;
-    outline: none;
-}
-
-/* Dropdown menu */
 .submenu {
     display: none;
     position: absolute;
@@ -252,65 +189,39 @@ input[type="checkbox"]:checked::after {
     left: 0;
     border: 2px solid var(--wp--preset--color--primary);
     background: var(--wp--preset--color--background);
-    list-style: none;
     padding: var(--wp--preset--spacing--20);
-    margin: 0;
-    z-index: 10;
-    width: max-content;
+    list-style: none;
 }
 
-/* Submenu links – merged both previous rules */
 .submenu a {
-    white-space: nowrap;
     display: block;
     padding: 0.5rem;
     border-radius: 4px;
-    transition: background 0.15s ease;
 }
 
-.submenu a:hover,
-.submenu a:active {
+.submenu a:hover {
     background: var(--wp--preset--color--foreground);
     color: var(--wp--preset--color--background);
 }
 
-/* Desktop hover behavior */
 .has-submenu:hover > .submenu {
     display: block;
 }
 
-/* JS toggle support (keep exactly as you had it) */
-.has-submenu:hover .submenu.open {
-    display: block;
-}
-
-
-
-/* ============================
-   MOBILE NAVIGATION (unified)
-   ============================ */
-
+/* Mobile nav */
 .nav-toggle {
     display: none;
     background: none;
     border: 2px solid var(--wp--preset--color--primary);
     padding: 0.25rem 0.5rem;
-    cursor: pointer;
 }
 
-/* Mobile layout */
 @media (max-width: 768px) {
+    .nav-toggle { display: block; }
 
-    /* Show toggle button */
-    .nav-toggle {
-        display: block;
-    }
-
-    /* Mobile menu container */
     .nav-menu {
         display: none;
         flex-direction: column;
-        gap: 1rem;
         background: var(--wp--preset--color--background);
         padding: 1rem;
         border: 2px solid var(--wp--preset--color--primary);
@@ -318,350 +229,338 @@ input[type="checkbox"]:checked::after {
         top: 100%;
         right: 0;
         width: 220px;
-        z-index: 20;
     }
 
-    .nav-menu.open {
-        display: flex;
-    }
+    .nav-menu.open { display: flex; }
 
-    /* Submenu parent stacks vertically */
-    .has-submenu {
-        display: block;
-        align-items: flex-start;
-    }
+    .submenu { position: static; border: none; padding-left: 1rem; }
+    .submenu.open { display: block; }
 
-    /* Text + arrow stay inline */
-    .has-submenu > a,
-    .has-submenu > .submenu-toggle {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    /* Submenu dropdown sits below parent */
-    .submenu {
-        position: static;
-        border: none;
-        padding-left: 1rem;
-        margin-top: 0.5rem;
-        display: none;
-    }
-
-    .submenu.open {
-        display: block;
-    }
-
-    /* Disable desktop hover behavior on mobile */
-    .has-submenu:hover .submenu {
-        display: none;
-    }
+    .has-submenu:hover .submenu { display: none; }
 }
 
 
 /* ============================================================
-   6. COMPONENTS
+   6. COMPONENTS (FILTERS)
    ============================================================ */
 
-/* FILTERING */
-/* Base dropdown styling */
 select {
-    font-family: inherit;   /* match your site’s font */
-    font-size: 1.1rem;      /* slightly larger text */
-    padding: 0.6rem 1rem;   /* comfortable click area */
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
     border: 2px solid black;
-    border-radius: 8px;     /* rounded corners */
-    background-color: #f7f7f7; /* subtle tint */
+    border-radius: 8px;
+    background: #f7f7f7;
     box-shadow: 4px 4px 0px black;
     cursor: pointer;
-    transition: all 0.2s ease-in-out; /* smooth hover */
+    transition: 0.2s ease-in-out;
 }
 
-/* Container to center the filters */
+select:hover {
+    background: #eaeaea;
+    box-shadow: 6px 6px 0px black;
+    transform: translate(-2px, -2px);
+}
+
 .filter-container {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap; /* stay on one row on desktop */
     gap: 1rem;
     margin: 2rem auto;
 }
 
 .filter-container select {
-    flex: 1 1 auto;          /* shrink as needed */
-    min-width: 120px;        /* prevents tiny unreadable boxes */
-    max-width: 160px;        /* slightly smaller for better text fit */
-    height: 40px;            /* consistent height */
-    padding: 0.3rem 0.5rem;  /* tighter padding for more text room */
-    line-height: 40px;
-    border-radius: 8px;
-    font-size: 0.7rem;       /* Option 5: smaller, cleaner text */
+    min-width: 120px;
+    max-width: 160px;
+    height: 40px;
+    font-size: 0.7rem;
 }
 
-/* Mobile adjustments */
 @media (max-width: 500px) {
-    .filter-container {
-        flex-wrap: wrap; /* allow wrapping only on small screens */
-    }
-
+    .filter-container { flex-wrap: wrap; }
     .filter-container select {
-        flex: 1 1 45%;   /* two per row */
-        max-width: none;
-        font-size: 0.75rem;  /* slightly smaller for mobile */
-        padding: 0.25rem 0.4rem;
+        flex: 1 1 45%;
+        font-size: 0.75rem;
     }
 }
 
-
-/* Hover effect */
-select:hover {
-    background-color: #eaeaea; /* slightly darker tint */
-    box-shadow: 6px 6px 0px black;
-    transform: translate(-2px, -2px); /* subtle lift */
-}
-
-/* Disabled dropdown styling */
-select:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
 
 /* ============================================================
-   RESULT CARD TEXT SIZE
+   7. CART SYSTEM
    ============================================================ */
 
-.region-card h3,
-.dateposted-card h3,
-.industry-card h3 {
-    font-size: 0.9rem;   /* adjust smaller or larger as needed */
-    margin: 4px 0;
+.cart-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
 }
 
-.region-card h3 a,
-.dateposted-card h3 a,
-.industry-card h3 a {
-    font-size: inherit;  /* ensures link matches the h3 size */
-}
-
-
-/* ============================
-   RESULTS TABLE LAYOUT
-============================ */
-.results-table {
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
     display: flex;
-    flex-direction: column;
-    margin-top: 15px;
+    justify-content: space-between;
+    background: #fafafa;
 }
 
-.results-row {
-    display: flex;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.results-row.header {
-    background: #f5f5f5;
-    border-bottom: 2px solid #ccc;
-}
-
-.results-col {
-    flex: 1;
-    padding-right: 20px;
-}
-
-/* ============================
-   SUMMARY + FOOTER
-============================ */
-.results-summary {
-    margin-bottom: 20px;
-}
-
-.results-footer {
-    margin-top: 25px;
-    font-style: italic;
-}
-
-/* ============================
-   COPY BUTTON + TOOLTIP
-============================ */
-.copy-btn {
-    margin-left: 10px;
-    padding: 4px 8px;
-    font-size: 0.8rem;
-    cursor: pointer;
-    position: relative;
-}
-
-/* Tooltip when copied */
-.copy-btn.copied::after {
-    content: "Copied!";
-    position: absolute;
-    top: -25px;
-    right: 0;
-    background: #4caf50;
+.cart-remove {
+    background: #d9534f;
     color: white;
-    padding: 3px 6px;
+    border: none;
+    padding: 6px 12px;
     border-radius: 4px;
-    font-size: 0.75rem;
-    white-space: nowrap;
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Hidden tooltip default state */
-.copy-btn::after {
-    opacity: 0;
-    transform: translateY(5px);
+.cart-remove:hover { background: #c9302c; }
+
+.floating-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0275d8;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    z-index: 9999;
 }
 
-/* ============================
-   MOBILE CARD LAYOUT
-============================ */
+.floating-cart:hover { background: #025aa5; }
+
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: #d9534f;
+    color: white;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+
+/* ============================================================
+   8. MOBILE CARD LAYOUT
+   ============================================================ */
+
 @media (max-width: 600px) {
-
-    /* Turn each row into a card */
     .results-row {
         flex-direction: column;
         padding: 15px;
         margin-bottom: 15px;
-        background: #ffffff;
+        background: #fff;
         border: 1px solid #ddd;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    }
-
-    /* Hide the table header on mobile */
-    .results-row.header {
-        display: none;
-    }
-
-    /* Stack columns cleanly */
-    .results-col {
-        padding-right: 0;
-        margin-bottom: 12px;
-    }
-
-    .results-col:last-child {
-        margin-bottom: 0;
-    }
-
-    /* Make links easier to tap */
-    .results-col a {
-        display: inline-block;
-        margin-bottom: 5px;
     }
 }
 
-
-
-/* PHOTOS */
-/* Space between menu and photo */
-main {
-    padding-top: 2rem; /* adjust if needed */
-}
-
-/* FOOTER */
-.site-footer {
-    text-align: center;
-    padding: 2rem 1rem;
-}
-
-.site-footer .footer-inner {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.wp-block-pullquote cite {
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.6;
-}
 
 /* ============================================================
-   7. PAGE/POST SPECIFIC
+   9. PHOTO GALLERY (MERGED + CLEANED)
    ============================================================ */
 
-/* HOME */   
-/* Center the figure */
-.home {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 2rem;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 2rem;
 }
 
-/* Shadow border on the image */
-.home img {
-    border: 2px solid black;
-    box-shadow: 6px 6px 0px black;
-    max-width: 100%;
-    width: 100%;          /* ensures consistent scaling */
-    aspect-ratio: 16 / 9; /* choose your preferred ratio */
-    object-fit: cover;    /* keeps images uniform without distortion */
+.photo-card { text-align: center; }
+
+.photo-card img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Add-to-cart block (shared with item pages) */
+.item-block {
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.item-block button {
+    margin-top: 6px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background: #0275d8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.item-block button:hover { background: #025aa5; }
+
+/* Load more */
+#loadMore {
     display: block;
-    margin: 0 auto;       /* centers the image */
+    margin: 30px auto;
+    padding: 12px 20px;
+    background: #0078ff;
+    color: white;
+    border-radius: 6px;
+    border: none;
 }
 
+#loadMore:hover { background: #005fcc; }
 
-.home-heading {
-    font-size: 1.75rem;
-    font-weight: bold;
+/* Lightbox */
+.lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
     text-align: center;
-    margin-bottom: 1rem;
+    color: #fff;
 }
 
-/* ABOUT */   
-/* Center the figure */
+.lightbox-content img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* ============================================================
+   10. PAGE-SPECIFIC STYLES
+   ============================================================ */
+
+.home,
 .about-photo {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 2rem;
+    margin: 0 auto 2rem;
 }
 
-/* Shadow border on the image */
+.home img,
 .about-photo img {
     border: 2px solid black;
     box-shadow: 6px 6px 0px black;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
 }
 
-.about-heading {
+.about-heading,
+.home-heading {
     font-size: 1.75rem;
-    font-weight: bold;
     text-align: center;
     margin-bottom: 1rem;
 }
 
+
 /* ============================================================
-   8. WORDPRESS LEGACY STYLES
+   11. ITEM PAGE TEMPLATE STYLES (NEW)
+   ============================================================ */
+
+/* Image slider wrapper */
+.item-image-wrapper {
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    position: relative;
+}
+
+.item-image-wrapper img {
+    width: 100%;
+    border-radius: 6px;
+    display: none;
+}
+
+.item-image-wrapper img.active {
+    display: block;
+}
+
+/* Slider buttons */
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.slider-controls button {
+    padding: 6px 12px;
+    border: none;
+    background: #0275d8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.slider-controls button:hover {
+    background: #025aa5;
+}
+
+/* Item details */
+.item-details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item-details h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.item-details h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.item-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+
+/* ============================================================
+   12. WORDPRESS LEGACY STYLES
    ============================================================ */
 
 .wp-block-navigation__responsive-container.is-menu-open
-    .wp-block-navigation__responsive-container-content
     .wp-block-navigation__submenu-container {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding: 0.25rem 0;
 }
 
-.wp-block-navigation__responsive-container
-    .wp-block-navigation__responsive-container-content
-    .wp-block-navigation__submenu-container {
+.wp-block-navigation__submenu-container {
     background-color: var(--wp--preset--color--background);
-    color: var(--wp--preset--color--foreground);
     border-color: var(--wp--preset--color--primary);
 }
 
 .wp-block-search :is(textarea, input:not([type="submit"])) {
     box-shadow: var(--wp--custom--shadow);
-    margin-right: var(--wp--preset--spacing--20);
-}
-
-.wp-block-button.is-style-outline .wp-element-button:hover {
-    background-color: var(--wp--preset--color--foreground);
-    border-color: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
 }
