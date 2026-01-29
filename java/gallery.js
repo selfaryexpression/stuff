@@ -106,6 +106,9 @@ function addToCart(button) {
 
   localStorage.setItem("cart", JSON.stringify(cart));
 
+  // 🔥 Update floating cart badge immediately
+  updateCartCount();
+
   alert("Item added to cart!");
 }
 
