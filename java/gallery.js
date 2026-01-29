@@ -101,7 +101,8 @@ function addToCart(button) {
     name,
     price,
     qty,
-    total: price * qty
+    total: price * qty,
+    img: photo.src // <-- add this line
   });
 
   localStorage.setItem("cart", JSON.stringify(cart));

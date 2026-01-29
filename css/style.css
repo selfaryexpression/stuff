@@ -430,8 +430,20 @@ select:hover {
     border-radius: 6px;
     margin-bottom: 12px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
     background: #fafafa;
+}
+
+/* Thumbnail added for cart items */
+.cart-thumb {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.cart-details {
+    flex: 1;
 }
 
 .cart-remove {
@@ -516,18 +528,36 @@ select:hover {
     color: #444;
 }
 
-/* Add-to-cart block (shared with item pages) */
+/* Updated compact, dark item block */
 .item-block {
-    margin-top: 12px;
-    padding: 12px;
-    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #444;
     border-radius: 6px;
-    background: #fafafa;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
 }
 
+.item-block p {
+    margin: 4px 0;
+}
+
+/* Quantity inline */
+.item-block label {
+    margin-right: 6px;
+}
+
+.item-block .qty-input {
+    width: 50px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+/* Navy button matching floating cart */
 .item-block button {
     margin-top: 6px;
-    padding: 6px 12px;
+    padding: 6px 10px;
     border-radius: 4px;
     background: #0275d8;
     color: #fff;
@@ -535,7 +565,9 @@ select:hover {
     cursor: pointer;
 }
 
-.item-block button:hover { background: #025aa5; }
+.item-block button:hover {
+    background: #025aa5;
+}
 
 /* Load more */
 #loadMore {
@@ -580,6 +612,7 @@ select:hover {
     font-size: 30px;
     cursor: pointer;
 }
+
 
 
 /* ============================================================
