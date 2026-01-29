@@ -305,7 +305,12 @@ input[type="checkbox"]:checked::after {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 220px;
+
+        /* UPDATED */
+        width: max-content;        /* expands to fit longest item */
+        min-width: 220px;          /* keeps your original minimum */
+        white-space: nowrap;       /* prevents text wrapping */
+
         z-index: 20;
     }
 
@@ -324,6 +329,9 @@ input[type="checkbox"]:checked::after {
     .has-submenu > .submenu-toggle {
         display: inline-flex;
         align-items: center;
+
+        /* UPDATED */
+        white-space: nowrap;       /* prevents wrapping on submenu parents */
     }
 
     /* Submenu dropdown sits below parent */
@@ -333,6 +341,9 @@ input[type="checkbox"]:checked::after {
         padding-left: 1rem;
         margin-top: 0.5rem;
         display: none;
+
+        /* UPDATED */
+        white-space: nowrap;       /* prevents wrapping inside submenus */
     }
 
     .submenu.open {
