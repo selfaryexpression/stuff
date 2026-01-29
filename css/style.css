@@ -486,12 +486,12 @@ select:hover {
     border-radius: 50%;
 }
 
-
 /* ============================================================
    8. MOBILE CARD LAYOUT
    ============================================================ */
 
 @media (max-width: 600px) {
+
     .results-row {
         flex-direction: column;
         padding: 15px;
@@ -500,8 +500,13 @@ select:hover {
         border: 1px solid #ddd;
         border-radius: 8px;
     }
-}
 
+    /* Mobile gallery: 2 columns instead of 4 */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px; /* tighter spacing for mobile */
+    }
+}
 
 /* ============================================================
    9. PHOTO GALLERY (MERGED + CLEANED)
