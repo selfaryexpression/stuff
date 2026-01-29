@@ -144,6 +144,7 @@ input[type="checkbox"]:checked::after {
 
 .site-nav { position: relative; }
 
+/* DESKTOP MENU */
 .nav-menu {
     display: flex;
     gap: var(--wp--preset--spacing--30);
@@ -172,10 +173,9 @@ input[type="checkbox"]:checked::after {
 .has-submenu {
     position: relative;
     display: inline-flex;
-    flex-direction: row;
     align-items: center;
     gap: 0.25rem;
-    pointer-events: auto; /* Prevent blocking clicks */
+    pointer-events: auto;
 }
 
 /* Toggle button */
@@ -185,7 +185,7 @@ input[type="checkbox"]:checked::after {
     cursor: pointer;
 }
 
-/* Submenu panel (desktop) */
+/* Desktop submenu */
 .submenu {
     display: none;
     position: absolute;
@@ -199,7 +199,6 @@ input[type="checkbox"]:checked::after {
     z-index: 999;
 }
 
-/* Submenu links */
 .submenu a {
     display: block;
     padding: 0.5rem;
@@ -221,11 +220,6 @@ input[type="checkbox"]:checked::after {
     display: block;
 }
 
-/* Space between the two dropdowns */
-.has-submenu .submenu + .submenu {
-    margin-top: 10px;
-}
-
 /* MOBILE NAVIGATION */
 .nav-toggle {
     display: none;
@@ -234,12 +228,16 @@ input[type="checkbox"]:checked::after {
     padding: 0.25rem 0.5rem;
 }
 
+/* ============================
+   MOBILE FIXES
+   ============================ */
 @media (max-width: 768px) {
 
     .nav-toggle { display: block; }
 
+    /* CRITICAL FIX: override desktop display */
     .nav-menu {
-        display: none;
+        display: none !important;
         flex-direction: column;
         background: var(--wp--preset--color--background);
         padding: 1rem;
@@ -251,30 +249,35 @@ input[type="checkbox"]:checked::after {
         z-index: 1000;
     }
 
-    .nav-menu.open { display: flex; }
+    .nav-menu.open {
+        display: flex !important;
+    }
 
-    /* FIX: prevent submenu parent from overlapping other links */
+    /* Prevent submenu parent from blocking clicks */
     .has-submenu {
-        position: static; /* critical fix */
+        position: static !important;
         display: block;
     }
 
     /* Mobile submenu behavior */
     .submenu {
-        position: static;
+        position: static !important;
         border: none;
         padding-left: 1rem;
         margin-top: 0;
         width: 100%;
-        display: none; /* ensure closed submenus don't take space */
+        display: none !important;
     }
 
-    .submenu.open { display: block; }
+    .submenu.open {
+        display: block !important;
+    }
 
     /* Disable hover on mobile */
-    .has-submenu:hover .submenu { display: none; }
+    .has-submenu:hover .submenu {
+        display: none !important;
+    }
 }
-
 
 /* ============================================================
    6. COMPONENTS (FILTERS)
