@@ -23,7 +23,7 @@ function clearGallery() {
 }
 
 /* -----------------------------------------
-   LOAD PHOTOS IN BATCHES
+   LOAD PHOTOS IN BATCHES (UPDATED)
 ----------------------------------------- */
 function loadPhotos() {
   const gallery = document.getElementById("gallery");
@@ -34,10 +34,22 @@ function loadPhotos() {
     const card = document.createElement("div");
     card.className = "photo-card";
 
+    // If a product page exists, wrap image + caption in a link
+    const clickableContent = photo.page
+      ? `
+        <a href="${photo.page}" class="photo-link">
+          <img src="${photo.src}" loading="lazy" alt="${photo.caption}">
+          <div class="caption">${photo.caption}</div>
+        </a>
+      `
+      : `
+        <img src="${photo.src}" loading="lazy" alt="${photo.caption}"
+             onclick="openLightbox('${photo.src}', '${photo.caption}')">
+        <div class="caption">${photo.caption}</div>
+      `;
+
     card.innerHTML = `
-      <img src="${photo.src}" loading="lazy" alt="${photo.caption}"
-           onclick="openLightbox('${photo.src}', '${photo.caption}')">
-      <div class="caption">${photo.caption}</div>
+      ${clickableContent}
 
       <div class="item-block"
            data-name="${photo.caption}"
