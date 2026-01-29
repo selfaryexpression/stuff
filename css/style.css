@@ -128,7 +128,6 @@ input[type="checkbox"]:checked::after {
     padding: 0.25rem;
     border: 2px solid var(--wp--preset--color--primary);
     box-shadow: var(--wp--custom--shadow);
-    display: flex
 }
 
 .site-header-inner {
