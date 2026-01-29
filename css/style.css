@@ -487,29 +487,7 @@ select:hover {
 }
 
 /* ============================================================
-   8. MOBILE CARD LAYOUT
-   ============================================================ */
-
-@media (max-width: 768px) {
-
-    .results-row {
-        flex-direction: column;
-        padding: 15px;
-        margin-bottom: 15px;
-        background: #fff;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-    }
-
-    /* Mobile gallery: 2 columns instead of 4 */
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px; /* tighter spacing for mobile */
-    }
-}
-
-/* ============================================================
-   9. PHOTO GALLERY (MERGED + CLEANED)
+   8. PHOTO GALLERY (MERGED + CLEANED)
    ============================================================ */
 
 .gallery {
@@ -526,6 +504,29 @@ select:hover {
     border-radius: 6px;
     cursor: pointer;
 }
+
+/* ============================================================
+   9. MOBILE CARD LAYOUT
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+    .results-row {
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    /* Mobile gallery: 2 columns instead of 4 */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+}
+
 
 .caption {
     margin-top: 8px;
