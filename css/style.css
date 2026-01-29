@@ -137,8 +137,11 @@ input[type="checkbox"]:checked::after {
     align-items: center;
 }
 
+/* Logo */
 .site-logo {
     height: 30px;
+    width: auto;
+    display: block;
     border: 2px solid var(--wp--preset--color--primary);
 }
 
@@ -146,25 +149,19 @@ input[type="checkbox"]:checked::after {
     position: relative;
 }
 
-/* MOBILE-FIRST NAV MENU */
-.nav-menu {
-    display: none;                 /* hidden by default */
-    flex-direction: column;
-    gap: 0.5rem;
-    list-style: none;
-    padding: 1rem;
-    margin: 0;
-    background: var(--wp--preset--color--background);
-    border: 2px solid var(--wp--preset--color--primary);
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 220px;
-    z-index: 1000;
-}
 
-.nav-menu.open {
-    display: flex;                 /* shown when JS adds .open */
+
+/* ==========================
+   MOBILE MENU
+   ========================== */
+
+/* HAMBURGER BUTTON */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: 2px solid var(--wp--preset--color--primary);
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
 }
 
 .nav-menu a,
@@ -175,57 +172,107 @@ input[type="checkbox"]:checked::after {
     border-radius: 4px;
 }
 
-.nav-menu a:hover,
-.submenu-label:hover {
-    background: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
-    transition: 0.15s ease;
+/* Mobile layout */
+@media (max-width: 768px) {
+
+    /* Show toggle button */
+    .nav-toggle {
+        display: block;
+    }
+
+    /* Mobile menu container */
+    .nav-menu {
+        display: none;                 /* hidden by default */
+        flex-direction: column;
+        gap: 0.5rem;
+        list-style: none;
+        padding: 1rem;
+        margin: 0;
+        background: var(--wp--preset--color--background);
+        border: 2px solid var(--wp--preset--color--primary);
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 220px;
+        z-index: 1000;                 /* wat */
+    }
+ 
+    .nav-menu.open {
+        display: flex;                 /* shown when JS adds .open */
+    }
+
+    /* Submenu (mobile & desktop base) */
+    .submenu {
+        list-style: none;
+        padding-left: 1rem;
+        margin: 0.25rem 0 0;
+        display: none;                 /* hidden by default */
+    }
+
+    .submenu.open {
+        display: block;                /* shown when JS adds .open */
+    }
+
+    .submenu a {
+        display: block;
+        padding: 0.35rem 0.5rem;
+        border-radius: 4px;
+    }
+
+    .submenu a:hover {
+        background: var(--wp--preset--color--foreground);
+        color: var(--wp--preset--color--background);
+    }
+
+    /* Submenu parent stacks vertically */
+    .has-submenu {
+        display: block;
+        align-items: flex-start;
+    }
+
+    .nav-menu a:hover,
+    .submenu-label:hover {
+        background: var(--wp--preset--color--foreground);
+        color: var(--wp--preset--color--background);
+        transition: 0.15s ease;
+    }
+
+    /* Toggle button */
+    .submenu-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 0.25rem;
+    }
+
+    /* Text + arrow stay inline */
+    .has-submenu > a,
+    .has-submenu > .submenu-toggle {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* Submenu dropdown sits below parent */
+    .submenu {
+        position: static;
+        border: none;
+        padding-left: 1rem;
+        margin-top: 0.5rem;
+        display: none;
+    }
+
+    .submenu.open {
+        display: block;
+    }
+
+    /* Disable desktop hover behavior on mobile */
+    .has-submenu:hover .submenu {
+        display: none;
+    }
 }
 
-/* Submenu container */
-.has-submenu {
-    display: block;
-}
 
-/* Toggle button */
-.submenu-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    margin-left: 0.25rem;
-}
-
-/* Submenu (mobile & desktop base) */
-.submenu {
-    list-style: none;
-    padding-left: 1rem;
-    margin: 0.25rem 0 0;
-    display: none;                 /* hidden by default */
-}
-
-.submenu.open {
-    display: block;                /* shown when JS adds .open */
-}
-
-.submenu a {
-    display: block;
-    padding: 0.35rem 0.5rem;
-    border-radius: 4px;
-}
-
-.submenu a:hover {
-    background: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
-}
-
-/* HAMBURGER BUTTON */
-.nav-toggle {
-    display: inline-flex;
-    background: none;
-    border: 2px solid var(--wp--preset--color--primary);
-    padding: 0.25rem 0.5rem;
-}
 
 /* ============================================================
    DESKTOP LAYOUT
