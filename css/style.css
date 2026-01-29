@@ -490,7 +490,7 @@ select:hover {
    8. MOBILE CARD LAYOUT
    ============================================================ */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .results-row {
         flex-direction: column;
