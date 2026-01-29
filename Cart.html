@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cart-container">
+    <h1>Your Cart</h1>
+
+    <div id="cart-items"></div>
+
+    <div class="cart-total">
+      Total: $<span id="cart-total">0.00</span>
+    </div>
+
+    <button id="checkout-btn" class="cart-button">Checkout</button>
+  </div>
+
+  <!-- Floating Cart Icon -->
+  <a href="Cart.html" class="floating-cart">
+    🛒
+    <span class="cart-badge" id="cart-count">0</span>
+  </a>
+
+  <!-- Cart Logic -->
+  <script>
+    function loadCart() {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      const container = document.getElementById("cart-items");
+      const totalSpan = document.getElementById("cart-total");
+
+      if (cart.length === 0) {
+        container.innerHTML = "<p>Your cart is empty.</p>";
+        totalSpan.textContent = "0.00";
+        return;
+      }
+
+      let html = "";
+      let total = 0;
+
+      cart.forEach((item, index) => {
+        html += `
+          <div class="cart-item">
+            <div class="cart-item-info">
+              ${item.name} — $${item.price.toFixed(2)}
+              <br>
+              <strong>$${item.total.toFixed(2)}</strong>
+
+              <div class="cart-qty-controls">
+                <button class="cart-qty-btn" onclick="changeQty(${index}, -1)">−</button>
+                <span class="cart-qty-display">${item.qty}</span>
+                <button class="cart-qty-btn" onclick="changeQty(${index}, 1)">+</button>
+              </div>
+            </div>
+
+            <button class="cart-remove" onclick="removeItem(${index})">Remove</button>
+          </div>
+        `;
+        total += item.total;
+      });
+
+      container.innerHTML = html;
+      totalSpan.textContent = total.toFixed(2);
+    }
+
+    function changeQty(index, change) {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      cart[index].qty += change;
+
+      if (cart[index].qty < 1) {
+        cart[index].qty = 1;
+      }
+
+      cart[index].total = cart[index].qty * cart[index].price;
+
+      localStorage.setItem("cart", JSON.stringify(cart));
+      loadCart();
+    }
+
+    function removeItem(index) {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      cart.splice(index, 1);
+      localStorage.setItem("cart", JSON.stringify(cart));
+      loadCart();
+    }
+
+    function checkout() {
+      const total = document.getElementById("cart-total").textContent;
+
+      // Replace with your PayPal donation link
+      const paypalLink = `https://www.paypal.com/donate?hosted_button_id=YOUR_ID&amount=${total}`;
+
+      window.location.href = paypalLink;
+    }
+
+    document.getElementById("checkout-btn").addEventListener("click", checkout);
+
+    loadCart();
+  </script>
+
+<!-- ===========================
+     FOOTER
+============================ -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <p>Questions?</p>
+
+        <p>Email: selfaryexpression@hotmail.com</p>
+        <p>Responses are sent within 1 business day.</p>
+        <p>Calls are only given on a case-by-case basis if the request calls for it. Pun intended.</p>
+
+        <p class="footer-copy">© 2025-2026 Selfary Expression. All rights reserved.</p>
+    </div>
+</footer>
+
+
+  <!-- Floating Cart Count Script -->
+  <script src="floating-cart.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+</html>
+
