@@ -52,11 +52,19 @@ function loadPhotos() {
       ${clickableContent}
 
       <div class="item-block"
-           data-name="${photo.caption}"
-           data-price="${photo.price}">
+          data-name="${photo.caption}"
+          data-price="${photo.price}"
+          data-img="${photo.src}">
+          
+        <p class="item-title">${photo.caption}</p>
+
         <p>Price: $${photo.price.toFixed(2)}</p>
-        <label>Quantity:</label>
-        <input type="number" class="qty-input" value="1" min="1">
+
+        <div class="qty-row">
+          <label>Quantity:</label>
+          <input type="number" class="qty-input" value="1" min="1">
+        </div>
+
         <button onclick="addToCart(this)">Add to Cart</button>
       </div>
     `;
@@ -101,8 +109,8 @@ function addToCart(button) {
     name,
     price,
     qty,
-    total: price * qty,
-    img: photo.src // <-- add this line
+    img,
+    total: price * qty
   });
 
   localStorage.setItem("cart", JSON.stringify(cart));
