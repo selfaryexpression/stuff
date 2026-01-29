@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Adult Experience Items</title>
+    <title>Adult Experience</title>
 
     <!-- Your external stylesheet -->
     <link rel="stylesheet" href="/css/style.css">
@@ -97,8 +97,8 @@
         <div class="filter-container">
             <select id="filter-category">
                 <option value="all">All Categories</option>
-                <option value="adult">Adult</option>
-                <option value="inner-child">Inner Child</option>
+                <option value="rope">Rope</option>
+                <option value="blindfolds">Blindfolds</option>
             </select>
         </div>
 
@@ -120,15 +120,20 @@
 </div>
 
 
+<!-- ===========================
+     FOOTER
+============================ -->
 <footer class="site-footer">
     <div class="footer-inner">
-        <p>Questions?</p>
+    <p>Questions?</p>
+
         <ol>
-            <li>Email: selfaryexpression@yahoo.com</li>
+            <li>Email: selfaryexpression@hotmail.com</li>
             <li>Responses are sent within 1 business day.</li>
-            <li>Calls are only given on a case-by-case basis.</li>
+            <li>Calls are only given on a case-by-case basis if the request calls for it. Pun intended.</li>
         </ol>
-        <p class="footer-copy">© 2025 Selfary Expression. All rights reserved.</p>
+
+        <p class="footer-copy">© 2025-2026 Selfary Expression. All rights reserved.</p>
     </div>
 </footer>
 
@@ -140,24 +145,365 @@
 ----------------------------------------- */
 const photos = [
   {
-    src: "/images/adult-items/pic1.webp",
-    caption: "Red Lace Set",
-    price: 29.99,
-    category: "adult"
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
   },
   {
-    src: "/images/adult-items/pic2.webp",
-    caption: "Black Silk Robe",
-    price: 39.99,
-    category: "adult"
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
   },
   {
-    src: "/images/adult-items/pic3.webp",
-    caption: "Playful Plush Toy",
-    price: 19.99,
-    category: "adult"
-  }
-
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
+  {
+    src: "/images/adult-items/Adjustable Cotton Blindfold - Black A.png",
+    caption: "Adjustable Cotton Blindfold - Black",
+    price: 15,
+    category: "Blindfolds"
+  },
   // Add more items here...
 ];
 </script>

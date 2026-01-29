@@ -27,60 +27,71 @@
 <header class="site-header">
     <div class="site-header-inner">
 
-        <!-- Logo (clickable, links to home) -->
+        <!-- Logo -->
         <div class="site-title">
             <a href="index.html">
-                <img src="/images/logo.png" alt="Selfary logo" class="site-logo">
+                <img src="/images/logo.png" alt="Selfary Expression logo" class="site-logo">
             </a>
         </div>
 
+        <!-- Floating Cart -->
+        <a href="cart.html" class="floating-cart">
+            🛒
+            <span class="cart-badge" id="cart-count">0</span>
+        </a>
+
         <!-- Navigation -->
         <nav class="site-nav">
-
-            <!-- Mobile Menu Toggle -->
             <button class="nav-toggle" aria-label="Open menu">
-                <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                     <path d="M4 7.5h16v1.5H4z"></path>
                     <path d="M4 15h16v1.5H4z"></path>
                 </svg>
             </button>
 
-            <!-- Main Menu -->
             <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
 
-                <!-- Submenu -->
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+
+                <!-- EDUCATIONAL ITEMS -->
                 <li class="has-submenu">
-
-                    <!-- Parent label (no longer a link) -->
-                    <span class="submenu-label">Employer Search</span>
-
-                    <!-- Arrow toggle button -->
+                    <span class="submenu-label">Educational Items</span>
                     <button class="submenu-toggle" aria-label="Toggle submenu">
-                        <svg width="12" height="12" viewBox="0 0 12 12">
+                        <svg width="12" height="12">
                             <path d="M1.5 4L6 8l4.5-4"></path>
                         </svg>
                     </button>
 
-                    <!-- Dropdown submenu -->
                     <ul class="submenu">
-                        <li><a href="region-search-page.html">Region Search Page</a></li>
-                        <li><a href="industry-search-page.html">Industry Search Page</a></li>
-                        <li><a href="date-posted-search-page.html">Date Posted Search Page</a></li>
+                        <li><a href="Endangered Species.html">Endangered Species</a></li>
+                        <li><a href="Flags.html">Flags</a></li>
+                        <li><a href="Maps.html">Maps</a></li>
                     </ul>
-
                 </li>
 
-                <li><a href="hiring-ethics-articles.html">Hiring Ethics Articles</a></li>
+                <!-- SELF-EXPRESSIVE ITEMS -->
+                <li class="has-submenu">
+                    <span class="submenu-label">Self-Expressive Items</span>
+                    <button class="submenu-toggle" aria-label="Toggle submenu">
+                        <svg width="12" height="12">
+                            <path d="M1.5 4L6 8l4.5-4"></path>
+                        </svg>
+                    </button>
+
+                    <ul class="submenu">
+                        <li><a href="Adult Experience.html">Adult Experience</a></li>
+                        <li><a href="Inner Child.html">Inner Child</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="Articles.html">Articles</a></li>
 
             </ul>
-
         </nav>
 
     </div>
 </header>
-
 
 <!-- ===========================
      MAIN CONTENT
@@ -88,12 +99,11 @@
 <main id="main">
     <div class="content">
 
-        <!-- Page Heading --> 
-        <h2 class="about-heading">All Possibilities or No Possibilities?</h2>
+        <!-- Page Heading - Insert if Page Title isn't on Page --> 
 
         <!-- Article Photo -->
         <figure class="home">
-            <img src="/IMAGES/home.png" alt="Home">
+            <img src="/images/All Possibilities or No Possibilities.png" alt="All Possibilities or No Possibilities?">
         </figure>
 
         <!-- Article Text -->
@@ -114,17 +124,22 @@
     </div>
 </main>
 
+        <h2 class="heading">******************</h2>
 
 <!-- ===========================
      FOOTER
 ============================ -->
 <footer class="site-footer">
     <div class="footer-inner">
+    <p>Questions?</p>
 
-        <p class="footer-copy">
-            © 2025-2026 Selfary Expression. All rights reserved.
-        </p>
+        <ol>
+            <li>Email: selfaryexpression@hotmail.com</li>
+            <li>Responses are sent within 1 business day.</li>
+            <li>Calls are only given on a case-by-case basis if the request calls for it. Pun intended.</li>
+        </ol>
 
+        <p class="footer-copy">© 2025-2026 Selfary Expression. All rights reserved.</p>
     </div>
 </footer>
 
@@ -132,30 +147,5 @@
 <!-- ===========================
      SCRIPTS
 ============================ -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
 
-    // Mobile menu toggle
-    const navToggle = document.querySelector(".nav-toggle");
-    const navMenu = document.querySelector(".nav-menu");
-
-    navToggle.addEventListener("click", () => {
-        navMenu.classList.toggle("open");
-    });
-
-    // Submenu toggles
-    const submenuToggles = document.querySelectorAll(".submenu-toggle");
-
-    submenuToggles.forEach(toggle => {
-        toggle.addEventListener("click", (e) => {
-            e.preventDefault();
-            const submenu = toggle.nextElementSibling;
-            submenu.classList.toggle("open");
-        });
-    });
-
-});
-</script>
-
-</body>
-</html>
+<script src="floating-cart.js"></script>
