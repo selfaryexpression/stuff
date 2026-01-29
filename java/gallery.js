@@ -48,11 +48,8 @@ function loadPhotos() {
     card.innerHTML = `
       ${clickableContent}
 
-      <div class="item-block"
-          data-name="${photo.caption}"
-          data-price="${photo.price}"
-          data-img="${photo.src}">
-          
+        <div class="item-block" data-name="${photo.caption}" data-price="${photo.price}" data-img="${photo.src}">
+                  
         <p class="item-title">${photo.caption}</p>
 
         <p>Price: $${photo.price.toFixed(2)}</p>
