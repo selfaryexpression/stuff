@@ -140,6 +140,7 @@ input[type="checkbox"]:checked::after {
 .site-logo {
     height: 30px;
     border: 2px solid var(--wp--preset--color--primary);
+    align-items: center;
 }
 
 .site-nav {
