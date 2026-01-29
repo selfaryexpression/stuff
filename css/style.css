@@ -118,11 +118,11 @@ input[type="checkbox"]:checked::after {
     margin: auto;
 }
 
-
 /* ============================================================
-   5. NAVIGATION & HEADER
+   5. NAVIGATION & HEADER (CLEAN + CONSOLIDATED)
    ============================================================ */
 
+/* Header */
 .site-header {
     background: var(--wp--preset--color--background);
     padding: 0.25rem;
@@ -145,31 +145,145 @@ input[type="checkbox"]:checked::after {
     border: 2px solid var(--wp--preset--color--primary);
 }
 
+/* Navigation container */
 .site-nav {
     position: relative;
 }
 
+/* Desktop menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: var(--wp--preset--spacing--30);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-menu > li {
+    text-align: center;
+}
+
+/* Main menu link base styling */
+.nav-menu a {
+    color: var(--wp--preset--color--foreground);
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+/* Submenu parent label base styling */
+.submenu-label {
+    color: var(--wp--preset--color--foreground);
+    padding: 0.5rem 0.75rem; /* matches main menu */
+    border-radius: 4px;      /* matches main menu */
+    display: inline-block;   /* ensures padding behaves like a link */
+    cursor: default;         /* keeps it feeling like a label, not a link */
+}
 
 
-/* ==========================
-   MOBILE MENU
-   ========================== */
+/* Main menu hover */
+.nav-menu > li > a:hover,
+.nav-menu > li > a:active {
+    background: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
 
-/* HAMBURGER BUTTON */
+/* Hover highlight for submenu parent label */
+.has-submenu .submenu-label:hover {
+    background: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+/* ============================
+   SUBMENU (keep behavior, de-dupe only)
+   ============================ */
+
+/* Parent item: keep text + arrow inline */
+.has-submenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+/* Arrow button (unstyled) */
+.submenu-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.submenu-toggle:hover,
+.submenu-toggle:focus {
+    background: none;
+    outline: none;
+}
+
+/* Dropdown menu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 2px solid var(--wp--preset--color--primary);
+    background: var(--wp--preset--color--background);
+    list-style: none;
+    padding: var(--wp--preset--spacing--20);
+    margin: 0;
+    z-index: 10;
+    width: max-content;
+}
+
+/* Submenu links – merged both previous rules */
+.submenu a {
+    white-space: nowrap;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background 0.15s ease;
+}
+
+.submenu a:hover,
+.submenu a:active {
+    background: var(--wp--preset--color--foreground);
+    color: var(--wp--preset--color--background);
+}
+
+/* Desktop hover behavior */
+.has-submenu:hover > .submenu {
+    display: block;
+}
+
+/* JS toggle support (keep exactly as you had it) */
+.has-submenu:hover .submenu.open {
+    display: block;
+}
+
+
+
+/* ============================
+   MOBILE NAVIGATION (unified)
+   ============================ */
+
 .nav-toggle {
     display: none;
     background: none;
     border: 2px solid var(--wp--preset--color--primary);
     padding: 0.25rem 0.5rem;
     cursor: pointer;
-}
-
-.nav-menu a,
-.submenu-label {
-    color: var(--wp--preset--color--foreground);
-    text-decoration: none;
-    padding: 0.5rem 0.75rem;
-    border-radius: 4px;
 }
 
 /* Mobile layout */
@@ -182,68 +296,27 @@ input[type="checkbox"]:checked::after {
 
     /* Mobile menu container */
     .nav-menu {
-        display: none;                 /* hidden by default */
+        display: none;
         flex-direction: column;
-        gap: 0.5rem;
-        list-style: none;
-        padding: 1rem;
-        margin: 0;
+        gap: 1rem;
         background: var(--wp--preset--color--background);
+        padding: 1rem;
         border: 2px solid var(--wp--preset--color--primary);
         position: absolute;
         top: 100%;
         right: 0;
         width: 220px;
-        z-index: 1000;                 /* wat */
+        z-index: 20;
     }
- 
+
     .nav-menu.open {
-        display: flex;                 /* shown when JS adds .open */
-    }
-
-    /* Submenu (mobile & desktop base) */
-    .submenu {
-        list-style: none;
-        padding-left: 1rem;
-        margin: 0.25rem 0 0;
-        display: none;                 /* hidden by default */
-    }
-
-    .submenu.open {
-        display: block;                /* shown when JS adds .open */
-    }
-
-    .submenu a {
-        display: block;
-        padding: 0.35rem 0.5rem;
-        border-radius: 4px;
-    }
-
-    .submenu a:hover {
-        background: var(--wp--preset--color--foreground);
-        color: var(--wp--preset--color--background);
+        display: flex;
     }
 
     /* Submenu parent stacks vertically */
     .has-submenu {
         display: block;
         align-items: flex-start;
-    }
-
-    .nav-menu a:hover,
-    .submenu-label:hover {
-        background: var(--wp--preset--color--foreground);
-        color: var(--wp--preset--color--background);
-        transition: 0.15s ease;
-    }
-
-    /* Toggle button */
-    .submenu-toggle {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        margin-left: 0.25rem;
     }
 
     /* Text + arrow stay inline */
@@ -274,60 +347,20 @@ input[type="checkbox"]:checked::after {
 
 
 
-/* ============================================================
-   DESKTOP LAYOUT
-   ============================================================ */
-@media (min-width: 769px) {
 
-    .site-header-inner {
-        align-items: center;
-    }
 
-    .nav-toggle {
-        display: none;             /* hide hamburger on desktop */
-    }
 
-    .nav-menu {
-        position: static;
-        display: flex;             /* always visible on desktop */
-        align-items: center;
-        flex-direction: row;
-        gap: var(--wp--preset--spacing--30);
-        padding: 0;
-        border: none;
-        width: auto;
-        background: transparent;
-    }
 
-    .has-submenu {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-    }
 
-    /* Desktop dropdown style */
-    .submenu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        padding: var(--wp--preset--spacing--20);
-        border: 2px solid var(--wp--preset--color--primary);
-        background: var(--wp--preset--color--background);
-        width: max-content;
-        display: none;             /* hidden until hover or JS */
-        z-index: 999;
-    }
 
-    /* Show on hover (desktop) */
-    .has-submenu:hover > .submenu {
-        display: block;
-    }
 
-    /* JS-open still works on desktop if you want */
-    .submenu.open {
-        display: block;
-    }
-}
+
+
+
+
+
+
+
 
 
 
