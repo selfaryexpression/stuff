@@ -34,18 +34,15 @@ function loadPhotos() {
     const card = document.createElement("div");
     card.className = "photo-card";
 
-    // If a product page exists, wrap image + caption in a link
     const clickableContent = photo.page
       ? `
         <a href="${photo.page}" class="photo-link">
           <img src="${photo.src}" loading="lazy" alt="${photo.caption}">
-          <div class="caption">${photo.caption}</div>
         </a>
       `
       : `
         <img src="${photo.src}" loading="lazy" alt="${photo.caption}"
-             onclick="openLightbox('${photo.src}', '${photo.caption}')">
-        <div class="caption">${photo.caption}</div>
+            onclick="openLightbox('${photo.src}', '${photo.caption}')">
       `;
 
     card.innerHTML = `
@@ -102,6 +99,7 @@ function addToCart(button) {
   const name = itemDiv.dataset.name;
   const price = parseFloat(itemDiv.dataset.price);
   const qty = parseInt(itemDiv.querySelector(".qty-input").value);
+  const img = itemDiv.dataset.img;
 
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
@@ -109,7 +107,7 @@ function addToCart(button) {
     name,
     price,
     qty,
-    img,
+    img,               
     total: price * qty
   });
 
