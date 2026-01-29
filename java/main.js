@@ -67,23 +67,34 @@ export function renderError(container, message = "An error occurred.") {
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    // -----------------------------
     // MOBILE MENU TOGGLE
+    // -----------------------------
     const navToggle = document.querySelector(".nav-toggle");
     const navMenu = document.querySelector(".nav-menu");
 
-    navToggle?.addEventListener("click", () => {
-        navMenu.classList.toggle("open");
-    });
+    if (navToggle && navMenu) {
+        navToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("open");
+        });
+    }
 
-    // MOBILE SUBMENU TOGGLES
+    // -----------------------------
+    // SUBMENU TOGGLES (mobile only)
+    // -----------------------------
     const submenuButtons = document.querySelectorAll(".submenu-toggle");
 
     submenuButtons.forEach(button => {
         button.addEventListener("click", () => {
+
+            // Find the submenu *directly after* this button
             const submenu = button.nextElementSibling;
-            if (submenu?.classList.contains("submenu")) {
+
+            // Safety check: ensure it's actually a submenu
+            if (submenu && submenu.classList.contains("submenu")) {
                 submenu.classList.toggle("open");
             }
         });
     });
+
 });

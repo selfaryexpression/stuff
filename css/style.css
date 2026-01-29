@@ -142,16 +142,29 @@ input[type="checkbox"]:checked::after {
     border: 2px solid var(--wp--preset--color--primary);
 }
 
-.site-nav { position: relative; }
+.site-nav {
+    position: relative;
+}
 
-/* DESKTOP MENU */
+/* MOBILE-FIRST NAV MENU */
 .nav-menu {
-    display: flex;
-    gap: var(--wp--preset--spacing--30);
+    display: none;                 /* hidden by default */
+    flex-direction: column;
+    gap: 0.5rem;
     list-style: none;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
-    align-items: center;
+    background: var(--wp--preset--color--background);
+    border: 2px solid var(--wp--preset--color--primary);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 220px;
+    z-index: 1000;
+}
+
+.nav-menu.open {
+    display: flex;                 /* shown when JS adds .open */
 }
 
 .nav-menu a,
@@ -171,11 +184,7 @@ input[type="checkbox"]:checked::after {
 
 /* Submenu container */
 .has-submenu {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    pointer-events: auto;
+    display: block;
 }
 
 /* Toggle button */
@@ -183,25 +192,25 @@ input[type="checkbox"]:checked::after {
     background: none;
     border: none;
     cursor: pointer;
+    padding: 0;
+    margin-left: 0.25rem;
 }
 
-/* Desktop submenu */
+/* Submenu (mobile & desktop base) */
 .submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    border: 2px solid var(--wp--preset--color--primary);
-    background: var(--wp--preset--color--background);
-    padding: var(--wp--preset--spacing--20);
     list-style: none;
-    width: max-content;
-    z-index: 999;
+    padding-left: 1rem;
+    margin: 0.25rem 0 0;
+    display: none;                 /* hidden by default */
+}
+
+.submenu.open {
+    display: block;                /* shown when JS adds .open */
 }
 
 .submenu a {
     display: block;
-    padding: 0.5rem;
+    padding: 0.35rem 0.5rem;
     border-radius: 4px;
 }
 
@@ -210,74 +219,69 @@ input[type="checkbox"]:checked::after {
     color: var(--wp--preset--color--background);
 }
 
-/* Desktop hover */
-.has-submenu:hover > .submenu {
-    display: block;
-}
-
-/* JS toggle */
-.submenu.open {
-    display: block;
-}
-
-/* MOBILE NAVIGATION */
+/* HAMBURGER BUTTON */
 .nav-toggle {
-    display: none;
+    display: inline-flex;
     background: none;
     border: 2px solid var(--wp--preset--color--primary);
     padding: 0.25rem 0.5rem;
 }
 
-/* ============================
-   MOBILE FIXES
-   ============================ */
-@media (max-width: 768px) {
+/* ============================================================
+   DESKTOP LAYOUT
+   ============================================================ */
+@media (min-width: 769px) {
 
-    .nav-toggle { display: block; }
+    .site-header-inner {
+        align-items: center;
+    }
 
-    /* CRITICAL FIX: override desktop display */
+    .nav-toggle {
+        display: none;             /* hide hamburger on desktop */
+    }
+
     .nav-menu {
-        display: none !important;
-        flex-direction: column;
-        background: var(--wp--preset--color--background);
-        padding: 1rem;
-        border: 2px solid var(--wp--preset--color--primary);
+        position: static;
+        display: flex;             /* always visible on desktop */
+        flex-direction: row;
+        gap: var(--wp--preset--spacing--30);
+        padding: 0;
+        border: none;
+        width: auto;
+        background: transparent;
+    }
+
+    .has-submenu {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* Desktop dropdown style */
+    .submenu {
         position: absolute;
         top: 100%;
-        right: 0;
-        width: 220px;
-        z-index: 1000;
+        left: 0;
+        padding: var(--wp--preset--spacing--20);
+        border: 2px solid var(--wp--preset--color--primary);
+        background: var(--wp--preset--color--background);
+        width: max-content;
+        display: none;             /* hidden until hover or JS */
+        z-index: 999;
     }
 
-    .nav-menu.open {
-        display: flex !important;
-    }
-
-    /* Prevent submenu parent from blocking clicks */
-    .has-submenu {
-        position: static !important;
+    /* Show on hover (desktop) */
+    .has-submenu:hover > .submenu {
         display: block;
     }
 
-    /* Mobile submenu behavior */
-    .submenu {
-        position: static !important;
-        border: none;
-        padding-left: 1rem;
-        margin-top: 0;
-        width: 100%;
-        display: none !important;
-    }
-
+    /* JS-open still works on desktop if you want */
     .submenu.open {
-        display: block !important;
-    }
-
-    /* Disable hover on mobile */
-    .has-submenu:hover .submenu {
-        display: none !important;
+        display: block;
     }
 }
+
+
 
 /* ============================================================
    6. COMPONENTS (FILTERS)
