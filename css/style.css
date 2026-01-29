@@ -350,10 +350,11 @@ input[type="checkbox"]:checked::after {
         display: block;
     }
 
-    /* Disable desktop hover behavior on mobile */
+    /* Allow hover/tap to open submenu on mobile */
     .has-submenu:hover .submenu {
-        display: none;
+        display: block;
     }
+
 }
 
 /* ============================================================
