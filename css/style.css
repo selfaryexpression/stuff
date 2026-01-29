@@ -243,6 +243,7 @@ input[type="checkbox"]:checked::after {
     .nav-menu {
         position: static;
         display: flex;             /* always visible on desktop */
+        align-items: center;
         flex-direction: row;
         gap: var(--wp--preset--spacing--30);
         padding: 0;
