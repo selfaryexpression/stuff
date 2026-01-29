@@ -175,6 +175,7 @@ input[type="checkbox"]:checked::after {
     flex-direction: row;
     align-items: center;
     gap: 0.25rem;
+    pointer-events: auto; /* Prevent blocking clicks */
 }
 
 /* Toggle button */
@@ -252,6 +253,12 @@ input[type="checkbox"]:checked::after {
 
     .nav-menu.open { display: flex; }
 
+    /* FIX: prevent submenu parent from overlapping other links */
+    .has-submenu {
+        position: static; /* critical fix */
+        display: block;
+    }
+
     /* Mobile submenu behavior */
     .submenu {
         position: static;
@@ -259,6 +266,7 @@ input[type="checkbox"]:checked::after {
         padding-left: 1rem;
         margin-top: 0;
         width: 100%;
+        display: none; /* ensure closed submenus don't take space */
     }
 
     .submenu.open { display: block; }
