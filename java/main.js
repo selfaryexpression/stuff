@@ -6,6 +6,8 @@
 // DROPDOWN HELPERS
 // ===============================
 
+console.log("main.js is running");
+
 export function populateDropdown(selectElement, items, placeholder = "Select an option") {
     clearDropdown(selectElement);
     enableDropdown(selectElement);
