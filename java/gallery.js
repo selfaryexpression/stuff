@@ -1,7 +1,7 @@
 /* -----------------------------------------
    GALLERY CONFIG
 ----------------------------------------- */
-const batchSize = 25;
+const batchSize = 24;
 let currentIndex = 0;
 let currentFilter = "all";
 
