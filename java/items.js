@@ -7,7 +7,7 @@
 
 
 /* -----------------------------------------
-   MODERN IMAGE SLIDER (no globals)
+   MODERN IMAGE SLIDER + SWIPE SUPPORT
 ----------------------------------------- */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     images[currentIndex].classList.add("active");
   }
 
+  // Button controls
   nextBtn?.addEventListener("click", () => {
     currentIndex = (currentIndex + 1) % images.length;
     updateSlider();
@@ -34,7 +35,43 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSlider();
   });
 
-  updateSlider(); // show first image
+  // -----------------------------
+  // SWIPE SUPPORT
+  // -----------------------------
+  let startX = 0;
+  let endX = 0;
+
+  const slider = document.querySelector(".item-image-wrapper");
+
+  slider.addEventListener("touchstart", (e) => {
+    startX = e.touches[0].clientX;
+  });
+
+  slider.addEventListener("touchmove", (e) => {
+    endX = e.touches[0].clientX;
+  });
+
+  slider.addEventListener("touchend", () => {
+    const distance = endX - startX;
+
+    // Swipe threshold (px)
+    if (Math.abs(distance) > 50) {
+      if (distance < 0) {
+        // Swipe left → next image
+        currentIndex = (currentIndex + 1) % images.length;
+      } else {
+        // Swipe right → previous image
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+      }
+      updateSlider();
+    }
+
+    // Reset
+    startX = 0;
+    endX = 0;
+  });
+
+  updateSlider();
 });
 
 /* -----------------------------------------
