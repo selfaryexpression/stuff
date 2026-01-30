@@ -5,47 +5,43 @@
    - Add to cart
 ============================================================ */
 
+
 /* -----------------------------------------
-   IMAGE SLIDER
+   MODERN IMAGE SLIDER (no globals)
 ----------------------------------------- */
 
-let currentIndex = 0;
-
-function showImage(index) {
-  const images = document.querySelectorAll(".item-image-wrapper img");
-  if (!images.length) return;
-
-  images.forEach(img => img.classList.remove("active"));
-  images[index].classList.add("active");
-}
-
-function nextImage() {
-  const images = document.querySelectorAll(".item-image-wrapper img");
-  if (!images.length) return;
-
-  currentIndex = (currentIndex + 1) % images.length;
-  showImage(currentIndex);
-}
-
-function prevImage() {
-  const images = document.querySelectorAll(".item-image-wrapper img");
-  if (!images.length) return;
-
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  showImage(currentIndex);
-}
-
-/* Auto‑initialize first image */
 document.addEventListener("DOMContentLoaded", () => {
-  showImage(0);
-});
+  const images = Array.from(document.querySelectorAll(".item-image-wrapper img"));
+  const prevBtn = document.querySelector(".prev-btn");
+  const nextBtn = document.querySelector(".next-btn");
 
+  if (!images.length) return;
+
+  let currentIndex = 0;
+
+  function updateSlider() {
+    images.forEach(img => img.classList.remove("active"));
+    images[currentIndex].classList.add("active");
+  }
+
+  nextBtn?.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateSlider();
+  });
+
+  prevBtn?.addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateSlider();
+  });
+
+  updateSlider(); // show first image
+});
 
 /* -----------------------------------------
    ADD TO CART
 ----------------------------------------- */
 
-function addToCart(button) {
+window.addToCart = function (button) {
   const itemDiv = button.closest(".item-block");
   if (!itemDiv) return;
 
@@ -65,4 +61,4 @@ function addToCart(button) {
   localStorage.setItem("cart", JSON.stringify(cart));
 
   alert("Item added to cart!");
-}
+};
