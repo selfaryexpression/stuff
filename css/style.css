@@ -460,7 +460,7 @@ select:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #0275d8;
+    background: #01192f;
     color: white;
     width: 55px;
     height: 55px;
@@ -565,7 +565,7 @@ select:hover {
     margin-top: 6px;
     padding: 6px 10px;
     border-radius: 4px;
-    background: #0275d8;
+    background: #01192f;
     color: #fff;
     border: none;
     cursor: pointer;
