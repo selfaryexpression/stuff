@@ -582,10 +582,13 @@ select:hover {
 }
 
 .qty-row {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* vertically aligns label + input */
+  gap: 6px;                  /* optional spacing between label and input */
+  margin: 10px 0;            /* optional spacing above/below */
 }
+
 
 /* Load more */
 #loadMore {
