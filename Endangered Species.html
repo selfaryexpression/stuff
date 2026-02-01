@@ -101,9 +101,16 @@
         <div class="filter-container">
             <select id="filter-category">
                 <option value="all">All Categories</option>
-                <option value="endangered">Endangered</option>
-                <option value="threatened">Threatened</option>
-                <option value="vulnerable">Vulnerable</option>
+                <option value="endangered">Amphibians</option>
+                <option value="threatened">Arachnids</option>
+                <option value="vulnerable">Birdies</option>
+                <option value="endangered">Clams</option>
+                <option value="threatened">Corals</option>
+                <option value="vulnerable">Fishies</option>
+                <option value="endangered">Insects</option>
+                <option value="threatened">Mammals</option>
+                <option value="vulnerable">Reptiles</option>
+                
             </select>
         </div>
 
@@ -130,6 +137,9 @@
 ============================ -->
 <footer class="site-footer">
     <div class="footer-inner">
+
+        <h2 class="heading">******************</h2>
+        
         <p>Questions?</p>
 
         <p>Email: selfaryexpression@hotmail.com</p>
@@ -149,35 +159,5472 @@
 ----------------------------------------- */
 const photos = [
   {
-    src: "/images/endangered/pic1.webp",
-    caption: "Amur Leopard",
-    price: 24.99,
-    category: "endangered"
+    src: "/images/educational/Abbott's Booby Camping Mug - Main.jpg",
+    caption: "Abbott's Booby Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Abbott's Booby Camping Mug.html"
   },
   {
-    src: "/images/endangered/pic2.webp",
-    caption: "Black Rhino",
-    price: 29.99,
-    category: "endangered"
+    src: "/images/educational/Abbott's Booby Print - 5x7.jpg",
+    caption: "Abbott's Booby Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Abbott's Booby Print - 5x7.html"
   },
   {
-    src: "/images/endangered/pic3.webp",
-    caption: "Hawksbill Sea Turtle",
-    price: 19.99,
-    category: "threatened"
+    src: "/images/educational/Abbott's Booby Print - 8x10.jpg",
+    caption: "Abbott's Booby Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Abbott's Booby Print - 8x10.html"
   },
   {
-    src: "/images/endangered/pic4.webp",
-    caption: "Mountain Gorilla",
-    price: 27.99,
-    category: "endangered"
+    src: "/images/educational/Addax Camping Mug - Main.jpg",
+    caption: "Addax Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Addax Camping Mug.html"
   },
   {
-    src: "/images/endangered/pic5.webp",
-    caption: "African Grey Parrot",
-    price: 17.99,
-    category: "vulnerable"
-  }
+    src: "/images/educational/Addax Print - 8x10.jpg",
+    caption: "Addax Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Addax Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/African Penguin Print - 8x10.jpg",
+    caption: "African Penguin Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/African Penguin Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/African Penguin Camping Mug - Main.jpg",
+    caption: "African Penguin Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/African Penguin Camping Mug.html"
+  },
+  {
+    src: "/images/educational/ʻAkiapōlāʻau Print - 8x10.jpg",
+    caption: "ʻAkiapōlāʻau Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/ʻAkiapōlāʻau Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Alabama Beach Mouse Print - 8x10.jpg",
+    caption: "Alabama Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Alabama Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/ʻAkiapōlāʻau Camping Mug - Main.jpg",
+    caption: "ʻAkiapōlāʻau Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/ʻAkiapōlāʻau Camping Mug.html"
+  },
+  {
+    src: "/images/educational/American Alligator Print - 8x10.jpg",
+    caption: "American Alligator Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/American Alligator Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/American Burying Beetle Print - 8x10.jpg",
+    caption: "American Burying Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/American Burying Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Alabama Beach Mouse Camping Mug - Main.jpg",
+    caption: "Alabama Beach Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Alabama Beach Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/American Crocodile Print - 8x10.jpg",
+    caption: "American Crocodile Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/American Crocodile Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Anastasia Island Beach Mouse Print - 8x10.jpg",
+    caption: "Anastasia Island Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Anastasia Island Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/American Alligator Camping Mug - Main.jpg",
+    caption: "American Alligator Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/American Alligator Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Apaporis River Caiman Print - 8x10.jpg",
+    caption: "Apaporis River Caiman Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Apaporis River Caiman Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Arabian Ostrich Print - 8x10.jpg",
+    caption: "Arabian Ostrich Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Arabian Ostrich Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/American Burying Beetle Camping Mug - Main.jpg",
+    caption: "American Burying Beetle Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/American Burying Beetle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Arkansas River Shiner Print - 8x10.jpg",
+    caption: "Arkansas River Shiner Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Arkansas River Shiner Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Arroyo Toad Print - 8x10.jpg",
+    caption: "Arroyo Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Arroyo Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/American Crocodile Camping Mug - Main.jpg",
+    caption: "American Crocodile Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/American Crocodile Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ash Meadows Amargosa Pupfish Print - 8x10.jpg",
+    caption: "Ash Meadows Amargosa Pupfish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Ash Meadows Amargosa Pupfish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ash Meadows Speckled Dace Print - 8x10.jpg",
+    caption: "Ash Meadows Speckled Dace Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Ash Meadows Speckled Dace Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Anastasia Island Beach Mouse Camping Mug - Main.jpg",
+    caption: "Anastasia Island Beach Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Anastasia Island Beach Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Asian Elephant Print - 8x10.jpg",
+    caption: "Asian Elephant Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Asian Elephant Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Asian Tapir Print - 8x10.jpg",
+    caption: "Asian Tapir Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Asian Tapir Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Apaporis River Caiman Camping Mug - Main.jpg",
+    caption: "Apaporis River Caiman Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Apaporis River Caiman Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Atlantic Salmon Print - 8x10.jpg",
+    caption: "Atlantic Salmon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Atlantic Salmon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Azores Wood Pigeon Print - 8x10.jpg",
+    caption: "Azores Wood Pigeon Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Azores Wood Pigeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Arabian Ostrich Camping Mug - Main.jpg",
+    caption: "Arabian Ostrich Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Arabian Ostrich Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bactrian Deer Print - 8x10.jpg",
+    caption: "Bactrian Deer Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Bactrian Deer Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Band-Rumped Storm-Petrel Print - 8x10.jpg",
+    caption: "Band-Rumped Storm-Petrel Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Band-Rumped Storm-Petrel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Arkansas River Shiner Camping Mug - Main.jpg",
+    caption: "Arkansas River Shiner Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Arkansas River Shiner Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Barton Springs Salamander Print - 8x10.jpg",
+    caption: "Barton Springs Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Barton Springs Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bay Checkerspot Butterfly Print - 8x10.jpg",
+    caption: "Bay Checkerspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Bay Checkerspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Arroyo Toad Camping Mug - Main.jpg",
+    caption: "Arroyo Toad Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Arroyo Toad Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bearded Seal Print - 8x10.jpg",
+    caption: "Bearded Seal Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Bearded Seal Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Beautiful Shiner Print - 8x10.jpg",
+    caption: "Beautiful Shiner Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Beautiful Shiner Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ash Meadows Amargosa Pupfish Camping Mug - Main.jpg",
+    caption: "Ash Meadows Amargosa Pupfish Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Ash Meadows Amargosa Pupfish Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Behren's Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Behren's Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Behren's Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black Pinesnake Print - 8x10.jpg",
+    caption: "Black Pinesnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Black Pinesnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ash Meadows Speckled Dace Camping Mug - Main.jpg",
+    caption: "Ash Meadows Speckled Dace Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Ash Meadows Speckled Dace Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Black Rhinoceros Print - 8x10.jpg",
+    caption: "Black Rhinoceros Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Black Rhinoceros Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black-Capped Petrel Print - 8x10.jpg",
+    caption: "Black-Capped Petrel Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Black-Capped Petrel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Asian Elephant Camping Mug - Main.jpg",
+    caption: "Asian Elephant Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Asian Elephant Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Black-Footed Ferret Print - 8x10.jpg",
+    caption: "Black-Footed Ferret Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Black-Footed Ferret Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Blue Whale Print - 8x10.jpg",
+    caption: "Blue Whale Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Blue Whale Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Asian Tapir Camping Mug - Main.jpg",
+    caption: "Asian Tapir Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Asian Tapir Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Blunt-Nosed Leopard Lizard Print - 8x10.jpg",
+    caption: "Blunt-Nosed Leopard Lizard Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Blunt-Nosed Leopard Lizard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bog Turtle Print - 8x10.jpg",
+    caption: "Bog Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Bog Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Asian Wild Ass Camping Mug - Main.jpg",
+    caption: "Asian Wild Ass Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Asian Wild Ass Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Atlantic Salmon Camping Mug - Main.jpg",
+    caption: "Atlantic Salmon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Atlantic Salmon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bolson Tortoise Print - 8x10.jpg",
+    caption: "Bolson Tortoise Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Bolson Tortoise Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Brindled Nail-Tailed Wallaby Print - 8x10.jpg",
+    caption: "Brindled Nail-Tailed Wallaby Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Brindled Nail-Tailed Wallaby Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Atlantic Sturgeon Camping Mug - Main.jpg",
+    caption: "Atlantic Sturgeon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Atlantic Sturgeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Azores Wood Pigeon Camping Mug - Main.jpg",
+    caption: "Azores Wood Pigeon Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Azores Wood Pigeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Broad-Snouted Caiman Print - 8x10.jpg",
+    caption: "Broad-Snouted Caiman Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Broad-Snouted Caiman Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Brown Bear Print - 8x10.jpg",
+    caption: "Brown Bear Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Brown Bear Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bactrian Deer Camping Mug - Main.jpg",
+    caption: "Bactrian Deer Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Bactrian Deer Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bull Trout Print - 8x10.jpg",
+    caption: "Bull Trout Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Bull Trout Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bushwren Print - 8x10.jpg",
+    caption: "Bushwren Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Bushwren Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Band-Rumped Storm-Petrel Camping Mug - Main.jpg",
+    caption: "Band-Rumped Storm-Petrel Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Band-Rumped Storm-Petrel Camping Mug.html"
+  },
+  {
+    src: "/images/educational/California Condor Print - 8x10.jpg",
+    caption: "California Condor Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/California Condor Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Least Tern Print - 8x10.jpg",
+    caption: "California Least Tern Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/California Least Tern Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Barton Springs Salamander Camping Mug - Main.jpg",
+    caption: "Barton Springs Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Barton Springs Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/California Ridgway's Rail Print - 8x10.jpg",
+    caption: "California Ridgway's Rail Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/California Ridgway's Rail Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Tiger Salamander Print - 8x10.jpg",
+    caption: "California Tiger Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/California Tiger Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bay Checkerspot Butterfly Camping Mug - Main.jpg",
+    caption: "Bay Checkerspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Bay Checkerspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Callippe Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Callippe Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Callippe Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Campbell Island Flightless Teal Print - 8x10.jpg",
+    caption: "Campbell Island Flightless Teal Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Campbell Island Flightless Teal Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bearded Seal Camping Mug - Main.jpg",
+    caption: "Bearded Seal Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Bearded Seal Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Canada Lynx Print - 8x10.jpg",
+    caption: "Canada Lynx Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Canada Lynx Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Canarian Black Oystercatcher Print - 8x10.jpg",
+    caption: "Canarian Black Oystercatcher Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Canarian Black Oystercatcher Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Beautiful Shiner Camping Mug - Main.jpg",
+    caption: "Beautiful Shiner Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Beautiful Shiner Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Candy Darter Print - 8x10.jpg",
+    caption: "Candy Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Candy Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cape Sable Seaside Sparrow Print - 8x10.jpg",
+    caption: "Cape Sable Seaside Sparrow Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Cape Sable Seaside Sparrow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Behren's Silverspot Butterfly Camping Mug - Main.jpg",
+    caption: "Behren's Silverspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Behren's Silverspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cheat Mountain Salamander Print - 8x10.jpg",
+    caption: "Cheat Mountain Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Cheat Mountain Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cheetah Print - 8x10.jpg",
+    caption: "Cheetah Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Cheetah Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black Pinesnake Camping Mug - Main.jpg",
+    caption: "Black Pinesnake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Black Pinesnake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Chinese Alligator Print - 8x10.jpg",
+    caption: "Chinese Alligator Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Chinese Alligator Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Choctaw Bean Print - 8x10.jpg",
+    caption: "Choctaw Bean Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Choctaw Bean Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black Rhinoceros Camping Mug - Main.jpg",
+    caption: "Black Rhinoceros Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Black Rhinoceros Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Clubshell Print - 8x10.jpg",
+    caption: "Clubshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Clubshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Coachella Valley Fringe-Toed Lizard Print - 8x10.jpg",
+    caption: "Coachella Valley Fringe-Toed Lizard Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Coachella Valley Fringe-Toed Lizard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black-Capped Petrel Camping Mug - Main.jpg",
+    caption: "Black-Capped Petrel Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Black-Capped Petrel Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Columbian White-Tailed Deer Print - 8x10.jpg",
+    caption: "Columbian White-Tailed Deer Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Columbian White-Tailed Deer Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Common Caiman Print - 8x10.jpg",
+    caption: "Common Caiman Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Common Caiman Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Black-Footed Ferret Camping Mug - Main.jpg",
+    caption: "Black-Footed Ferret Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Black-Footed Ferret Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Copperbelly Water Snake Print - 8x10.jpg",
+    caption: "Copperbelly Water Snake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Copperbelly Water Snake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Costa Rican Puma Print - 8x10.jpg",
+    caption: "Costa Rican Puma Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Costa Rican Puma Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Blue Whale Camping Mug - Main.jpg",
+    caption: "Blue Whale Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Blue Whale Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cotton-Top Marmoset Print - 8x10.jpg",
+    caption: "Cotton-Top Marmoset Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Cotton-Top Marmoset Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Crested Caracara Print - 8x10.jpg",
+    caption: "Crested Caracara Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Crested Caracara Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Blunt-Nosed Leopard Lizard Camping Mug - Main.jpg",
+    caption: "Blunt-Nosed Leopard Lizard Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Blunt-Nosed Leopard Lizard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cumberland Bean Print - 8x10.jpg",
+    caption: "Cumberland Bean Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Cumberland Bean Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cumberland Darter Print - 8x10.jpg",
+    caption: "Cumberland Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Cumberland Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bog Turtle Camping Mug - Main.jpg",
+    caption: "Bog Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Bog Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dakota Skipper Print - 8x10.jpg",
+    caption: "Dakota Skipper Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Dakota Skipper Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Delhi Sands Flower-Loving Fly Print - 8x10.jpg",
+    caption: "Delhi Sands Flower-Loving Fly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Delhi Sands Flower-Loving Fly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bolson Tortoise Camping Mug - Main.jpg",
+    caption: "Bolson Tortoise Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Bolson Tortoise Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Desert Tortoise Print - 8x10.jpg",
+    caption: "Desert Tortoise Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Desert Tortoise Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Devils Hole Pupfish Print - 8x10.jpg",
+    caption: "Devils Hole Pupfish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Devils Hole Pupfish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Brindled Nail-Tailed Wallaby Camping Mug - Main.jpg",
+    caption: "Brindled Nail-Tailed Wallaby Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Brindled Nail-Tailed Wallaby Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dixie Valley Toad Print - 8x10.jpg",
+    caption: "Dixie Valley Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Dixie Valley Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Drill Print - 8x10.jpg",
+    caption: "Drill Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Drill Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Broad-Snouted Caiman Camping Mug - Main.jpg",
+    caption: "Broad-Snouted Caiman Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Broad-Snouted Caiman Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dwarf Wedgemussel Print - 8x10.jpg",
+    caption: "Dwarf Wedgemussel Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Dwarf Wedgemussel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Eastern Hellbender Print - 8x10.jpg",
+    caption: "Eastern Hellbender Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Eastern Hellbender Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Brown Bear Camping Mug - Main.jpg",
+    caption: "Brown Bear Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Brown Bear Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Eastern Massasauga Rattlesnake Print - 8x10.jpg",
+    caption: "Eastern Massasauga Rattlesnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Eastern Massasauga Rattlesnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/El Segundo Blue Butterfly Print - 8x10.jpg",
+    caption: "El Segundo Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/El Segundo Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bull Trout Camping Mug - Main.jpg",
+    caption: "Bull Trout Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Bull Trout Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Elfin-Woods Warbler Print - 8x10.jpg",
+    caption: "Elfin-Woods Warbler Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Elfin-Woods Warbler Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Elkhorn Coral Print - 8x10.jpg",
+    caption: "Elkhorn Coral Print - 8x10",
+    price: 4,
+    category: "Corals",
+    page: "/items/educational/Prints/Elkhorn Coral Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Bushwren Camping Mug - Main.jpg",
+    caption: "Bushwren Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Bushwren Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Eskimo Curlew Print - 8x10.jpg",
+    caption: "Eskimo Curlew Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Eskimo Curlew Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Fanshell Print - 8x10.jpg",
+    caption: "Fanshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Fanshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Condor Camping Mug - Main.jpg",
+    caption: "California Condor Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/California Condor Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Fea's Muntjac Print - 8x10.jpg",
+    caption: "Fea's Muntjac Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Fea's Muntjac Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Fender's Blue Butterfly Print - 8x10.jpg",
+    caption: "Fender's Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Fender's Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Least Tern Camping Mug - Main.jpg",
+    caption: "California Least Tern Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/California Least Tern Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Flattened Musk Turtle Print - 8x10.jpg",
+    caption: "Flattened Musk Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Flattened Musk Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Bonneted Bat Print - 8x10.jpg",
+    caption: "Florida Bonneted Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Florida Bonneted Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Ridgway's Rail Camping Mug - Main.jpg",
+    caption: "California Ridgway's Rail Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/California Ridgway's Rail Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Florida Grasshopper Sparrow Print - 8x10.jpg",
+    caption: "Florida Grasshopper Sparrow Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Florida Grasshopper Sparrow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Panther Print - 8x10.jpg",
+    caption: "Florida Panther Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Florida Panther Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/California Tiger Salamander Camping Mug - Main.jpg",
+    caption: "California Tiger Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/California Tiger Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Florida Scrub-Jay Print - 8x10.jpg",
+    caption: "Florida Scrub-Jay Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Florida Scrub-Jay Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Flying Earwig Hawaiian Damselfly Print - 8x10.jpg",
+    caption: "Flying Earwig Hawaiian Damselfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Flying Earwig Hawaiian Damselfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Callippe Silverspot Butterfly Camping Mug - Main.jpg",
+    caption: "Callippe Silverspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Callippe Silverspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Fountain Darter Print - 8x10.jpg",
+    caption: "Fountain Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Fountain Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Frosted Flatwoods Salamander Print - 8x10.jpg",
+    caption: "Frosted Flatwoods Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Frosted Flatwoods Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Campbell Island Flightless Teal Camping Mug - Main.jpg",
+    caption: "Campbell Island Flightless Teal Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Campbell Island Flightless Teal Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gelada Baboon Print - 8x10.jpg",
+    caption: "Gelada Baboon Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Gelada Baboon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Giant Garter Snake Print - 8x10.jpg",
+    caption: "Giant Garter Snake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Giant Garter Snake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Canada Lynx Camping Mug - Main.jpg",
+    caption: "Canada Lynx Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Canada Lynx Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Giant Manta Ray Print - 8x10.jpg",
+    caption: "Giant Manta Ray Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Giant Manta Ray Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Giant Panda Print - 8x10.jpg",
+    caption: "Giant Panda Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Giant Panda Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Canarian Black Oystercatcher Camping Mug - Main.jpg",
+    caption: "Canarian Black Oystercatcher Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Canarian Black Oystercatcher Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Golden Langur Print - 8x10.jpg",
+    caption: "Golden Langur Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Golden Langur Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Golden-Cheeked Warbler Print - 8x10.jpg",
+    caption: "Golden-Cheeked Warbler Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Golden-Cheeked Warbler Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Candy Darter Camping Mug - Main.jpg",
+    caption: "Candy Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Candy Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gorilla Print - 8x10.jpg",
+    caption: "Gorilla Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Gorilla Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Gray Wolf Print - 8x10.jpg",
+    caption: "Gray Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Gray Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cape Sable Seaside Sparrow Camping Mug - Main.jpg",
+    caption: "Cape Sable Seaside Sparrow Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Cape Sable Seaside Sparrow Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Great Indian Rhinoceros Print - 8x10.jpg",
+    caption: "Great Indian Rhinoceros Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Great Indian Rhinoceros Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Green Sea Turtle Print - 8x10.jpg",
+    caption: "Green Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Green Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Central American River Turtle Camping Mug - Main.jpg",
+    caption: "Central American River Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Central American River Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cheat Mountain Salamander Camping Mug - Main.jpg",
+    caption: "Cheat Mountain Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Cheat Mountain Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Grizzly Bear Print - 8x10.jpg",
+    caption: "Grizzly Bear Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Grizzly Bear Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Grotto Sculpin Print - 8x10.jpg",
+    caption: "Grotto Sculpin Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Grotto Sculpin Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cheetah Camping Mug - Main.jpg",
+    caption: "Cheetah Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Cheetah Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guadalupe Fur Seal Print - 8x10.jpg",
+    caption: "Guadalupe Fur Seal Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Guadalupe Fur Seal Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Guajón Print - 8x10.jpg",
+    caption: "Guajón Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Guajón Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Chinese Alligator Camping Mug - Main.jpg",
+    caption: "Chinese Alligator Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Chinese Alligator Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gulf Sturgeon Print - 8x10.jpg",
+    caption: "Gulf Sturgeon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Gulf Sturgeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Haitian Solenodon Print - 8x10.jpg",
+    caption: "Haitian Solenodon Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Haitian Solenodon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Choctaw Bean Camping Mug - Main.jpg",
+    caption: "Choctaw Bean Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Choctaw Bean Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Duck Print - 8x10.jpg",
+    caption: "Hawaiian Duck Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Hawaiian Duck Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Hoary Bat Print - 8x10.jpg",
+    caption: "Hawaiian Hoary Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Hawaiian Hoary Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Chucky Madtom Camping Mug - Main.jpg",
+    caption: "Chucky Madtom Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Chucky Madtom Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Clouded Leopard Camping Mug - Main.jpg",
+    caption: "Clouded Leopard Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Clouded Leopard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Clubshell Camping Mug - Main.jpg",
+    caption: "Clubshell Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Clubshell Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Petrel Print - 8x10.jpg",
+    caption: "Hawaiian Petrel Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Hawaiian Petrel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawksbill Sea Turtle Print - 8x10.jpg",
+    caption: "Hawksbill Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Hawksbill Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Coachella Valley Fringe-Toed Lizard Camping Mug - Main.jpg",
+    caption: "Coachella Valley Fringe-Toed Lizard Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Coachella Valley Fringe-Toed Lizard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Hector's Dolphin Print - 8x10.jpg",
+    caption: "Hector's Dolphin Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Hector's Dolphin Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hine's Emerald Dragonfly Print - 8x10.jpg",
+    caption: "Hine's Emerald Dragonfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Hine's Emerald Dragonfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Columbian White-Tailed Deer Camping Mug - Main.jpg",
+    caption: "Columbian White-Tailed Deer Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Columbian White-Tailed Deer Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Humpback Whale Print - 8x10.jpg",
+    caption: "Humpback Whale Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Humpback Whale Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ibiza Wall Lizard Print - 8x10.jpg",
+    caption: "Ibiza Wall Lizard Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Ibiza Wall Lizard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Common Caiman Camping Mug - Main.jpg",
+    caption: "Common Caiman Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Common Caiman Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Island Marble Butterfly Print - 8x10.jpg",
+    caption: "Island Marble Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Island Marble Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ivory-Billed Woodpecker Print - 8x10.jpg",
+    caption: "Ivory-Billed Woodpecker Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Ivory-Billed Woodpecker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Copperbelly Water Snake Camping Mug - Main.jpg",
+    caption: "Copperbelly Water Snake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Copperbelly Water Snake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jaguar Print - 8x10.jpg",
+    caption: "Jaguar Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Jaguar Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Karner Blue Butterfly Print - 8x10.jpg",
+    caption: "Karner Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Karner Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Costa Rican Puma Camping Mug - Main.jpg",
+    caption: "Costa Rican Puma Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Costa Rican Puma Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kauai Cave Wolf Spider Print - 8x10.jpg",
+    caption: "Kauai Cave Wolf Spider Print - 8x10",
+    price: 4,
+    category: "Arachnids",
+    page: "/items/educational/Prints/Kauai Cave Wolf Spider Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Kemp's Ridley Sea Turtle Print - 8x10.jpg",
+    caption: "Kemp's Ridley Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Kemp's Ridley Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cotton-Top Marmoset Camping Mug - Main.jpg",
+    caption: "Cotton-Top Marmoset Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Cotton-Top Marmoset Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Key Deer Print - 8x10.jpg",
+    caption: "Key Deer Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Key Deer Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Killer Whale Print - 8x10.jpg",
+    caption: "Killer Whale Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Killer Whale Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Crested Caracara Camping Mug - Main.jpg",
+    caption: "Crested Caracara Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Crested Caracara Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Koala Print - 8x10.jpg",
+    caption: "Koala Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Koala Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Laguna Mountains Skipper Print - 8x10.jpg",
+    caption: "Laguna Mountains Skipper Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Laguna Mountains Skipper Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cumberland Bean Camping Mug - Main.jpg",
+    caption: "Cumberland Bean Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Cumberland Bean Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lange's Metalmark Butterfly Print - 8x10.jpg",
+    caption: "Lange's Metalmark Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Lange's Metalmark Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Laysan Duck Print - 8x10.jpg",
+    caption: "Laysan Duck Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Laysan Duck Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Cumberland Darter Camping Mug - Main.jpg",
+    caption: "Cumberland Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Cumberland Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Laysan Finch Print - 8x10.jpg",
+    caption: "Laysan Finch Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Laysan Finch Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Least Bell's Vireo Print - 8x10.jpg",
+    caption: "Least Bell's Vireo Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Least Bell's Vireo Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Dakota Skipper Camping Mug - Main.jpg",
+    caption: "Dakota Skipper Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Dakota Skipper Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Leatherback Sea Turtle Print - 8x10.jpg",
+    caption: "Leatherback Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Leatherback Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Leopard Cat Print - 8x10.jpg",
+    caption: "Leopard Cat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Leopard Cat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Delhi Sands Flower-Loving Fly Camping Mug - Main.jpg",
+    caption: "Delhi Sands Flower-Loving Fly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Delhi Sands Flower-Loving Fly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Leopard Print - 8x10.jpg",
+    caption: "Leopard Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Leopard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Light-Footed Ridgway's Rail Print - 8x10.jpg",
+    caption: "Light-Footed Ridgway's Rail Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Light-Footed Ridgway's Rail Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Desert Tortoise Camping Mug - Main.jpg",
+    caption: "Desert Tortoise Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Desert Tortoise Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lion-Tailed Macaque Print - 8x10.jpg",
+    caption: "Lion-Tailed Macaque Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lion-Tailed Macaque Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Llanero Coqui Print - 8x10.jpg",
+    caption: "Llanero Coqui Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Llanero Coqui Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Devils Hole Pupfish Camping Mug - Main.jpg",
+    caption: "Devils Hole Pupfish Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Devils Hole Pupfish Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Loggerhead Sea Turtle Print - 8x10.jpg",
+    caption: "Loggerhead Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Loggerhead Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lost River Sucker Print - 8x10.jpg",
+    caption: "Lost River Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Lost River Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Devils River Minnow Camping Mug - Main.jpg",
+    caption: "Devils River Minnow Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Devils River Minnow Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Diamond Darter Camping Mug - Main.jpg",
+    caption: "Diamond Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Diamond Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dixie Valley Toad Camping Mug - Main.jpg",
+    caption: "Dixie Valley Toad Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Dixie Valley Toad Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Louisiana Pinesnake Print - 8x10.jpg",
+    caption: "Louisiana Pinesnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Louisiana Pinesnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lower Keys Rabbit Print - 8x10.jpg",
+    caption: "Lower Keys Rabbit Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lower Keys Rabbit Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Drill Camping Mug - Main.jpg",
+    caption: "Drill Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Drill Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Madagascar Pochard Print - 8x10.jpg",
+    caption: "Madagascar Pochard Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Madagascar Pochard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Madagascar Radiated Tortoise Print - 8x10.jpg",
+    caption: "Madagascar Radiated Tortoise Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Madagascar Radiated Tortoise Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Dwarf Wedgemussel Camping Mug - Main.jpg",
+    caption: "Dwarf Wedgemussel Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Dwarf Wedgemussel Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Maned Wolf Print - 8x10.jpg",
+    caption: "Maned Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Maned Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Marbled Cat Print - 8x10.jpg",
+    caption: "Marbled Cat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Marbled Cat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Eastern Hellbender Camping Mug - Main.jpg",
+    caption: "Eastern Hellbender Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Eastern Hellbender Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Marbled Murrelet Print - 8x10.jpg",
+    caption: "Marbled Murrelet Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Marbled Murrelet Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mariana Swiftlet Print - 8x10.jpg",
+    caption: "Mariana Swiftlet Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mariana Swiftlet Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Eastern Massasauga Rattlesnake Camping Mug - Main.jpg",
+    caption: "Eastern Massasauga Rattlesnake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Eastern Massasauga Rattlesnake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mediterranean Monk Seal Print - 8x10.jpg",
+    caption: "Mediterranean Monk Seal Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mediterranean Monk Seal Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mexican Wolf Print - 8x10.jpg",
+    caption: "Mexican Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mexican Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/El Segundo Blue Butterfly Camping Mug - Main.jpg",
+    caption: "El Segundo Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/El Segundo Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Miami Blue Butterfly Print - 8x10.jpg",
+    caption: "Miami Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Miami Tiger Beetle Print - 8x10.jpg",
+    caption: "Miami Tiger Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Tiger Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Elfin-Woods Warbler Camping Mug - Main.jpg",
+    caption: "Elfin-Woods Warbler Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Elfin-Woods Warbler Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mission Blue Butterfly Print - 8x10.jpg",
+    caption: "Mission Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Mission Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mississippi Sandhill Crane Print - 8x10.jpg",
+    caption: "Mississippi Sandhill Crane Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mississippi Sandhill Crane Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Elkhorn Coral Camping Mug - Main.jpg",
+    caption: "Elkhorn Coral Camping Mug",
+    price: 20,
+    category: "Corals",
+    page: "/items/educational/Camping Mugs/Elkhorn Coral Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mona Ground Iguana Print - 8x10.jpg",
+    caption: "Mona Ground Iguana Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Mona Ground Iguana Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mountain Tapir Print - 8x10.jpg",
+    caption: "Mountain Tapir Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mountain Tapir Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Eskimo Curlew Camping Mug - Main.jpg",
+    caption: "Eskimo Curlew Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Eskimo Curlew Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Myrtle's Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Myrtle's Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Myrtle's Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Neosho Madtom Print - 8x10.jpg",
+    caption: "Neosho Madtom Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Neosho Madtom Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Everglade Snail Kite Camping Mug - Main.jpg",
+    caption: "Everglade Snail Kite Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Everglade Snail Kite Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Eyrean Grasswren Camping Mug - Main.jpg",
+    caption: "Eyrean Grasswren Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Eyrean Grasswren Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Fanshell Camping Mug - Main.jpg",
+    caption: "Fanshell Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Fanshell Camping Mug.html"
+  },
+  {
+    src: "/images/educational/New Holland Mouse Print - 8x10.jpg",
+    caption: "New Holland Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Holland Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/New Mexico Meadow Jumping Mouse Print - 8x10.jpg",
+    caption: "New Mexico Meadow Jumping Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Mexico Meadow Jumping Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Fea's Muntjac Camping Mug - Main.jpg",
+    caption: "Fea's Muntjac Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Fea's Muntjac Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nihoa Millerbird Print - 8x10.jpg",
+    caption: "Nihoa Millerbird Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Nihoa Millerbird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Noisy Scrub-Bird Print - 8x10.jpg",
+    caption: "Noisy Scrub-Bird Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Noisy Scrub-Bird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Fender's Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Fender's Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Fender's Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northeastern Beach Tiger Beetle Print - 8x10.jpg",
+    caption: "Northeastern Beach Tiger Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Northeastern Beach Tiger Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Aplomado Falcon Print - 8x10.jpg",
+    caption: "Northern Aplomado Falcon Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Aplomado Falcon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Flattened Musk Turtle Camping Mug - Main.jpg",
+    caption: "Flattened Musk Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Flattened Musk Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Idaho Ground Squirrel Print - 8x10.jpg",
+    caption: "Northern Idaho Ground Squirrel Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Idaho Ground Squirrel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Long-Eared Bat Print - 8x10.jpg",
+    caption: "Northern Long-Eared Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Long-Eared Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Bonneted Bat Camping Mug - Main.jpg",
+    caption: "Florida Bonneted Bat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Florida Bonneted Bat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Mexican Gartersnake Print - 8x10.jpg",
+    caption: "Northern Mexican Gartersnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Northern Mexican Gartersnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Riffleshell Print - 8x10.jpg",
+    caption: "Northern Riffleshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Northern Riffleshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Grasshopper Sparrow Camping Mug - Main.jpg",
+    caption: "Florida Grasshopper Sparrow Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Florida Grasshopper Sparrow Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Spotted Owl Print - 8x10.jpg",
+    caption: "Northern Spotted Owl Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Spotted Owl Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Oʻahu ʻAkepa Print - 8x10.jpg",
+    caption: "Oʻahu ʻAkepa Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oʻahu ʻAkepa Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Panther Camping Mug - Main.jpg",
+    caption: "Florida Panther Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Florida Panther Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oahu Elepaio Print - 8x10.jpg",
+    caption: "Oahu Elepaio Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oahu Elepaio Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Orangutan Print - 8x10.jpg",
+    caption: "Orangutan Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Orangutan Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Florida Scrub-Jay Camping Mug - Main.jpg",
+    caption: "Florida Scrub-Jay Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Florida Scrub-Jay Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oregon Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Oregon Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Oregon Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Owens Pupfish Print - 8x10.jpg",
+    caption: "Owens Pupfish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Owens Pupfish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Flying Earwig Hawaiian Damselfly Camping Mug - Main.jpg",
+    caption: "Flying Earwig Hawaiian Damselfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Flying Earwig Hawaiian Damselfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ozark Cavefish Print - 8x10.jpg",
+    caption: "Ozark Cavefish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Ozark Cavefish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ozark Hellbender Print - 8x10.jpg",
+    caption: "Ozark Hellbender Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Ozark Hellbender Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Fountain Darter Camping Mug - Main.jpg",
+    caption: "Fountain Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Fountain Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pacific Hawaiian Damselfly Print - 8x10.jpg",
+    caption: "Pacific Hawaiian Damselfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Pacific Hawaiian Damselfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Palos Verdes Blue Butterfly Print - 8x10.jpg",
+    caption: "Palos Verdes Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Palos Verdes Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Frosted Flatwoods Salamander Camping Mug - Main.jpg",
+    caption: "Frosted Flatwoods Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Frosted Flatwoods Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pawnee Montane Skipper Print - 8x10.jpg",
+    caption: "Pawnee Montane Skipper Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Pawnee Montane Skipper Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pearl Darter Print - 8x10.jpg",
+    caption: "Pearl Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Pearl Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Gelada Baboon Camping Mug - Main.jpg",
+    caption: "Gelada Baboon Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Gelada Baboon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peninsular Bighorn Sheep Print - 8x10.jpg",
+    caption: "Peninsular Bighorn Sheep Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Bighorn Sheep Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Peninsular Pronghorn Print - 8x10.jpg",
+    caption: "Peninsular Pronghorn Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Pronghorn Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Giant Garter Snake Camping Mug - Main.jpg",
+    caption: "Giant Garter Snake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Giant Garter Snake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peppered Chub Print - 8x10.jpg",
+    caption: "Peppered Chub Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Peppered Chub Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Perdido Key Beach Mouse Print - 8x10.jpg",
+    caption: "Perdido Key Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Perdido Key Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Giant Manta Ray Camping Mug - Main.jpg",
+    caption: "Giant Manta Ray Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Giant Manta Ray Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Philippine Eagle Print - 8x10.jpg",
+    caption: "Philippine Eagle Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Philippine Eagle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Philippine Tarsier Print - 8x10.jpg",
+    caption: "Philippine Tarsier Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Philippine Tarsier Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Giant Otter Camping Mug - Main.jpg",
+    caption: "Giant Otter Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Giant Otter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Giant Panda Camping Mug - Main.jpg",
+    caption: "Giant Panda Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Giant Panda Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pink Mucket Print - 8x10.jpg",
+    caption: "Pink Mucket Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Pink Mucket Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Piping Plover Print - 8x10.jpg",
+    caption: "Piping Plover Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Piping Plover Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Golden Langur Camping Mug - Main.jpg",
+    caption: "Golden Langur Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Golden Langur Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Preble's Meadow Jumping Mouse Print - 8x10.jpg",
+    caption: "Preble's Meadow Jumping Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Preble's Meadow Jumping Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Przewalski's Horse Print - 8x10.jpg",
+    caption: "Przewalski's Horse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Przewalski's Horse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Golden-Cheeked Warbler Camping Mug - Main.jpg",
+    caption: "Golden-Cheeked Warbler Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Golden-Cheeked Warbler Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pudu Print - 8x10.jpg",
+    caption: "Pudu Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Pudu Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Crested Toad Print - 8x10.jpg",
+    caption: "Puerto Rican Crested Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Puerto Rican Crested Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Goldline Darter Camping Mug - Main.jpg",
+    caption: "Goldline Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Goldline Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gorilla Camping Mug - Main.jpg",
+    caption: "Gorilla Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Gorilla Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Harlequin Butterfly Print - 8x10.jpg",
+    caption: "Puerto Rican Harlequin Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Puerto Rican Harlequin Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Nightjar Print - 8x10.jpg",
+    caption: "Puerto Rican Nightjar Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Nightjar Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Gray Wolf Camping Mug - Main.jpg",
+    caption: "Gray Wolf Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Gray Wolf Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Parrot Print - 8x10.jpg",
+    caption: "Puerto Rican Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Sharp-Shinned Hawk Print - 8x10.jpg",
+    caption: "Puerto Rican Sharp-Shinned Hawk Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Sharp-Shinned Hawk Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Great Indian Rhinoceros Camping Mug - Main.jpg",
+    caption: "Great Indian Rhinoceros Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Great Indian Rhinoceros Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Quokka Print - 8x10.jpg",
+    caption: "Quokka Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Quokka Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Razorback Sucker Print - 8x10.jpg",
+    caption: "Razorback Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Razorback Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Green Sea Turtle Camping Mug - Main.jpg",
+    caption: "Green Sea Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Green Sea Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Red Wolf Print - 8x10.jpg",
+    caption: "Red Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Red Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Red-Browed Parrot Print - 8x10.jpg",
+    caption: "Red-Browed Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Red-Browed Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Green Sturgeon Camping Mug - Main.jpg",
+    caption: "Green Sturgeon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Green Sturgeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Grizzly Bear Camping Mug - Main.jpg",
+    caption: "Grizzly Bear Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Grizzly Bear Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rio Grande Silvery Minnow Print - 8x10.jpg",
+    caption: "Rio Grande Silvery Minnow Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Rio Grande Silvery Minnow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Riparian Brush Rabbit Print - 8x10.jpg",
+    caption: "Riparian Brush Rabbit Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Brush Rabbit Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Grotto Sculpin Camping Mug - Main.jpg",
+    caption: "Grotto Sculpin Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Grotto Sculpin Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Riparian Woodrat Print - 8x10.jpg",
+    caption: "Riparian Woodrat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Woodrat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Roseate Tern Print - 8x10.jpg",
+    caption: "Roseate Tern Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Roseate Tern Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Guadalupe Fur Seal Camping Mug - Main.jpg",
+    caption: "Guadalupe Fur Seal Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Guadalupe Fur Seal Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Round Ebonyshell Print - 8x10.jpg",
+    caption: "Round Ebonyshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Round Ebonyshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Rufa Red Knot Print - 8x10.jpg",
+    caption: "Rufa Red Knot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Rufa Red Knot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Guajón Camping Mug - Main.jpg",
+    caption: "Guajón Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Guajón Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rusty Patched Bee Bumble Print - 8x10.jpg",
+    caption: "Rusty Patched Bee Bumble Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Rusty Patched Bee Bumble Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Saltwater Crocodile Print - 8x10.jpg",
+    caption: "Saltwater Crocodile Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Saltwater Crocodile Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Gulf Sturgeon Camping Mug - Main.jpg",
+    caption: "Gulf Sturgeon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Gulf Sturgeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/San Joaquin Kit Fox Print - 8x10.jpg",
+    caption: "San Joaquin Kit Fox Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/San Joaquin Kit Fox Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/San Marcos Salamander Print - 8x10.jpg",
+    caption: "San Marcos Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/San Marcos Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Haitian Solenodon Camping Mug - Main.jpg",
+    caption: "Haitian Solenodon Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Haitian Solenodon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sand Skink Print - 8x10.jpg",
+    caption: "Sand Skink Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Sand Skink Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Santa Ana Sucker Print - 8x10.jpg",
+    caption: "Santa Ana Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Santa Ana Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Duck Camping Mug - Main.jpg",
+    caption: "Hawaiian Duck Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Hawaiian Duck Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Santa Cruz Long-Toed Salamander Print - 8x10.jpg",
+    caption: "Santa Cruz Long-Toed Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Santa Cruz Long-Toed Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Scimitar-Horned Oryx Print - 8x10.jpg",
+    caption: "Scimitar-Horned Oryx Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Scimitar-Horned Oryx Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Hoary Bat Camping Mug - Main.jpg",
+    caption: "Hawaiian Hoary Bat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Hawaiian Hoary Bat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Serow Print - 8x10.jpg",
+    caption: "Serow Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Serow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Seychelles Lesser Vasa Parrot Print - 8x10.jpg",
+    caption: "Seychelles Lesser Vasa Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Seychelles Lesser Vasa Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawaiian Petrel Bat Camping Mug - Main.jpg",
+    caption: "Hawaiian Petrel Bat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Hawaiian Petrel Bat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Shenandoah Salamander Print - 8x10.jpg",
+    caption: "Shenandoah Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Shenandoah Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Shortnose Sturgeon Print - 8x10.jpg",
+    caption: "Shortnose Sturgeon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Shortnose Sturgeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hawksbill Sea Turtle Camping Mug - Main.jpg",
+    caption: "Hawksbill Sea Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Hawksbill Sea Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Shortridge's Mouse Print - 8x10.jpg",
+    caption: "Shortridge's Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Shortridge's Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Siamang Print - 8x10.jpg",
+    caption: "Siamang Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Siamang Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hector's Dolphin Camping Mug - Main.jpg",
+    caption: "Hector's Dolphin Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Hector's Dolphin Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sierra Nevada Bighorn Sheep Print - 8x10.jpg",
+    caption: "Sierra Nevada Bighorn Sheep Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sierra Nevada Bighorn Sheep Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sifakas Print - 8x10.jpg",
+    caption: "Sifakas Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sifakas Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Hine's Emerald Dragonfly Camping Mug - Main.jpg",
+    caption: "Hine's Emerald Dragonfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Hine's Emerald Dragonfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Smith's Blue Butterfly Print - 8x10.jpg",
+    caption: "Smith's Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Smith's Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Snow Leopard Print - 8x10.jpg",
+    caption: "Snow Leopard Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Snow Leopard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Humpback Whale Camping Mug - Main.jpg",
+    caption: "Humpback Whale Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Humpback Whale Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Snuffbox Print - 8x10.jpg",
+    caption: "Snuffbox Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Snuffbox Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Solitary Tinamou Print - 8x10.jpg",
+    caption: "Solitary Tinamou Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Solitary Tinamou Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ibiza Wall Lizard Camping Mug - Main.jpg",
+    caption: "Ibiza Wall Lizard Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Ibiza Wall Lizard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sonoran Pronghorn Print - 8x10.jpg",
+    caption: "Sonoran Pronghorn Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sonoran Pronghorn Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/South American Tapir Print - 8x10.jpg",
+    caption: "South American Tapir Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/South American Tapir Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Island Marble Butterfly Camping Mug - Main.jpg",
+    caption: "Island Marble Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Island Marble Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Southeastern Beach Mouse Print - 8x10.jpg",
+    caption: "Southeastern Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southeastern Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Southern Sea Otter Print - 8x10.jpg",
+    caption: "Southern Sea Otter Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southern Sea Otter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ivory-Billed Woodpecker Camping Mug - Main.jpg",
+    caption: "Ivory-Billed Woodpecker Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Ivory-Billed Woodpecker Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Southwestern Willow Flycatcher Print - 8x10.jpg",
+    caption: "Southwestern Willow Flycatcher Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Southwestern Willow Flycatcher Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Spanish Imperial Eagle Print - 8x10.jpg",
+    caption: "Spanish Imperial Eagle Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spanish Imperial Eagle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Jaguar Camping Mug - Main.jpg",
+    caption: "Jaguar Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Jaguar Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Spectacled Eider Print - 8x10.jpg",
+    caption: "Spectacled Eider Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spectacled Eider Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sperm Whale Print - 8x10.jpg",
+    caption: "Sperm Whale Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sperm Whale Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Karner Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Karner Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Karner Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/St. Croix Ground Lizard Print - 8x10.jpg",
+    caption: "St. Croix Ground Lizard Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/St. Croix Ground Lizard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Staghorn Coral Print - 8x10.jpg",
+    caption: "Staghorn Coral Print - 8x10",
+    price: 4,
+    category: "Corals",
+    page: "/items/educational/Prints/Staghorn Coral Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Kauai Cave Wolf Spider Camping Mug - Main.jpg",
+    caption: "Kauai Cave Wolf Spider Camping Mug",
+    price: 20,
+    category: "Arachnids",
+    page: "/items/educational/Camping Mugs/Kauai Cave Wolf Spider Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Steller Sea Lion Print - 8x10.jpg",
+    caption: "Steller Sea Lion Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Steller Sea Lion Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Steller's Eider Print - 8x10.jpg",
+    caption: "Steller's Eider Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Steller's Eider Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Kemp's Ridley Sea Turtle Camping Mug - Main.jpg",
+    caption: "Kemp's Ridley Sea Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Kemp's Ridley Sea Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Stick-Nest Rat Print - 8x10.jpg",
+    caption: "Stick-Nest Rat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Stick-Nest Rat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Streaked Horned Lark Print - 8x10.jpg",
+    caption: "Streaked Horned Lark Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Streaked Horned Lark Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Key Deer Camping Mug - Main.jpg",
+    caption: "Key Deer Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Key Deer Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Taylor's Checkerspot Butterfly Print - 8x10.jpg",
+    caption: "Taylor's Checkerspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Taylor's Checkerspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Tiger Print - 8x10.jpg",
+    caption: "Tiger Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Tiger Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Killer Whale Camping Mug - Main.jpg",
+    caption: "Killer Whale Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Killer Whale Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Toque Macaque Print - 8x10.jpg",
+    caption: "Toque Macaque Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Toque Macaque Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Unarmored Threespine Stickleback Print - 8x10.jpg",
+    caption: "Unarmored Threespine Stickleback Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Unarmored Threespine Stickleback Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Koala Camping Mug - Main.jpg",
+    caption: "Koala Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Koala Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Valley Elderberry Longhorn Beetle Print - 8x10.jpg",
+    caption: "Valley Elderberry Longhorn Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Valley Elderberry Longhorn Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Vicuna Print - 8x10.jpg",
+    caption: "Vicuna Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Vicuna Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Laguna Mountains Skipper Camping Mug - Main.jpg",
+    caption: "Laguna Mountains Skipper Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Laguna Mountains Skipper Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Virginia Big-Eared Bat Print - 8x10.jpg",
+    caption: "Virginia Big-Eared Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Virginia Big-Eared Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/West African Manatee Print - 8x10.jpg",
+    caption: "West African Manatee Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/West African Manatee Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lange's Metalmark Butterfly Camping Mug - Main.jpg",
+    caption: "Lange's Metalmark Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Lange's Metalmark Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/West Indian Manatee Print - 8x10.jpg",
+    caption: "West Indian Manatee Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/West Indian Manatee Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Western Mouse Print - 8x10.jpg",
+    caption: "Western Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Western Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Laurel Dace Camping Mug - Main.jpg",
+    caption: "Laurel Dace Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Laurel Dace Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Laysan Duck Camping Mug - Main.jpg",
+    caption: "Laysan Duck Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Laysan Duck Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Western Snowy Plover Print - 8x10.jpg",
+    caption: "Western Snowy Plover Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Western Snowy Plover Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/White Sturgeon Print - 8x10.jpg",
+    caption: "White Sturgeon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/White Sturgeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Laysan Finch Camping Mug - Main.jpg",
+    caption: "Laysan Finch Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Laysan Finch Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Whooping Crane Print - 8x10.jpg",
+    caption: "Whooping Crane Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Whooping Crane Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Wood Bison Print - 8x10.jpg",
+    caption: "Wood Bison Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Wood Bison Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Least Bell's Vireo Camping Mug - Main.jpg",
+    caption: "Least Bell's Vireo Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Least Bell's Vireo Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wood Stork Print - 8x10.jpg",
+    caption: "Wood Stork Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Wood Stork Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Wyoming Toad Print - 8x10.jpg",
+    caption: "Wyoming Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Wyoming Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Leatherback Sea Turtle Camping Mug - Main.jpg",
+    caption: "Leatherback Sea Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Leatherback Sea Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yacare Caiman Print - 8x10.jpg",
+    caption: "Yacare Caiman Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Yacare Caiman Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yellow-Billed Cuckoo Print - 8x10.jpg",
+    caption: "Yellow-Billed Cuckoo Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Billed Cuckoo Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Leopard Camping Mug - Main.jpg",
+    caption: "Leopard Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Leopard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Leopard Cat Camping Mug - Main.jpg",
+    caption: "Leopard Cat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Leopard Cat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yellowcheek Darter Print - 8x10.jpg",
+    caption: "Yellowcheek Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Yellowcheek Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yellow-Shouldered Blackbird Print - 8x10.jpg",
+    caption: "Yellow-Shouldered Blackbird Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Shouldered Blackbird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Leopard Darter Camping Mug - Main.jpg",
+    caption: "Leopard Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Leopard Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yosemite Toad Print - 8x10.jpg",
+    caption: "Yosemite Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Yosemite Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Leopard Print - 8x10.jpg",
+    caption: "Leopard Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Leopard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Light-Footed Ridgway's Rail Camping Mug - Main.jpg",
+    caption: "Light-Footed Ridgway's Rail Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Light-Footed Ridgway's Rail Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Light-Footed Ridgway's Rail Print - 5x7.jpg",
+    caption: "Light-Footed Ridgway's Rail Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Light-Footed Ridgway's Rail Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Light-Footed Ridgway's Rail Print - 8x10.jpg",
+    caption: "Light-Footed Ridgway's Rail Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Light-Footed Ridgway's Rail Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lion-Tailed Macaque Camping Mug - Main.jpg",
+    caption: "Lion-Tailed Macaque Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Lion-Tailed Macaque Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lion-Tailed Macaque Print - 5x7.jpg",
+    caption: "Lion-Tailed Macaque Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lion-Tailed Macaque Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Lion-Tailed Macaque Print - 8x10.jpg",
+    caption: "Lion-Tailed Macaque Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lion-Tailed Macaque Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Llanero Coqui Camping Mug - Main.jpg",
+    caption: "Llanero Coqui Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Llanero Coqui Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Llanero Coqui Print - 5x7.jpg",
+    caption: "Llanero Coqui Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Llanero Coqui Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Llanero Coqui Print - 8x10.jpg",
+    caption: "Llanero Coqui Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Llanero Coqui Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Loggerhead Sea Turtle Camping Mug - Main.jpg",
+    caption: "Loggerhead Sea Turtle Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Loggerhead Sea Turtle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Loggerhead Sea Turtle Print - 5x7.jpg",
+    caption: "Loggerhead Sea Turtle Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Loggerhead Sea Turtle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Loggerhead Sea Turtle Print - 8x10.jpg",
+    caption: "Loggerhead Sea Turtle Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Loggerhead Sea Turtle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lost River Sucker Camping Mug - Main.jpg",
+    caption: "Lost River Sucker Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Lost River Sucker Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lost River Sucker Print - 5x7.jpg",
+    caption: "Lost River Sucker Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Lost River Sucker Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Lost River Sucker Print - 8x10.jpg",
+    caption: "Lost River Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Lost River Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Louisiana Pinesnake Camping Mug - Main.jpg",
+    caption: "Louisiana Pinesnake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Louisiana Pinesnake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Louisiana Pinesnake Print - 5x7.jpg",
+    caption: "Louisiana Pinesnake Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Louisiana Pinesnake Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Louisiana Pinesnake Print - 8x10.jpg",
+    caption: "Louisiana Pinesnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Louisiana Pinesnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Lower Keys Rabbit Camping Mug - Main.jpg",
+    caption: "Lower Keys Rabbit Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Lower Keys Rabbit Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lower Keys Rabbit Print - 5x7.jpg",
+    caption: "Lower Keys Rabbit Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lower Keys Rabbit Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Lower Keys Rabbit Print - 8x10.jpg",
+    caption: "Lower Keys Rabbit Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Lower Keys Rabbit Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Madagascar Pochard Camping Mug - Main.jpg",
+    caption: "Madagascar Pochard Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Madagascar Pochard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Madagascar Pochard Print - 5x7.jpg",
+    caption: "Madagascar Pochard Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Madagascar Pochard Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Madagascar Pochard Print - 8x10.jpg",
+    caption: "Madagascar Pochard Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Madagascar Pochard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Madagascar Radiated Tortoise Camping Mug - Main.jpg",
+    caption: "Madagascar Radiated Tortoise Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Madagascar Radiated Tortoise Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Madagascar Radiated Tortoise Print - 5x7.jpg",
+    caption: "Madagascar Radiated Tortoise Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Madagascar Radiated Tortoise Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Madagascar Radiated Tortoise Print - 8x10.jpg",
+    caption: "Madagascar Radiated Tortoise Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Madagascar Radiated Tortoise Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Maned Wolf Camping Mug - Main.jpg",
+    caption: "Maned Wolf Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Maned Wolf Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Maned Wolf Print - 5x7.jpg",
+    caption: "Maned Wolf Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Maned Wolf Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Maned Wolf Print - 8x10.jpg",
+    caption: "Maned Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Maned Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Marbled Cat Camping Mug - Main.jpg",
+    caption: "Marbled Cat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Marbled Cat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Marbled Cat Print - 5x7.jpg",
+    caption: "Marbled Cat Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Marbled Cat Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Marbled Cat Print - 8x10.jpg",
+    caption: "Marbled Cat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Marbled Cat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Marbled Murrelet Camping Mug - Main.jpg",
+    caption: "Marbled Murrelet Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Marbled Murrelet Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Marbled Murrelet Print - 5x7.jpg",
+    caption: "Marbled Murrelet Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Marbled Murrelet Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Marbled Murrelet Print - 8x10.jpg",
+    caption: "Marbled Murrelet Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Marbled Murrelet Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mariana Swiftlet Camping Mug - Main.jpg",
+    caption: "Mariana Swiftlet Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Mariana Swiftlet Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mariana Swiftlet Print - 5x7.jpg",
+    caption: "Mariana Swiftlet Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mariana Swiftlet Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mariana Swiftlet Print - 8x10.jpg",
+    caption: "Mariana Swiftlet Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mariana Swiftlet Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mediterranean Monk Seal Camping Mug - Main.jpg",
+    caption: "Mediterranean Monk Seal Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Mediterranean Monk Seal Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mediterranean Monk Seal Print - 5x7.jpg",
+    caption: "Mediterranean Monk Seal Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mediterranean Monk Seal Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mediterranean Monk Seal Print - 8x10.jpg",
+    caption: "Mediterranean Monk Seal Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mediterranean Monk Seal Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mexican Wolf Camping Mug - Main.jpg",
+    caption: "Mexican Wolf Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Mexican Wolf Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mexican Wolf Print - 5x7.jpg",
+    caption: "Mexican Wolf Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mexican Wolf Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mexican Wolf Print - 8x10.jpg",
+    caption: "Mexican Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mexican Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Miami Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Miami Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Miami Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Miami Blue Butterfly Print - 5x7.jpg",
+    caption: "Miami Blue Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Blue Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Miami Blue Butterfly Print - 8x10.jpg",
+    caption: "Miami Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Miami Tiger Beetle Camping Mug - Main.jpg",
+    caption: "Miami Tiger Beetle Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Miami Tiger Beetle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Miami Tiger Beetle Print - 5x7.jpg",
+    caption: "Miami Tiger Beetle Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Tiger Beetle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Miami Tiger Beetle Print - 8x10.jpg",
+    caption: "Miami Tiger Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Miami Tiger Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mission Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Mission Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Mission Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mission Blue Butterfly Print - 5x7.jpg",
+    caption: "Mission Blue Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Mission Blue Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mission Blue Butterfly Print - 8x10.jpg",
+    caption: "Mission Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Mission Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mississippi Sandhill Crane Camping Mug - Main.jpg",
+    caption: "Mississippi Sandhill Crane Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Mississippi Sandhill Crane Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mississippi Sandhill Crane Print - 5x7.jpg",
+    caption: "Mississippi Sandhill Crane Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mississippi Sandhill Crane Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mississippi Sandhill Crane Print - 8x10.jpg",
+    caption: "Mississippi Sandhill Crane Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Mississippi Sandhill Crane Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Moapa Dace Camping Mug - Main.jpg",
+    caption: "Moapa Dace Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Moapa Dace Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mona Ground Iguana Camping Mug - Main.jpg",
+    caption: "Mona Ground Iguana Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Mona Ground Iguana Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mona Ground Iguana Print - 5x7.jpg",
+    caption: "Mona Ground Iguana Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Mona Ground Iguana Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mona Ground Iguana Print - 8x10.jpg",
+    caption: "Mona Ground Iguana Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Mona Ground Iguana Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Mountain Tapir Camping Mug - Main.jpg",
+    caption: "Mountain Tapir Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Mountain Tapir Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mountain Tapir Print - 5x7.jpg",
+    caption: "Mountain Tapir Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mountain Tapir Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Mountain Tapir Print - 8x10.jpg",
+    caption: "Mountain Tapir Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Mountain Tapir Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Myrtle's Silverspot Butterfly Camping Mug - Main.jpg",
+    caption: "Myrtle's Silverspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Myrtle's Silverspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Myrtle's Silverspot Butterfly Print - 5x7.jpg",
+    caption: "Myrtle's Silverspot Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Myrtle's Silverspot Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Myrtle's Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Myrtle's Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Myrtle's Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Neosho Madtom Camping Mug - Main.jpg",
+    caption: "Neosho Madtom Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Neosho Madtom Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Neosho Madtom Print - 5x7.jpg",
+    caption: "Neosho Madtom Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Neosho Madtom Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Neosho Madtom Print - 8x10.jpg",
+    caption: "Neosho Madtom Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Neosho Madtom Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/New Holland Mouse Camping Mug - Main.jpg",
+    caption: "New Holland Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/New Holland Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/New Holland Mouse Print - 5x7.jpg",
+    caption: "New Holland Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Holland Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/New Holland Mouse Print - 8x10.jpg",
+    caption: "New Holland Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Holland Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/New Mexico Meadow Jumping Mouse Camping Mug - Main.jpg",
+    caption: "New Mexico Meadow Jumping Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/New Mexico Meadow Jumping Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/New Mexico Meadow Jumping Mouse Print - 5x7.jpg",
+    caption: "New Mexico Meadow Jumping Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Mexico Meadow Jumping Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/New Mexico Meadow Jumping Mouse Print - 8x10.jpg",
+    caption: "New Mexico Meadow Jumping Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/New Mexico Meadow Jumping Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Nihoa Millerbird Camping Mug - Main.jpg",
+    caption: "Nihoa Millerbird Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Nihoa Millerbird Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nihoa Millerbird Print - 5x7.jpg",
+    caption: "Nihoa Millerbird Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Nihoa Millerbird Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Nihoa Millerbird Print - 8x10.jpg",
+    caption: "Nihoa Millerbird Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Nihoa Millerbird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Nile Crocodile Camping Mug - Main.jpg",
+    caption: "Nile Crocodile Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Nile Crocodile Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Noisy Scrub-Bird Camping Mug - Main.jpg",
+    caption: "Noisy Scrub-Bird Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Noisy Scrub-Bird Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Noisy Scrub-Bird Print - 5x7.jpg",
+    caption: "Noisy Scrub-Bird Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Noisy Scrub-Bird Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Noisy Scrub-Bird Print - 8x10.jpg",
+    caption: "Noisy Scrub-Bird Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Noisy Scrub-Bird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northeastern Beach Tiger Beetle Camping Mug - Main.jpg",
+    caption: "Northeastern Beach Tiger Beetle Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Northeastern Beach Tiger Beetle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northeastern Beach Tiger Beetle Print - 5x7.jpg",
+    caption: "Northeastern Beach Tiger Beetle Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Northeastern Beach Tiger Beetle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northeastern Beach Tiger Beetle Print - 8x10.jpg",
+    caption: "Northeastern Beach Tiger Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Northeastern Beach Tiger Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Aplomado Falcon Camping Mug - Main.jpg",
+    caption: "Northern Aplomado Falcon Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Northern Aplomado Falcon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Aplomado Falcon Print - 5x7.jpg",
+    caption: "Northern Aplomado Falcon Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Aplomado Falcon Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Aplomado Falcon Print - 8x10.jpg",
+    caption: "Northern Aplomado Falcon Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Aplomado Falcon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Idaho Ground Squirrel Camping Mug - Main.jpg",
+    caption: "Northern Idaho Ground Squirrel Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Northern Idaho Ground Squirrel Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Idaho Ground Squirrel Print - 5x7.jpg",
+    caption: "Northern Idaho Ground Squirrel Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Idaho Ground Squirrel Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Idaho Ground Squirrel Print - 8x10.jpg",
+    caption: "Northern Idaho Ground Squirrel Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Idaho Ground Squirrel Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Long-Eared Bat Camping Mug - Main.jpg",
+    caption: "Northern Long-Eared Bat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Northern Long-Eared Bat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Long-Eared Bat Print - 5x7.jpg",
+    caption: "Northern Long-Eared Bat Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Long-Eared Bat Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Long-Eared Bat Print - 8x10.jpg",
+    caption: "Northern Long-Eared Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Northern Long-Eared Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Mexican Gartersnake Camping Mug - Main.jpg",
+    caption: "Northern Mexican Gartersnake Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Northern Mexican Gartersnake Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Mexican Gartersnake Print - 5x7.jpg",
+    caption: "Northern Mexican Gartersnake Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Northern Mexican Gartersnake Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Mexican Gartersnake Print - 8x10.jpg",
+    caption: "Northern Mexican Gartersnake Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Northern Mexican Gartersnake Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Riffleshell Camping Mug - Main.jpg",
+    caption: "Northern Riffleshell Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Northern Riffleshell Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Riffleshell Print - 5x7.jpg",
+    caption: "Northern Riffleshell Print - 5x7",
+    price: 2,
+    category: "Clams",
+    page: "/items/educational/Prints/Northern Riffleshell Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Riffleshell Print - 8x10.jpg",
+    caption: "Northern Riffleshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Northern Riffleshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Northern Spotted Owl Camping Mug - Main.jpg",
+    caption: "Northern Spotted Owl Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Northern Spotted Owl Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Spotted Owl Print - 5x7.jpg",
+    caption: "Northern Spotted Owl Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Spotted Owl Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Northern Spotted Owl Print - 8x10.jpg",
+    caption: "Northern Spotted Owl Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Northern Spotted Owl Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Oʻahu ʻAkepa Camping Mug - Main.jpg",
+    caption: "Oʻahu ʻAkepa Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Oʻahu ʻAkepa Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oʻahu ʻAkepa Print - 5x7.jpg",
+    caption: "Oʻahu ʻAkepa Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oʻahu ʻAkepa Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Oʻahu ʻAkepa Print - 8x10.jpg",
+    caption: "Oʻahu ʻAkepa Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oʻahu ʻAkepa Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Oahu Elepaio Camping Mug - Main.jpg",
+    caption: "Oahu Elepaio Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Oahu Elepaio Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oahu Elepaio Print - 5x7.jpg",
+    caption: "Oahu Elepaio Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oahu Elepaio Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Oahu Elepaio Print - 8x10.jpg",
+    caption: "Oahu Elepaio Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Oahu Elepaio Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Orangutan Camping Mug - Main.jpg",
+    caption: "Orangutan Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Orangutan Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Orangutan Print - 5x7.jpg",
+    caption: "Orangutan Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Orangutan Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Orangutan Print - 8x10.jpg",
+    caption: "Orangutan Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Orangutan Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Oregon Silverspot Butterfly Camping Mug - Main.jpg",
+    caption: "Oregon Silverspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Oregon Silverspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oregon Silverspot Butterfly Print - 5x7.jpg",
+    caption: "Oregon Silverspot Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Oregon Silverspot Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Oregon Silverspot Butterfly Print - 8x10.jpg",
+    caption: "Oregon Silverspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Oregon Silverspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Owens Pupfish Camping Mug - Main.jpg",
+    caption: "Owens Pupfish Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Owens Pupfish Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Owens Pupfish Print - 5x7.jpg",
+    caption: "Owens Pupfish Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Owens Pupfish Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Owens Pupfish Print - 8x10.jpg",
+    caption: "Owens Pupfish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Owens Pupfish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ozark Cavefish Camping Mug - Main.jpg",
+    caption: "Ozark Cavefish Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Ozark Cavefish Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ozark Cavefish Print - 5x7.jpg",
+    caption: "Ozark Cavefish Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Ozark Cavefish Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Ozark Cavefish Print - 8x10.jpg",
+    caption: "Ozark Cavefish Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Ozark Cavefish Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Ozark Hellbender Camping Mug - Main.jpg",
+    caption: "Ozark Hellbender Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Ozark Hellbender Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ozark Hellbender Print - 5x7.jpg",
+    caption: "Ozark Hellbender Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Ozark Hellbender Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Ozark Hellbender Print - 8x10.jpg",
+    caption: "Ozark Hellbender Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Ozark Hellbender Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pacific Hawaiian Damselfly Camping Mug - Main.jpg",
+    caption: "Pacific Hawaiian Damselfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Pacific Hawaiian Damselfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pacific Hawaiian Damselfly Print - 5x7.jpg",
+    caption: "Pacific Hawaiian Damselfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Pacific Hawaiian Damselfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Pacific Hawaiian Damselfly Print - 8x10.jpg",
+    caption: "Pacific Hawaiian Damselfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Pacific Hawaiian Damselfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Palos Verdes Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Palos Verdes Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Palos Verdes Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Palos Verdes Blue Butterfly Print - 5x7.jpg",
+    caption: "Palos Verdes Blue Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Palos Verdes Blue Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Palos Verdes Blue Butterfly Print - 8x10.jpg",
+    caption: "Palos Verdes Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Palos Verdes Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pawnee Montane Skipper Camping Mug - Main.jpg",
+    caption: "Pawnee Montane Skipper Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Pawnee Montane Skipper Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pawnee Montane Skipper Print - 5x7.jpg",
+    caption: "Pawnee Montane Skipper Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Pawnee Montane Skipper Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Pawnee Montane Skipper Print - 8x10.jpg",
+    caption: "Pawnee Montane Skipper Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Pawnee Montane Skipper Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pearl Darter Camping Mug - Main.jpg",
+    caption: "Pearl Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Pearl Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pearl Darter Print - 5x7.jpg",
+    caption: "Pearl Darter Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Pearl Darter Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Pearl Darter Print - 8x10.jpg",
+    caption: "Pearl Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Pearl Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Peninsular Bighorn Sheep Camping Mug - Main.jpg",
+    caption: "Peninsular Bighorn Sheep Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Peninsular Bighorn Sheep Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peninsular Bighorn Sheep Print - 5x7.jpg",
+    caption: "Peninsular Bighorn Sheep Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Bighorn Sheep Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Peninsular Bighorn Sheep Print - 8x10.jpg",
+    caption: "Peninsular Bighorn Sheep Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Bighorn Sheep Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Peninsular Pronghorn Camping Mug - Main.jpg",
+    caption: "Peninsular Pronghorn Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Peninsular Pronghorn Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peninsular Pronghorn Print - 5x7.jpg",
+    caption: "Peninsular Pronghorn Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Pronghorn Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Peninsular Pronghorn Print - 8x10.jpg",
+    caption: "Peninsular Pronghorn Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Peninsular Pronghorn Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Peppered Chub Camping Mug - Main.jpg",
+    caption: "Peppered Chub Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Peppered Chub Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peppered Chub Print - 5x7.jpg",
+    caption: "Peppered Chub Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Peppered Chub Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Peppered Chub Print - 8x10.jpg",
+    caption: "Peppered Chub Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Peppered Chub Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Perdido Key Beach Mouse Camping Mug - Main.jpg",
+    caption: "Perdido Key Beach Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Perdido Key Beach Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Perdido Key Beach Mouse Print - 5x7.jpg",
+    caption: "Perdido Key Beach Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Perdido Key Beach Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Perdido Key Beach Mouse Print - 8x10.jpg",
+    caption: "Perdido Key Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Perdido Key Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Philippine Eagle Camping Mug - Main.jpg",
+    caption: "Philippine Eagle Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Philippine Eagle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Philippine Eagle Print - 5x7.jpg",
+    caption: "Philippine Eagle Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Philippine Eagle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Philippine Eagle Print - 8x10.jpg",
+    caption: "Philippine Eagle Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Philippine Eagle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Philippine Tarsier Camping Mug - Main.jpg",
+    caption: "Philippine Tarsier Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Philippine Tarsier Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Philippine Tarsier Print - 5x7.jpg",
+    caption: "Philippine Tarsier Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Philippine Tarsier Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Philippine Tarsier Print - 8x10.jpg",
+    caption: "Philippine Tarsier Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Philippine Tarsier Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pink Mucket Camping Mug - Main.jpg",
+    caption: "Pink Mucket Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Pink Mucket Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pink Mucket Print - 5x7.jpg",
+    caption: "Pink Mucket Print - 5x7",
+    price: 2,
+    category: "Clams",
+    page: "/items/educational/Prints/Pink Mucket Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Pink Mucket Print - 8x10.jpg",
+    caption: "Pink Mucket Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Pink Mucket Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Piping Plover Camping Mug - Main.jpg",
+    caption: "Piping Plover Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Piping Plover Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Piping Plover Print - 5x7.jpg",
+    caption: "Piping Plover Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Piping Plover Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Piping Plover Print - 8x10.jpg",
+    caption: "Piping Plover Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Piping Plover Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Preble's Meadow Jumping Mouse Camping Mug - Main.jpg",
+    caption: "Preble's Meadow Jumping Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Preble's Meadow Jumping Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Preble's Meadow Jumping Mouse Print - 5x7.jpg",
+    caption: "Preble's Meadow Jumping Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Preble's Meadow Jumping Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Preble's Meadow Jumping Mouse Print - 8x10.jpg",
+    caption: "Preble's Meadow Jumping Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Preble's Meadow Jumping Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Przewalski's Horse Camping Mug - Main.jpg",
+    caption: "Przewalski's Horse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Przewalski's Horse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Przewalski's Horse Print - 5x7.jpg",
+    caption: "Przewalski's Horse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Przewalski's Horse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Przewalski's Horse Print - 8x10.jpg",
+    caption: "Przewalski's Horse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Przewalski's Horse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Pudu Camping Mug - Main.jpg",
+    caption: "Pudu Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Pudu Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pudu Print - 5x7.jpg",
+    caption: "Pudu Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Pudu Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Pudu Print - 8x10.jpg",
+    caption: "Pudu Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Pudu Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Crested Toad Camping Mug - Main.jpg",
+    caption: "Puerto Rican Crested Toad Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Puerto Rican Crested Toad Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Crested Toad Print - 5x7.jpg",
+    caption: "Puerto Rican Crested Toad Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Puerto Rican Crested Toad Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Crested Toad Print - 8x10.jpg",
+    caption: "Puerto Rican Crested Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Puerto Rican Crested Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Harlequin Butterfly Camping Mug - Main.jpg",
+    caption: "Puerto Rican Harlequin Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Puerto Rican Harlequin Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Harlequin Butterfly Print - 5x7.jpg",
+    caption: "Puerto Rican Harlequin Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Puerto Rican Harlequin Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Harlequin Butterfly Print - 8x10.jpg",
+    caption: "Puerto Rican Harlequin Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Puerto Rican Harlequin Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Nightjar Camping Mug - Main.jpg",
+    caption: "Puerto Rican Nightjar Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Puerto Rican Nightjar Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Nightjar Print - 5x7.jpg",
+    caption: "Puerto Rican Nightjar Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Nightjar Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Nightjar Print - 8x10.jpg",
+    caption: "Puerto Rican Nightjar Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Nightjar Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Parrot Camping Mug - Main.jpg",
+    caption: "Puerto Rican Parrot Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Puerto Rican Parrot Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Parrot Print - 5x7.jpg",
+    caption: "Puerto Rican Parrot Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Parrot Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Parrot Print - 8x10.jpg",
+    caption: "Puerto Rican Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Sharp-Shinned Hawk Camping Mug - Main.jpg",
+    caption: "Puerto Rican Sharp-Shinned Hawk Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Puerto Rican Sharp-Shinned Hawk Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Sharp-Shinned Hawk Print - 5x7.jpg",
+    caption: "Puerto Rican Sharp-Shinned Hawk Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Sharp-Shinned Hawk Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Puerto Rican Sharp-Shinned Hawk Print - 8x10.jpg",
+    caption: "Puerto Rican Sharp-Shinned Hawk Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Puerto Rican Sharp-Shinned Hawk Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Queen Charlotte Goshawk Camping Mug - Main.jpg",
+    caption: "Queen Charlotte Goshawk Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Queen Charlotte Goshawk Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Quokka Camping Mug - Main.jpg",
+    caption: "Quokka Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Quokka Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Quokka Print - 5x7.jpg",
+    caption: "Quokka Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Quokka Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Quokka Print - 8x10.jpg",
+    caption: "Quokka Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Quokka Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Razorback Sucker Camping Mug - Main.jpg",
+    caption: "Razorback Sucker Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Razorback Sucker Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Razorback Sucker Print - 5x7.jpg",
+    caption: "Razorback Sucker Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Razorback Sucker Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Razorback Sucker Print - 8x10.jpg",
+    caption: "Razorback Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Razorback Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Red Wolf Camping Mug - Main.jpg",
+    caption: "Red Wolf Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Red Wolf Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Red Wolf Print - 5x7.jpg",
+    caption: "Red Wolf Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Red Wolf Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Red Wolf Print - 8x10.jpg",
+    caption: "Red Wolf Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Red Wolf Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Red-Browed Parrot Camping Mug - Main.jpg",
+    caption: "Red-Browed Parrot Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Red-Browed Parrot Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Red-Browed Parrot Print - 5x7.jpg",
+    caption: "Red-Browed Parrot Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Red-Browed Parrot Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Red-Browed Parrot Print - 8x10.jpg",
+    caption: "Red-Browed Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Red-Browed Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Rio Grande Silvery Minnow Camping Mug - Main.jpg",
+    caption: "Rio Grande Silvery Minnow Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Rio Grande Silvery Minnow Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rio Grande Silvery Minnow Print - 5x7.jpg",
+    caption: "Rio Grande Silvery Minnow Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Rio Grande Silvery Minnow Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Rio Grande Silvery Minnow Print - 8x10.jpg",
+    caption: "Rio Grande Silvery Minnow Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Rio Grande Silvery Minnow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Riparian Brush Rabbit Camping Mug - Main.jpg",
+    caption: "Riparian Brush Rabbit Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Riparian Brush Rabbit Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Riparian Brush Rabbit Print - 5x7.jpg",
+    caption: "Riparian Brush Rabbit Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Brush Rabbit Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Riparian Brush Rabbit Print - 8x10.jpg",
+    caption: "Riparian Brush Rabbit Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Brush Rabbit Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Riparian Woodrat Camping Mug - Main.jpg",
+    caption: "Riparian Woodrat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Riparian Woodrat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Riparian Woodrat Print - 5x7.jpg",
+    caption: "Riparian Woodrat Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Woodrat Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Riparian Woodrat Print - 8x10.jpg",
+    caption: "Riparian Woodrat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Riparian Woodrat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Roseate Tern Camping Mug - Main.jpg",
+    caption: "Roseate Tern Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Roseate Tern Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Roseate Tern Print - 5x7.jpg",
+    caption: "Roseate Tern Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Roseate Tern Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Roseate Tern Print - 8x10.jpg",
+    caption: "Roseate Tern Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Roseate Tern Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Round Ebonyshell Camping Mug - Main.jpg",
+    caption: "Round Ebonyshell Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Round Ebonyshell Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Round Ebonyshell Print - 5x7.jpg",
+    caption: "Round Ebonyshell Print - 5x7",
+    price: 2,
+    category: "Clams",
+    page: "/items/educational/Prints/Round Ebonyshell Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Round Ebonyshell Print - 8x10.jpg",
+    caption: "Round Ebonyshell Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Round Ebonyshell Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Rufa Red Knot Camping Mug - Main.jpg",
+    caption: "Rufa Red Knot Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Rufa Red Knot Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rufa Red Knot Print - 5x7.jpg",
+    caption: "Rufa Red Knot Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Rufa Red Knot Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Rufa Red Knot Print - 8x10.jpg",
+    caption: "Rufa Red Knot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Rufa Red Knot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Rusty Patched Bee Bumble Camping Mug - Main.jpg",
+    caption: "Rusty Patched Bee Bumble Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Rusty Patched Bee Bumble Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rusty Patched Bee Bumble Print - 5x7.jpg",
+    caption: "Rusty Patched Bee Bumble Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Rusty Patched Bee Bumble Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Rusty Patched Bee Bumble Print - 8x10.jpg",
+    caption: "Rusty Patched Bee Bumble Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Rusty Patched Bee Bumble Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Saltwater Crocodile Camping Mug - Main.jpg",
+    caption: "Saltwater Crocodile Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Saltwater Crocodile Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saltwater Crocodile Print - 5x7.jpg",
+    caption: "Saltwater Crocodile Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Saltwater Crocodile Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Saltwater Crocodile Print - 8x10.jpg",
+    caption: "Saltwater Crocodile Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Saltwater Crocodile Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/San Joaquin Kit Fox Camping Mug - Main.jpg",
+    caption: "San Joaquin Kit Fox Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/San Joaquin Kit Fox Camping Mug.html"
+  },
+  {
+    src: "/images/educational/San Joaquin Kit Fox Print - 5x7.jpg",
+    caption: "San Joaquin Kit Fox Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/San Joaquin Kit Fox Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/San Joaquin Kit Fox Print - 8x10.jpg",
+    caption: "San Joaquin Kit Fox Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/San Joaquin Kit Fox Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/San Marcos Salamander Camping Mug - Main.jpg",
+    caption: "San Marcos Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/San Marcos Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/San Marcos Salamander Print - 5x7.jpg",
+    caption: "San Marcos Salamander Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/San Marcos Salamander Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/San Marcos Salamander Print - 8x10.jpg",
+    caption: "San Marcos Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/San Marcos Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sand Skink Camping Mug - Main.jpg",
+    caption: "Sand Skink Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Sand Skink Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sand Skink Print - 5x7.jpg",
+    caption: "Sand Skink Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Sand Skink Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Sand Skink Print - 8x10.jpg",
+    caption: "Sand Skink Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Sand Skink Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Santa Ana Sucker Camping Mug - Main.jpg",
+    caption: "Santa Ana Sucker Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Santa Ana Sucker Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Santa Ana Sucker Print - 5x7.jpg",
+    caption: "Santa Ana Sucker Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Santa Ana Sucker Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Santa Ana Sucker Print - 8x10.jpg",
+    caption: "Santa Ana Sucker Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Santa Ana Sucker Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Santa Cruz Long-Toed Salamander Camping Mug - Main.jpg",
+    caption: "Santa Cruz Long-Toed Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Santa Cruz Long-Toed Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Santa Cruz Long-Toed Salamander Print - 5x7.jpg",
+    caption: "Santa Cruz Long-Toed Salamander Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Santa Cruz Long-Toed Salamander Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Santa Cruz Long-Toed Salamander Print - 8x10.jpg",
+    caption: "Santa Cruz Long-Toed Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Santa Cruz Long-Toed Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Scimitar-Horned Oryx Camping Mug - Main.jpg",
+    caption: "Scimitar-Horned Oryx Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Scimitar-Horned Oryx Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Scimitar-Horned Oryx Print - 5x7.jpg",
+    caption: "Scimitar-Horned Oryx Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Scimitar-Horned Oryx Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Scimitar-Horned Oryx Print - 8x10.jpg",
+    caption: "Scimitar-Horned Oryx Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Scimitar-Horned Oryx Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Serow Camping Mug - Main.jpg",
+    caption: "Serow Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Serow Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Serow Print - 5x7.jpg",
+    caption: "Serow Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Serow Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Serow Print - 8x10.jpg",
+    caption: "Serow Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Serow Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Seychelles Lesser Vasa Parrot Camping Mug - Main.jpg",
+    caption: "Seychelles Lesser Vasa Parrot Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Seychelles Lesser Vasa Parrot Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Seychelles Lesser Vasa Parrot Print - 5x7.jpg",
+    caption: "Seychelles Lesser Vasa Parrot Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Seychelles Lesser Vasa Parrot Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Seychelles Lesser Vasa Parrot Print - 8x10.jpg",
+    caption: "Seychelles Lesser Vasa Parrot Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Seychelles Lesser Vasa Parrot Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Shenandoah Salamander Camping Mug - Main.jpg",
+    caption: "Shenandoah Salamander Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Shenandoah Salamander Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Shenandoah Salamander Print - 5x7.jpg",
+    caption: "Shenandoah Salamander Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Shenandoah Salamander Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Shenandoah Salamander Print - 8x10.jpg",
+    caption: "Shenandoah Salamander Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Shenandoah Salamander Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Shortnose Sturgeon Camping Mug - Main.jpg",
+    caption: "Shortnose Sturgeon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Shortnose Sturgeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Shortnose Sturgeon Print - 5x7.jpg",
+    caption: "Shortnose Sturgeon Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Shortnose Sturgeon Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Shortnose Sturgeon Print - 8x10.jpg",
+    caption: "Shortnose Sturgeon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Shortnose Sturgeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Shortridge's Mouse Camping Mug - Main.jpg",
+    caption: "Shortridge's Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Shortridge's Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Shortridge's Mouse Print - 5x7.jpg",
+    caption: "Shortridge's Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Shortridge's Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Shortridge's Mouse Print - 8x10.jpg",
+    caption: "Shortridge's Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Shortridge's Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Siamang Camping Mug - Main.jpg",
+    caption: "Siamang Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Siamang Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Siamang Print - 5x7.jpg",
+    caption: "Siamang Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Siamang Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Siamang Print - 8x10.jpg",
+    caption: "Siamang Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Siamang Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sierra Nevada Bighorn Sheep Camping Mug - Main.jpg",
+    caption: "Sierra Nevada Bighorn Sheep Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Sierra Nevada Bighorn Sheep Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sierra Nevada Bighorn Sheep Print - 5x7.jpg",
+    caption: "Sierra Nevada Bighorn Sheep Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sierra Nevada Bighorn Sheep Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Sierra Nevada Bighorn Sheep Print - 8x10.jpg",
+    caption: "Sierra Nevada Bighorn Sheep Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sierra Nevada Bighorn Sheep Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sifakas Camping Mug - Main.jpg",
+    caption: "Sifakas Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Sifakas Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sifakas Print - 5x7.jpg",
+    caption: "Sifakas Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sifakas Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Sifakas Print - 8x10.jpg",
+    caption: "Sifakas Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sifakas Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Smith's Blue Butterfly Camping Mug - Main.jpg",
+    caption: "Smith's Blue Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Smith's Blue Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Smith's Blue Butterfly Print - 5x7.jpg",
+    caption: "Smith's Blue Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Smith's Blue Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Smith's Blue Butterfly Print - 8x10.jpg",
+    caption: "Smith's Blue Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Smith's Blue Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Snow Leopard Camping Mug - Main.jpg",
+    caption: "Snow Leopard Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Snow Leopard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Snow Leopard Print - 5x7.jpg",
+    caption: "Snow Leopard Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Snow Leopard Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Snow Leopard Print - 8x10.jpg",
+    caption: "Snow Leopard Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Snow Leopard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Snuffbox Camping Mug - Main.jpg",
+    caption: "Snuffbox Camping Mug",
+    price: 20,
+    category: "Clams",
+    page: "/items/educational/Camping Mugs/Snuffbox Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Snuffbox Print - 5x7.jpg",
+    caption: "Snuffbox Print - 5x7",
+    price: 2,
+    category: "Clams",
+    page: "/items/educational/Prints/Snuffbox Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Snuffbox Print - 8x10.jpg",
+    caption: "Snuffbox Print - 8x10",
+    price: 4,
+    category: "Clams",
+    page: "/items/educational/Prints/Snuffbox Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Solitary Tinamou Camping Mug - Main.jpg",
+    caption: "Solitary Tinamou Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Solitary Tinamou Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Solitary Tinamou Print - 5x7.jpg",
+    caption: "Solitary Tinamou Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Solitary Tinamou Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Solitary Tinamou Print - 8x10.jpg",
+    caption: "Solitary Tinamou Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Solitary Tinamou Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sonoran Pronghorn Camping Mug - Main.jpg",
+    caption: "Sonoran Pronghorn Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Sonoran Pronghorn Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sonoran Pronghorn Print - 5x7.jpg",
+    caption: "Sonoran Pronghorn Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sonoran Pronghorn Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Sonoran Pronghorn Print - 8x10.jpg",
+    caption: "Sonoran Pronghorn Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sonoran Pronghorn Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/South American Tapir Camping Mug - Main.jpg",
+    caption: "South American Tapir Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/South American Tapir Camping Mug.html"
+  },
+  {
+    src: "/images/educational/South American Tapir Print - 5x7.jpg",
+    caption: "South American Tapir Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/South American Tapir Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/South American Tapir Print - 8x10.jpg",
+    caption: "South American Tapir Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/South American Tapir Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Southeastern Beach Mouse Camping Mug - Main.jpg",
+    caption: "Southeastern Beach Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Southeastern Beach Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Southeastern Beach Mouse Print - 5x7.jpg",
+    caption: "Southeastern Beach Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southeastern Beach Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Southeastern Beach Mouse Print - 8x10.jpg",
+    caption: "Southeastern Beach Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southeastern Beach Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Southern Sea Otter Camping Mug - Main.jpg",
+    caption: "Southern Sea Otter Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Southern Sea Otter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Southern Sea Otter Print - 5x7.jpg",
+    caption: "Southern Sea Otter Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southern Sea Otter Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Southern Sea Otter Print - 8x10.jpg",
+    caption: "Southern Sea Otter Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Southern Sea Otter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Southwestern Willow Flycatcher Camping Mug - Main.jpg",
+    caption: "Southwestern Willow Flycatcher Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Southwestern Willow Flycatcher Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Southwestern Willow Flycatcher Print - 5x7.jpg",
+    caption: "Southwestern Willow Flycatcher Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Southwestern Willow Flycatcher Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Southwestern Willow Flycatcher Print - 8x10.jpg",
+    caption: "Southwestern Willow Flycatcher Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Southwestern Willow Flycatcher Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Spanish Imperial Eagle Camping Mug - Main.jpg",
+    caption: "Spanish Imperial Eagle Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Spanish Imperial Eagle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Spanish Imperial Eagle Print - 5x7.jpg",
+    caption: "Spanish Imperial Eagle Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spanish Imperial Eagle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Spanish Imperial Eagle Print - 8x10.jpg",
+    caption: "Spanish Imperial Eagle Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spanish Imperial Eagle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Spectacled Eider Camping Mug - Main.jpg",
+    caption: "Spectacled Eider Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Spectacled Eider Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Spectacled Eider Print - 5x7.jpg",
+    caption: "Spectacled Eider Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spectacled Eider Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Spectacled Eider Print - 8x10.jpg",
+    caption: "Spectacled Eider Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Spectacled Eider Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Sperm Whale Camping Mug - Main.jpg",
+    caption: "Sperm Whale Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Sperm Whale Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sperm Whale Print - 5x7.jpg",
+    caption: "Sperm Whale Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sperm Whale Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Sperm Whale Print - 8x10.jpg",
+    caption: "Sperm Whale Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Sperm Whale Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/St. Croix Ground Lizard Camping Mug - Main.jpg",
+    caption: "St. Croix Ground Lizard Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/St. Croix Ground Lizard Camping Mug.html"
+  },
+  {
+    src: "/images/educational/St. Croix Ground Lizard Print - 5x7.jpg",
+    caption: "St. Croix Ground Lizard Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/St. Croix Ground Lizard Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/St. Croix Ground Lizard Print - 8x10.jpg",
+    caption: "St. Croix Ground Lizard Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/St. Croix Ground Lizard Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Staghorn Coral Camping Mug - Main.jpg",
+    caption: "Staghorn Coral Camping Mug",
+    price: 20,
+    category: "Corals",
+    page: "/items/educational/Camping Mugs/Staghorn Coral Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Staghorn Coral Print - 5x7.jpg",
+    caption: "Staghorn Coral Print - 5x7",
+    price: 2,
+    category: "Corals",
+    page: "/items/educational/Prints/Staghorn Coral Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Staghorn Coral Print - 8x10.jpg",
+    caption: "Staghorn Coral Print - 8x10",
+    price: 4,
+    category: "Corals",
+    page: "/items/educational/Prints/Staghorn Coral Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Steller Sea Lion Camping Mug - Main.jpg",
+    caption: "Steller Sea Lion Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Steller Sea Lion Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Steller Sea Lion Print - 5x7.jpg",
+    caption: "Steller Sea Lion Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Steller Sea Lion Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Steller Sea Lion Print - 8x10.jpg",
+    caption: "Steller Sea Lion Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Steller Sea Lion Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Steller's Eider Camping Mug - Main.jpg",
+    caption: "Steller's Eider Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Steller's Eider Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Steller's Eider Print - 5x7.jpg",
+    caption: "Steller's Eider Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Steller's Eider Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Steller's Eider Print - 8x10.jpg",
+    caption: "Steller's Eider Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Steller's Eider Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Stick-Nest Rat Camping Mug - Main.jpg",
+    caption: "Stick-Nest Rat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Stick-Nest Rat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Stick-Nest Rat Print - 5x7.jpg",
+    caption: "Stick-Nest Rat Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Stick-Nest Rat Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Stick-Nest Rat Print - 8x10.jpg",
+    caption: "Stick-Nest Rat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Stick-Nest Rat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Streaked Horned Lark Camping Mug - Main.jpg",
+    caption: "Streaked Horned Lark Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Streaked Horned Lark Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Streaked Horned Lark Print - 5x7.jpg",
+    caption: "Streaked Horned Lark Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Streaked Horned Lark Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Streaked Horned Lark Print - 8x10.jpg",
+    caption: "Streaked Horned Lark Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Streaked Horned Lark Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Takahē Camping Mug - Main.jpg",
+    caption: "Takahē Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Takahē Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Taylor's Checkerspot Butterfly Camping Mug - Main.jpg",
+    caption: "Taylor's Checkerspot Butterfly Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Taylor's Checkerspot Butterfly Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Taylor's Checkerspot Butterfly Print - 5x7.jpg",
+    caption: "Taylor's Checkerspot Butterfly Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Taylor's Checkerspot Butterfly Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Taylor's Checkerspot Butterfly Print - 8x10.jpg",
+    caption: "Taylor's Checkerspot Butterfly Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Taylor's Checkerspot Butterfly Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Tiger Camping Mug - Main.jpg",
+    caption: "Tiger Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Tiger Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tiger Print - 5x7.jpg",
+    caption: "Tiger Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Tiger Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Tiger Print - 8x10.jpg",
+    caption: "Tiger Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Tiger Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Tomistoma Camping Mug - Main.jpg",
+    caption: "Tomistoma Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Tomistoma Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Toque Macaque Camping Mug - Main.jpg",
+    caption: "Toque Macaque Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Toque Macaque Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Toque Macaque Print - 5x7.jpg",
+    caption: "Toque Macaque Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Toque Macaque Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Toque Macaque Print - 8x10.jpg",
+    caption: "Toque Macaque Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Toque Macaque Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Unarmored Threespine Stickleback Camping Mug - Main.jpg",
+    caption: "Unarmored Threespine Stickleback Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Unarmored Threespine Stickleback Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Unarmored Threespine Stickleback Print - 5x7.jpg",
+    caption: "Unarmored Threespine Stickleback Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Unarmored Threespine Stickleback Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Unarmored Threespine Stickleback Print - 8x10.jpg",
+    caption: "Unarmored Threespine Stickleback Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Unarmored Threespine Stickleback Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Valley Elderberry Longhorn Beetle Camping Mug - Main.jpg",
+    caption: "Valley Elderberry Longhorn Beetle Camping Mug",
+    price: 20,
+    category: "Insects",
+    page: "/items/educational/Camping Mugs/Valley Elderberry Longhorn Beetle Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Valley Elderberry Longhorn Beetle Print - 5x7.jpg",
+    caption: "Valley Elderberry Longhorn Beetle Print - 5x7",
+    price: 2,
+    category: "Insects",
+    page: "/items/educational/Prints/Valley Elderberry Longhorn Beetle Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Valley Elderberry Longhorn Beetle Print - 8x10.jpg",
+    caption: "Valley Elderberry Longhorn Beetle Print - 8x10",
+    price: 4,
+    category: "Insects",
+    page: "/items/educational/Prints/Valley Elderberry Longhorn Beetle Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Vicuna Camping Mug - Main.jpg",
+    caption: "Vicuna Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Vicuna Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Vicuna Print - 5x7.jpg",
+    caption: "Vicuna Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Vicuna Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Vicuna Print - 8x10.jpg",
+    caption: "Vicuna Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Vicuna Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Virginia Big-Eared Bat Camping Mug - Main.jpg",
+    caption: "Virginia Big-Eared Bat Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Virginia Big-Eared Bat Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Virginia Big-Eared Bat Print - 5x7.jpg",
+    caption: "Virginia Big-Eared Bat Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Virginia Big-Eared Bat Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Virginia Big-Eared Bat Print - 8x10.jpg",
+    caption: "Virginia Big-Eared Bat Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Virginia Big-Eared Bat Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/West African Manatee Camping Mug - Main.jpg",
+    caption: "West African Manatee Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/West African Manatee Camping Mug.html"
+  },
+  {
+    src: "/images/educational/West African Manatee Print - 5x7.jpg",
+    caption: "West African Manatee Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/West African Manatee Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/West African Manatee Print - 8x10.jpg",
+    caption: "West African Manatee Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/West African Manatee Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/West Indian Manatee Camping Mug - Main.jpg",
+    caption: "West Indian Manatee Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/West Indian Manatee Camping Mug.html"
+  },
+  {
+    src: "/images/educational/West Indian Manatee Print - 5x7.jpg",
+    caption: "West Indian Manatee Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/West Indian Manatee Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/West Indian Manatee Print - 8x10.jpg",
+    caption: "West Indian Manatee Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/West Indian Manatee Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Western Mouse Camping Mug - Main.jpg",
+    caption: "Western Mouse Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Western Mouse Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Western Mouse Print - 5x7.jpg",
+    caption: "Western Mouse Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Western Mouse Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Western Mouse Print - 8x10.jpg",
+    caption: "Western Mouse Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Western Mouse Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Western Snowy Plover Camping Mug - Main.jpg",
+    caption: "Western Snowy Plover Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Western Snowy Plover Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Western Snowy Plover Print - 5x7.jpg",
+    caption: "Western Snowy Plover Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Western Snowy Plover Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Western Snowy Plover Print - 8x10.jpg",
+    caption: "Western Snowy Plover Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Western Snowy Plover Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/White Sturgeon Camping Mug - Main.jpg",
+    caption: "White Sturgeon Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/White Sturgeon Camping Mug.html"
+  },
+  {
+    src: "/images/educational/White Sturgeon Print - 5x7.jpg",
+    caption: "White Sturgeon Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/White Sturgeon Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/White Sturgeon Print - 8x10.jpg",
+    caption: "White Sturgeon Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/White Sturgeon Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Whooping Crane Camping Mug - Main.jpg",
+    caption: "Whooping Crane Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Whooping Crane Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Whooping Crane Print - 5x7.jpg",
+    caption: "Whooping Crane Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Whooping Crane Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Whooping Crane Print - 8x10.jpg",
+    caption: "Whooping Crane Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Whooping Crane Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Wood Bison Camping Mug - Main.jpg",
+    caption: "Wood Bison Camping Mug",
+    price: 20,
+    category: "Mammals",
+    page: "/items/educational/Camping Mugs/Wood Bison Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wood Bison Print - 5x7.jpg",
+    caption: "Wood Bison Print - 5x7",
+    price: 2,
+    category: "Mammals",
+    page: "/items/educational/Prints/Wood Bison Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Wood Bison Print - 8x10.jpg",
+    caption: "Wood Bison Print - 8x10",
+    price: 4,
+    category: "Mammals",
+    page: "/items/educational/Prints/Wood Bison Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Wood Stork Camping Mug - Main.jpg",
+    caption: "Wood Stork Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Wood Stork Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wood Stork Print - 5x7.jpg",
+    caption: "Wood Stork Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Wood Stork Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Wood Stork Print - 8x10.jpg",
+    caption: "Wood Stork Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Wood Stork Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Wyoming Toad Camping Mug - Main.jpg",
+    caption: "Wyoming Toad Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Wyoming Toad Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wyoming Toad Print - 5x7.jpg",
+    caption: "Wyoming Toad Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Wyoming Toad Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Wyoming Toad Print - 8x10.jpg",
+    caption: "Wyoming Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Wyoming Toad Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yacare Caiman Camping Mug - Main.jpg",
+    caption: "Yacare Caiman Camping Mug",
+    price: 20,
+    category: "Reptiles",
+    page: "/items/educational/Camping Mugs/Yacare Caiman Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yacare Caiman Print - 5x7.jpg",
+    caption: "Yacare Caiman Print - 5x7",
+    price: 2,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Yacare Caiman Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Yacare Caiman Print - 8x10.jpg",
+    caption: "Yacare Caiman Print - 8x10",
+    price: 4,
+    category: "Reptiles",
+    page: "/items/educational/Prints/Yacare Caiman Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yellow-Billed Cuckoo Camping Mug - Main.jpg",
+    caption: "Yellow-Billed Cuckoo Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Yellow-Billed Cuckoo Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yellow-Billed Cuckoo Print - 5x7.jpg",
+    caption: "Yellow-Billed Cuckoo Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Billed Cuckoo Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Yellow-Billed Cuckoo Print - 8x10.jpg",
+    caption: "Yellow-Billed Cuckoo Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Billed Cuckoo Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yellowcheek Darter Camping Mug - Main.jpg",
+    caption: "Yellowcheek Darter Camping Mug",
+    price: 20,
+    category: "Fishies",
+    page: "/items/educational/Camping Mugs/Yellowcheek Darter Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yellowcheek Darter Print - 5x7.jpg",
+    caption: "Yellowcheek Darter Print - 5x7",
+    price: 2,
+    category: "Fishies",
+    page: "/items/educational/Prints/Yellowcheek Darter Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Yellowcheek Darter Print - 8x10.jpg",
+    caption: "Yellowcheek Darter Print - 8x10",
+    price: 4,
+    category: "Fishies",
+    page: "/items/educational/Prints/Yellowcheek Darter Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yellow-Shouldered Blackbird Camping Mug - Main.jpg",
+    caption: "Yellow-Shouldered Blackbird Camping Mug",
+    price: 20,
+    category: "Birdies",
+    page: "/items/educational/Camping Mugs/Yellow-Shouldered Blackbird Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yellow-Shouldered Blackbird Print - 5x7.jpg",
+    caption: "Yellow-Shouldered Blackbird Print - 5x7",
+    price: 2,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Shouldered Blackbird Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Yellow-Shouldered Blackbird Print - 8x10.jpg",
+    caption: "Yellow-Shouldered Blackbird Print - 8x10",
+    price: 4,
+    category: "Birdies",
+    page: "/items/educational/Prints/Yellow-Shouldered Blackbird Print - 8x10.html"
+  },
+  {
+    src: "/images/educational/Yosemite Toad Camping Mug - Main.jpg",
+    caption: "Yosemite Toad Camping Mug",
+    price: 20,
+    category: "Amphibians",
+    page: "/items/educational/Camping Mugs/Yosemite Toad Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yosemite Toad Print - 5x7.jpg",
+    caption: "Yosemite Toad Print - 5x7",
+    price: 2,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Yosemite Toad Print - 5x7.html"
+  },
+  {
+    src: "/images/educational/Yosemite Toad Print - 8x10.jpg",
+    caption: "Yosemite Toad Print - 8x10",
+    price: 4,
+    category: "Amphibians",
+    page: "/items/educational/Prints/Yosemite Toad Print - 8x10.html"
+  },
 
   // Add more species here...
 ];

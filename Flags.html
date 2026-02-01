@@ -99,10 +99,14 @@
         <!-- FILTERS -->
         <div class="filter-container">
             <select id="filter-category">
-                <option value="all">All Flags</option>
-                <option value="country">Country Flags</option>
-                <option value="state">State Flags</option>
-                <option value="historical">Historical Flags</option>
+                <option value="endangered">Africa</option>
+                <option value="threatened">Antarctica</option>
+                <option value="vulnerable">Asia</option>
+                <option value="endangered">Australia / Oceania</option>
+                <option value="threatened">Europe</option>
+                <option value="vulnerable">Multiple Continents</option>
+                <option value="endangered">North America</option>
+                <option value="threatened">South America</option>
             </select>
         </div>
 
@@ -129,6 +133,9 @@
 ============================ -->
 <footer class="site-footer">
     <div class="footer-inner">
+
+        <h2 class="heading">******************</h2>
+        
         <p>Questions?</p>
 
         <p>Email: selfaryexpression@hotmail.com</p>
@@ -148,41 +155,2245 @@
 ----------------------------------------- */
 const photos = [
   {
-    src: "/images/flags/usa.webp",
-    caption: "United States Flag",
-    price: 14.99,
-    category: "country"
+    src: "/images/educational/Afghanistan Flag Drinking Glass - Main.jpg",
+    caption: "Afghanistan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Afghanistan Flag Drinking Glass.html"
   },
   {
-    src: "/images/flags/canada.webp",
-    caption: "Canada Flag",
-    price: 14.99,
-    category: "country"
+    src: "/images/educational/Akrotiri and Dhekelia Flag Drinking Glass - Main.jpg",
+    caption: "Akrotiri and Dhekelia Flag Drinking Glass",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Drinking Glasses/Akrotiri and Dhekelia Flag Drinking Glass.html"
   },
   {
-    src: "/images/flags/japan.webp",
-    caption: "Japan Flag",
-    price: 14.99,
-    category: "country"
+    src: "/images/educational/Alabama Flag Drinking Glass - Main.jpg",
+    caption: "Alabama Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Alabama Flag Drinking Glass.html"
   },
   {
-    src: "/images/flags/texas.webp",
-    caption: "Texas State Flag",
-    price: 12.99,
-    category: "state"
+    src: "/images/educational/Alaska Flag Drinking Glass - Main.jpg",
+    caption: "Alaska Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Alaska Flag Drinking Glass.html"
   },
   {
-    src: "/images/flags/california.webp",
-    caption: "California State Flag",
-    price: 12.99,
-    category: "state"
+    src: "/images/educational/Albania Flag Drinking Glass - Main.jpg",
+    caption: "Albania Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Albania Flag Drinking Glass.html"
   },
   {
-    src: "/images/flags/roman-empire.webp",
-    caption: "Roman Empire Flag",
-    price: 16.99,
-    category: "historical"
-  }
+    src: "/images/educational/Algeria Flag Drinking Glass - Main.jpg",
+    caption: "Algeria Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Algeria Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/American Samoa Flag Drinking Glass - Main.jpg",
+    caption: "American Samoa Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/American Samoa Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Andorra Flag Drinking Glass - Main.jpg",
+    caption: "Andorra Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Andorra Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Angola Flag Drinking Glass - Main.jpg",
+    caption: "Angola Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Angola Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Anguilla Flag Drinking Glass - Main.jpg",
+    caption: "Anguilla Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Anguilla Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Antarctica Flag Drinking Glass - Main.jpg",
+    caption: "Antarctica Flag Drinking Glass",
+    price: 20,
+    category: "Antarctica",
+    page: "/items/educational/Drinking Glasses/Antarctica Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Antigua and Barbuda Flag Drinking Glass - Main.jpg",
+    caption: "Antigua and Barbuda Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Antigua and Barbuda Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Argentina Flag Drinking Glass - Main.jpg",
+    caption: "Argentina Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Argentina Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Arizona Flag Drinking Glass - Main.jpg",
+    caption: "Arizona Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Arizona Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Arkansas Flag Drinking Glass - Main.jpg",
+    caption: "Arkansas Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Arkansas Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Armenia Flag Drinking Glass - Main.jpg",
+    caption: "Armenia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Armenia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Aruba Flag Drinking Glass - Main.jpg",
+    caption: "Aruba Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Aruba Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ashmore and Cartier Islands Flag Drinking Glass - Main.jpg",
+    caption: "Ashmore and Cartier Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Ashmore and Cartier Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Australia Flag Drinking Glass - Main.jpg",
+    caption: "Australia Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Australia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Austria Flag Drinking Glass - Main.jpg",
+    caption: "Austria Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Austria Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Azerbaijan Flag Drinking Glass - Main.jpg",
+    caption: "Azerbaijan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Azerbaijan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bahrain Flag Drinking Glass - Main.jpg",
+    caption: "Bahrain Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Bahrain Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Baker Island Flag Drinking Glass - Main.jpg",
+    caption: "Baker Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Baker Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bangladesh Flag Drinking Glass - Main.jpg",
+    caption: "Bangladesh Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Bangladesh Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Barbados Flag Drinking Glass - Main.jpg",
+    caption: "Barbados Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Barbados Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Belarus Flag Drinking Glass - Main.jpg",
+    caption: "Belarus Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Belarus Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Belgium Flag Drinking Glass - Main.jpg",
+    caption: "Belgium Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Belgium Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Benin Flag Drinking Glass - Main.jpg",
+    caption: "Benin Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Benin Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bermuda Flag Drinking Glass - Main.jpg",
+    caption: "Bermuda Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Bermuda Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bhutan Flag Drinking Glass - Main.jpg",
+    caption: "Bhutan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Bhutan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Blackfeet Nation Flag Drinking Glass - Main.jpg",
+    caption: "Blackfeet Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Blackfeet Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bosnia and Herzegovina Flag Drinking Glass - Main.jpg",
+    caption: "Bosnia and Herzegovina Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Bosnia and Herzegovina Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Botswana Flag Drinking Glass - Main.jpg",
+    caption: "Botswana Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Botswana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bouvet Island Flag Drinking Glass - Main.jpg",
+    caption: "Bouvet Island Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Bouvet Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/British Indian Ocean Territory Flag Drinking Glass - Main.jpg",
+    caption: "British Indian Ocean Territory Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/British Indian Ocean Territory Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/British Virgin Islands Flag Drinking Glass - Main.jpg",
+    caption: "British Virgin Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/British Virgin Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Brunei Flag Drinking Glass - Main.jpg",
+    caption: "Brunei Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Brunei Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Bulgaria Flag Drinking Glass - Main.jpg",
+    caption: "Bulgaria Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Bulgaria Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Burkina Faso Flag Drinking Glass - Main.jpg",
+    caption: "Burkina Faso Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Burkina Faso Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Burma Flag Drinking Glass - Main.jpg",
+    caption: "Burma Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Burma Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Burundi Flag Drinking Glass - Main.jpg",
+    caption: "Burundi Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Burundi Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cabo Verde Flag Drinking Glass - Main.jpg",
+    caption: "Cabo Verde Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Cabo Verde Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/California Flag Drinking Glass - Main.jpg",
+    caption: "California Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/California Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cambodia Flag Drinking Glass - Main.jpg",
+    caption: "Cambodia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Cambodia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cameroon Flag Drinking Glass - Main.jpg",
+    caption: "Cameroon Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Cameroon Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Canada Flag Drinking Glass - Main.jpg",
+    caption: "Canada Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Canada Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cayman Islands Flag Drinking Glass - Main.jpg",
+    caption: "Cayman Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Cayman Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Central African Republic Flag Drinking Glass - Main.jpg",
+    caption: "Central African Republic Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Central African Republic Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Chad Flag Drinking Glass - Main.jpg",
+    caption: "Chad Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Chad Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cherokee Nation Flag Drinking Glass - Main.jpg",
+    caption: "Cherokee Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Cherokee Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Chile Flag Drinking Glass - Main.jpg",
+    caption: "Chile Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Chile Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/China Flag Drinking Glass - Main.jpg",
+    caption: "China Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/China Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Choctaw Nation Flag Drinking Glass - Main.jpg",
+    caption: "Choctaw Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Choctaw Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Christmas Island Flag Drinking Glass - Main.jpg",
+    caption: "Christmas Island Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Christmas Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Clipperton Island Flag Drinking Glass - Main.jpg",
+    caption: "Clipperton Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Clipperton Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cocos (Keeling) Islands Flag Drinking Glass - Main.jpg",
+    caption: "Cocos (Keeling) Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Cocos (Keeling) Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Colombia Flag Drinking Glass - Main.jpg",
+    caption: "Colombia Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Colombia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Colorado Flag Drinking Glass - Main.jpg",
+    caption: "Colorado Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Colorado Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Comoros Flag Drinking Glass - Main.jpg",
+    caption: "Comoros Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Comoros Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Connecticut Flag Drinking Glass - Main.jpg",
+    caption: "Connecticut Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Connecticut Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cook Islands Flag Drinking Glass - Main.jpg",
+    caption: "Cook Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Cook Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Coral Sea Islands Flag Drinking Glass - Main.jpg",
+    caption: "Coral Sea Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Coral Sea Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Costa Rica Flag Drinking Glass - Main.jpg",
+    caption: "Costa Rica Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Costa Rica Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cote d'Ivoire Flag Drinking Glass - Main.jpg",
+    caption: "Cote d'Ivoire Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Cote d'Ivoire Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Croatia Flag Drinking Glass - Main.jpg",
+    caption: "Croatia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Croatia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cuba Flag Drinking Glass - Main.jpg",
+    caption: "Cuba Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Cuba Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Curacao Flag Drinking Glass - Main.jpg",
+    caption: "Curacao Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Curacao Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Cyprus Flag Drinking Glass - Main.jpg",
+    caption: "Cyprus Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Cyprus Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Czechia Flag Drinking Glass - Main.jpg",
+    caption: "Czechia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Czechia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Delaware Flag Drinking Glass - Main.jpg",
+    caption: "Delaware Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Delaware Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Democratic Republic of the Congo Flag Drinking Glass - Main.jpg",
+    caption: "Democratic Republic of the Congo Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Democratic Republic of the Congo Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Denmark Flag Drinking Glass - Main.jpg",
+    caption: "Denmark Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Denmark Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/District of Columbia Flag Drinking Glass - Main.jpg",
+    caption: "District of Columbia Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/District of Columbia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Djibouti Flag Drinking Glass - Main.jpg",
+    caption: "Djibouti Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Djibouti Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Dominica Flag Drinking Glass - Main.jpg",
+    caption: "Dominica Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Dominica Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Dominican Republic Flag Drinking Glass - Main.jpg",
+    caption: "Dominican Republic Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Dominican Republic Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ecuador Flag Drinking Glass - Main.jpg",
+    caption: "Ecuador Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Ecuador Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Egypt Republic Flag Drinking Glass - Main.jpg",
+    caption: "Egypt Republic Flag Drinking Glass",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Drinking Glasses/Egypt Republic Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/El Salvador Flag Drinking Glass - Main.jpg",
+    caption: "El Salvador Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/El Salvador Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Equatorial Guinea Flag Drinking Glass - Main.jpg",
+    caption: "Equatorial Guinea Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Equatorial Guinea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Eritrea Flag Drinking Glass - Main.jpg",
+    caption: "Eritrea Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Eritrea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Estonia Flag Drinking Glass - Main.jpg",
+    caption: "Estonia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Estonia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Eswatini Flag Drinking Glass - Main.jpg",
+    caption: "Eswatini Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Eswatini Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ethiopia Flag Drinking Glass - Main.jpg",
+    caption: "Ethiopia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Ethiopia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/European Union Flag Drinking Glass - Main.jpg",
+    caption: "European Union Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/European Union Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Falkland Islands (Islas Malvinas) Flag Drinking Glass - Main.jpg",
+    caption: "Falkland Islands (Islas Malvinas) Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Falkland Islands (Islas Malvinas) Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Faroe Islands Flag Drinking Glass - Main.jpg",
+    caption: "Faroe Islands Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Faroe Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Federated States of Micronesia Flag Drinking Glass - Main.jpg",
+    caption: "Federated States of Micronesia Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Federated States of Micronesia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Fiji Flag Drinking Glass - Main.jpg",
+    caption: "Fiji Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Fiji Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Finland Flag Drinking Glass - Main.jpg",
+    caption: "Finland Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Finland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Flathead Indian Reservation Flag Drinking Glass - Main.jpg",
+    caption: "Flathead Indian Reservation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Flathead Indian Reservation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Florida Flag Drinking Glass - Main.jpg",
+    caption: "Florida Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Florida Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/France Flag Drinking Glass - Main.jpg",
+    caption: "France Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/France Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/French Polynesia Flag Drinking Glass - Main.jpg",
+    caption: "French Polynesia Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/French Polynesia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/French Southern and Antarctic Lands Flag Drinking Glass - Main.jpg",
+    caption: "French Southern and Antarctic Lands Flag Drinking Glass",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Drinking Glasses/French Southern and Antarctic Lands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Gabon Flag Drinking Glass - Main.jpg",
+    caption: "Gabon Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Gabon Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Gaza Strip Flag Drinking Glass - Main.jpg",
+    caption: "Gaza Strip Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Gaza Strip Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Georgia Country Flag Drinking Glass - Main.jpg",
+    caption: "Georgia Country Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Georgia Country Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Georgia State Flag Drinking Glass - Main.jpg",
+    caption: "Georgia State Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Georgia State Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Germany Flag Drinking Glass - Main.jpg",
+    caption: "Germany Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Germany Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ghana Flag Drinking Glass - Main.jpg",
+    caption: "Ghana Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Ghana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Gibraltar Flag Drinking Glass - Main.jpg",
+    caption: "Gibraltar Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Gibraltar Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Greece Flag Drinking Glass - Main.jpg",
+    caption: "Greece Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Greece Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Greenland Flag Drinking Glass - Main.jpg",
+    caption: "Greenland Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Greenland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Grenada Flag Drinking Glass - Main.jpg",
+    caption: "Grenada Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Grenada Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guam Flag Drinking Glass - Main.jpg",
+    caption: "Guam Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Guam Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guatemala Flag Drinking Glass - Main.jpg",
+    caption: "Guatemala Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Guatemala Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guernsey Flag Drinking Glass - Main.jpg",
+    caption: "Guernsey Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Guernsey Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guinea Flag Drinking Glass - Main.jpg",
+    caption: "Guinea Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Guinea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guinea-Bissau Flag Drinking Glass - Main.jpg",
+    caption: "Guinea-Bissau Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Guinea-Bissau Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Guyana Flag Drinking Glass - Main.jpg",
+    caption: "Guyana Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Guyana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Haiti Flag Drinking Glass - Main.jpg",
+    caption: "Haiti Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Haiti Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Hawaii Flag Drinking Glass - Main.jpg",
+    caption: "Hawaii Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Hawaii Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Heard Island and McDonald Islands Flag Drinking Glass - Main.jpg",
+    caption: "Heard Island and McDonald Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Heard Island and McDonald Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Holy See (Vatican City) Flag Drinking Glass - Main.jpg",
+    caption: "Holy See (Vatican City) Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Holy See (Vatican City) Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Honduras Flag Drinking Glass - Main.jpg",
+    caption: "Honduras Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Honduras Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Hong Kong Flag Drinking Glass - Main.jpg",
+    caption: "Hong Kong Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Hong Kong Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Hopi Nation Flag Drinking Glass - Main.jpg",
+    caption: "Hopi Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Hopi Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Howland Island Flag Drinking Glass - Main.jpg",
+    caption: "Howland Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Howland Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Hungary Island Flag Drinking Glass - Main.jpg",
+    caption: "Hungary Island Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Hungary Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Iceland Island Flag Drinking Glass - Main.jpg",
+    caption: "Iceland Island Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Iceland Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Idaho Flag Drinking Glass - Main.jpg",
+    caption: "Idaho Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Idaho Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Illinois Flag Drinking Glass - Main.jpg",
+    caption: "Illinois Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Illinois Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/India Flag Drinking Glass - Main.jpg",
+    caption: "India Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/India Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Indiana Flag Drinking Glass - Main.jpg",
+    caption: "Indiana Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Indiana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Indonesia Flag Drinking Glass - Main.jpg",
+    caption: "Indonesia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Indonesia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Iowa Flag Drinking Glass - Main.jpg",
+    caption: "Iowa Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Iowa Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Iran Flag Drinking Glass - Main.jpg",
+    caption: "Iran Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Iran Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Iraq Flag Drinking Glass - Main.jpg",
+    caption: "Iraq Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Iraq Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ireland Flag Drinking Glass - Main.jpg",
+    caption: "Ireland Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Ireland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Iroquois Confederacy Flag Drinking Glass - Main.jpg",
+    caption: "Iroquois Confederacy Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Iroquois Confederacy Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Isle of Man Flag Drinking Glass - Main.jpg",
+    caption: "Isle of Man Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Isle of Man Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Isle of Man Flag Drinking Glass - Main.jpg",
+    caption: "Isle of Man Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Isle of Man Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Israel Flag Drinking Glass - Main.jpg",
+    caption: "Israel Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Israel Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Italy Flag Drinking Glass - Main.jpg",
+    caption: "Italy Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Italy Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Jamaica Flag Drinking Glass - Main.jpg",
+    caption: "Jamaica Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Jamaica Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Jan Mayen Flag Drinking Glass - Main.jpg",
+    caption: "Jan Mayen Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Jan Mayen Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Japan Flag Drinking Glass - Main.jpg",
+    caption: "Japan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Japan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Jarvis Island Flag Drinking Glass - Main.jpg",
+    caption: "Jarvis Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Jarvis Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Jersey Flag Drinking Glass - Main.jpg",
+    caption: "Jersey Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Jersey Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Johnston Atoll Flag Drinking Glass - Main.jpg",
+    caption: "Johnston Atoll Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Johnston Atoll Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Jordan Flag Drinking Glass - Main.jpg",
+    caption: "Jordan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Jordan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kansas Flag Drinking Glass - Main.jpg",
+    caption: "Kansas Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Kansas Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kazakhstan Flag Drinking Glass - Main.jpg",
+    caption: "Kazakhstan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Kazakhstan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kentucky Flag Drinking Glass - Main.jpg",
+    caption: "Kentucky Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Kentucky Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kenya Flag Drinking Glass - Main.jpg",
+    caption: "Kenya Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Kenya Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kingman Reef Flag Drinking Glass - Main.jpg",
+    caption: "Kingman Reef Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Kingman Reef Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kiribati Flag Drinking Glass - Main.jpg",
+    caption: "Kiribati Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Kiribati Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kosovo Flag Drinking Glass - Main.jpg",
+    caption: "Kosovo Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Kosovo Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kuwait Flag Drinking Glass - Main.jpg",
+    caption: "Kuwait Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Kuwait Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Kyrgyzstan Flag Drinking Glass - Main.jpg",
+    caption: "Kyrgyzstan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Kyrgyzstan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Laos Flag Drinking Glass - Main.jpg",
+    caption: "Laos Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Laos Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Latvia Flag Drinking Glass - Main.jpg",
+    caption: "Latvia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Latvia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Lebanon Flag Drinking Glass - Main.jpg",
+    caption: "Lebanon Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Lebanon Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Lesotho Flag Drinking Glass - Main.jpg",
+    caption: "Lesotho Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Lesotho Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Liberia Flag Drinking Glass - Main.jpg",
+    caption: "Liberia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Liberia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Libya Flag Drinking Glass - Main.jpg",
+    caption: "Libya Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Libya Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Liechtenstein Flag Drinking Glass - Main.jpg",
+    caption: "Liechtenstein Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Liechtenstein Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Lithuania Flag Drinking Glass - Main.jpg",
+    caption: "Lithuania Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Lithuania Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Louisiana Flag Drinking Glass - Main.jpg",
+    caption: "Louisiana Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Louisiana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Luxembourg Flag Drinking Glass - Main.jpg",
+    caption: "Luxembourg Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Luxembourg Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Macau Flag Drinking Glass - Main.jpg",
+    caption: "Macau Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Macau Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Madagascar Flag Drinking Glass - Main.jpg",
+    caption: "Madagascar Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Madagascar Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Maine Flag Drinking Glass - Main.jpg",
+    caption: "Maine Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Maine Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Malawi Flag Drinking Glass - Main.jpg",
+    caption: "Malawi Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Malawi Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Malaysia Flag Drinking Glass - Main.jpg",
+    caption: "Malaysia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Malaysia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Maldives Flag Drinking Glass - Main.jpg",
+    caption: "Maldives Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Maldives Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mali Flag Drinking Glass - Main.jpg",
+    caption: "Mali Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Mali Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Malta Flag Drinking Glass - Main.jpg",
+    caption: "Malta Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Malta Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Marshall Islands Flag Drinking Glass - Main.jpg",
+    caption: "Marshall Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Marshall Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Maryland Flag Drinking Glass - Main.jpg",
+    caption: "Maryland Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Maryland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Massachusetts Flag Drinking Glass - Main.jpg",
+    caption: "Massachusetts Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Massachusetts Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mauritania Flag Drinking Glass - Main.jpg",
+    caption: "Mauritania Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Mauritania Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mauritius Flag Drinking Glass - Main.jpg",
+    caption: "Mauritius Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Mauritius Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mexico Flag Drinking Glass - Main.jpg",
+    caption: "Mexico Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Mexico Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Michigan Flag Drinking Glass - Main.jpg",
+    caption: "Michigan Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Michigan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Midway Islands Flag Drinking Glass - Main.jpg",
+    caption: "Midway Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Midway Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Minnesota Flag Drinking Glass - Main.jpg",
+    caption: "Minnesota Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Minnesota Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mississippi Flag Drinking Glass - Main.jpg",
+    caption: "Mississippi Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Mississippi Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Missouri Flag Drinking Glass - Main.jpg",
+    caption: "Missouri Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Missouri Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Moldova Flag Drinking Glass - Main.jpg",
+    caption: "Moldova Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Moldova Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Monaco Flag Drinking Glass - Main.jpg",
+    caption: "Monaco Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Monaco Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mongolia Flag Drinking Glass - Main.jpg",
+    caption: "Mongolia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Mongolia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Montana Flag Drinking Glass - Main.jpg",
+    caption: "Montana Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Montana Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Montenegro Flag Drinking Glass - Main.jpg",
+    caption: "Montenegro Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Montenegro Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Montserrat Flag Drinking Glass - Main.jpg",
+    caption: "Montserrat Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Montserrat Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Morocco Flag Drinking Glass - Main.jpg",
+    caption: "Morocco Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Morocco Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Mozambique Flag Drinking Glass - Main.jpg",
+    caption: "Mozambique Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Mozambique Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Namibia Flag Drinking Glass - Main.jpg",
+    caption: "Namibia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Namibia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nauru Flag Drinking Glass - Main.jpg",
+    caption: "Nauru Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Nauru Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Navassa Island Flag Drinking Glass - Main.jpg",
+    caption: "Navassa Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Navassa Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nebraska Flag Drinking Glass - Main.jpg",
+    caption: "Nebraska Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Nebraska Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nepal Flag Drinking Glass - Main.jpg",
+    caption: "Nepal Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Nepal Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Netherlands Flag Drinking Glass - Main.jpg",
+    caption: "Netherlands Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Netherlands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nevada Flag Drinking Glass - Main.jpg",
+    caption: "Nevada Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Nevada Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New Caledonia Flag Drinking Glass - Main.jpg",
+    caption: "New Caledonia Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/New Caledonia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New Hampshire Flag Drinking Glass - Main.jpg",
+    caption: "New Hampshire Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/New Hampshire Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New Jersey Flag Drinking Glass - Main.jpg",
+    caption: "New Jersey Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/New Jersey Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New Mexico Flag Drinking Glass - Main.jpg",
+    caption: "New Mexico Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/New Mexico Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New York Flag Drinking Glass - Main.jpg",
+    caption: "New York Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/New York Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/New Zealand Flag Drinking Glass - Main.jpg",
+    caption: "New Zealand Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/New Zealand Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nicaragua Flag Drinking Glass - Main.jpg",
+    caption: "Nicaragua Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Nicaragua Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Niger Flag Drinking Glass - Main.jpg",
+    caption: "Niger Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Niger Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Nigeria Flag Drinking Glass - Main.jpg",
+    caption: "Nigeria Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Nigeria Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Niue Flag Drinking Glass - Main.jpg",
+    caption: "Niue Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Niue Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Norfolk Island Flag Drinking Glass - Main.jpg",
+    caption: "Norfolk Island Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Norfolk Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/North Carolina Flag Drinking Glass - Main.jpg",
+    caption: "North Carolina Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/North Carolina Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/North Dakota Flag Drinking Glass - Main.jpg",
+    caption: "North Dakota Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/North Dakota Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/North Korea Flag Drinking Glass - Main.jpg",
+    caption: "North Korea Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/North Korea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/North Macedonia Flag Drinking Glass - Main.jpg",
+    caption: "North Macedonia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/North Macedonia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Northern Arapaho of the Wind River Indian Reservation Flag Drinking Glass - Main.jpg",
+    caption: "Northern Arapaho of the Wind River Indian Reservation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Northern Arapaho of the Wind River Indian Reservation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Northern Mariana Islands Flag Drinking Glass - Main.jpg",
+    caption: "Northern Mariana Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Northern Mariana Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Norway Flag Drinking Glass - Main.jpg",
+    caption: "Norway Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Norway Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ohio Flag Drinking Glass - Main.jpg",
+    caption: "Ohio Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Ohio Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Oklahoma Flag Drinking Glass - Main.jpg",
+    caption: "Oklahoma Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Oklahoma Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Oman Flag Drinking Glass - Main.jpg",
+    caption: "Oman Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Oman Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Oregon Flag Drinking Glass - Main.jpg",
+    caption: "Oregon Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Oregon Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Osage Nation Flag Drinking Glass - Main.jpg",
+    caption: "Osage Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Osage Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Pakistan Flag Drinking Glass - Main.jpg",
+    caption: "Pakistan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Pakistan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Palau Flag Drinking Glass - Main.jpg",
+    caption: "Palau Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Palau Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Palmyra Atoll Flag Drinking Glass - Main.jpg",
+    caption: "Palmyra Atoll Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Palmyra Atoll Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Panama Flag Drinking Glass - Main.jpg",
+    caption: "Panama Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Panama Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Papua New Guinea Flag Drinking Glass - Main.jpg",
+    caption: "Papua New Guinea Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Papua New Guinea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Paracel Islands Flag Drinking Glass - Main.jpg",
+    caption: "Paracel Islands Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Paracel Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Paraguay Flag Drinking Glass - Main.jpg",
+    caption: "Paraguay Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Paraguay Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Pennsylvania Flag Drinking Glass - Main.jpg",
+    caption: "Pennsylvania Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Pennsylvania Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Peru Guinea Flag Drinking Glass - Main.jpg",
+    caption: "Peru Guinea Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Peru Guinea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Philippines Guinea Flag Drinking Glass - Main.jpg",
+    caption: "Philippines Guinea Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Philippines Guinea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Pine Ridge Reservation Flag Drinking Glass - Main.jpg",
+    caption: "Pine Ridge Reservation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Pine Ridge Reservation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Pitcairn Islands Flag Drinking Glass - Main.jpg",
+    caption: "Pitcairn Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Pitcairn Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Poland Flag Drinking Glass - Main.jpg",
+    caption: "Poland Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Poland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Portugal Flag Drinking Glass - Main.jpg",
+    caption: "Portugal Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Portugal Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Puerto Rico Flag Drinking Glass - Main.jpg",
+    caption: "Puerto Rico Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Puerto Rico Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Puyallup Indian Reservation Flag Drinking Glass - Main.jpg",
+    caption: "Puyallup Indian Reservation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Puyallup Indian Reservation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Qatar Flag Drinking Glass - Main.jpg",
+    caption: "Qatar Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Qatar Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Republic of the Congo Flag Drinking Glass - Main.jpg",
+    caption: "Republic of the Congo Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Republic of the Congo Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Rhode Island Flag Drinking Glass - Main.jpg",
+    caption: "Rhode Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Rhode Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Romina Flag Drinking Glass - Main.jpg",
+    caption: "Romina Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Romina Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Russia Flag Drinking Glass - Main.jpg",
+    caption: "Russia Flag Drinking Glass",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Drinking Glasses/Russia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Rwanda Flag Drinking Glass - Main.jpg",
+    caption: "Rwanda Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Rwanda Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Barthelemy Flag Drinking Glass - Main.jpg",
+    caption: "Saint Barthelemy Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Barthelemy Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Helena, Ascension, and Tristan da Cunha Flag Drinking Glass - Main.jpg",
+    caption: "Saint Helena, Ascension, and Tristan da Cunha Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Saint Helena, Ascension, and Tristan da Cunha Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Kitts and Nevis Flag Drinking Glass - Main.jpg",
+    caption: "Saint Kitts and Nevis Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Kitts and Nevis Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Lucia Flag Drinking Glass - Main.jpg",
+    caption: "Saint Lucia Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Lucia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Martin Flag Drinking Glass - Main.jpg",
+    caption: "Saint Martin Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Martin Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Pierre and Miquelon Flag Drinking Glass - Main.jpg",
+    caption: "Saint Pierre and Miquelon Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Pierre and Miquelon Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saint Vincent and the Grenadines Flag Drinking Glass - Main.jpg",
+    caption: "Saint Vincent and the Grenadines Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Saint Vincent and the Grenadines Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Samoa Flag Drinking Glass - Main.jpg",
+    caption: "Samoa Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Samoa Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/San Marino Flag Drinking Glass - Main.jpg",
+    caption: "San Marino Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/San Marino Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Sao Tome and Principe Flag Drinking Glass - Main.jpg",
+    caption: "Sao Tome and Principe Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Sao Tome and Principe Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Saudi Arabia Flag Drinking Glass - Main.jpg",
+    caption: "Saudi Arabia Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Saudi Arabia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Senegal Flag Drinking Glass - Main.jpg",
+    caption: "Senegal Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Senegal Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Serbia Flag Drinking Glass - Main.jpg",
+    caption: "Serbia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Serbia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Seychelles Flag Drinking Glass - Main.jpg",
+    caption: "Seychelles Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Seychelles Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Sierra Leone Flag Drinking Glass - Main.jpg",
+    caption: "Sierra Leone Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Sierra Leone Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Singapore Flag Drinking Glass - Main.jpg",
+    caption: "Singapore Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Singapore Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Sint Maarten Flag Drinking Glass - Main.jpg",
+    caption: "Sint Maarten Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Sint Maarten Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Slovakia Flag Drinking Glass - Main.jpg",
+    caption: "Slovakia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Slovakia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Slovenia Flag Drinking Glass - Main.jpg",
+    caption: "Slovenia Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Slovenia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Solomon Islands Flag Drinking Glass - Main.jpg",
+    caption: "Solomon Islands Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Solomon Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Somalia Flag Drinking Glass - Main.jpg",
+    caption: "Somalia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Somalia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Africa Flag Drinking Glass - Main.jpg",
+    caption: "South Africa Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/South Africa Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Carolina Flag Drinking Glass - Main.jpg",
+    caption: "South Carolina Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/South Carolina Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Dakota Flag Drinking Glass - Main.jpg",
+    caption: "South Dakota Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/South Dakota Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Georgia and South Sandwich Islands Flag Drinking Glass - Main.jpg",
+    caption: "South Georgia and South Sandwich Islands Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/South Georgia and South Sandwich Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Korea Flag Drinking Glass - Main.jpg",
+    caption: "South Korea Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/South Korea Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/South Sudan Flag Drinking Glass - Main.jpg",
+    caption: "South Sudan Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/South Sudan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Spain Flag Drinking Glass - Main.jpg",
+    caption: "Spain Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Spain Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Spratly Islands Flag Drinking Glass - Main.jpg",
+    caption: "Spratly Islands Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Spratly Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Sri Lanka Flag Drinking Glass - Main.jpg",
+    caption: "Sri Lanka Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Sri Lanka Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Suriname Flag Drinking Glass - Main.jpg",
+    caption: "Suriname Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Suriname Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Svalbard Flag Drinking Glass - Main.jpg",
+    caption: "Svalbard Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Svalbard Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Sweden Flag Drinking Glass - Main.jpg",
+    caption: "Sweden Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Sweden Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Switzerland Flag Drinking Glass - Main.jpg",
+    caption: "Switzerland Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Switzerland Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Syria Flag Drinking Glass - Main.jpg",
+    caption: "Syria Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Syria Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Taiwan Flag Drinking Glass - Main.jpg",
+    caption: "Taiwan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Taiwan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tajikistan Flag Drinking Glass - Main.jpg",
+    caption: "Tajikistan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Tajikistan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tanzania Flag Drinking Glass - Main.jpg",
+    caption: "Tanzania Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Tanzania Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tennessee Flag Drinking Glass - Main.jpg",
+    caption: "Tennessee Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Tennessee Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Texas Flag Drinking Glass - Main.jpg",
+    caption: "Texas Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Texas Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Thailand Flag Drinking Glass - Main.jpg",
+    caption: "Thailand Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Thailand Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/The Bahamas Flag Drinking Glass - Main.jpg",
+    caption: "The Bahamas Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/The Bahamas Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/The Gambia Flag Drinking Glass - Main.jpg",
+    caption: "The Gambia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/The Gambia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Timor-Leste Flag Drinking Glass - Main.jpg",
+    caption: "Timor-Leste Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Timor-Leste Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Togo Flag Drinking Glass - Main.jpg",
+    caption: "Togo Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Togo Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tohono Oʼodham Nation Flag Drinking Glass - Main.jpg",
+    caption: "Tohono Oʼodham Nation Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Tohono Oʼodham Nation Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tokelau Flag Drinking Glass - Main.jpg",
+    caption: "Tokelau Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Tokelau Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tonga Flag Drinking Glass - Main.jpg",
+    caption: "Tonga Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Tonga Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Trinidad and Tobago Flag Drinking Glass - Main.jpg",
+    caption: "Trinidad and Tobago Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Trinidad and Tobago Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tunisia Flag Drinking Glass - Main.jpg",
+    caption: "Tunisia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Tunisia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Turkey (Turkiye) Flag Drinking Glass - Main.jpg",
+    caption: "Turkey (Turkiye) Flag Drinking Glass",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Drinking Glasses/Turkey (Turkiye) Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Turkmenistan Flag Drinking Glass - Main.jpg",
+    caption: "Turkmenistan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Turkmenistan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Turks and Caicos Islands Flag Drinking Glass - Main.jpg",
+    caption: "Turks and Caicos Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Turks and Caicos Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Tuvalu Flag Drinking Glass - Main.jpg",
+    caption: "Tuvalu Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Tuvalu Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/U.S. Virgin Islands Flag Drinking Glass - Main.jpg",
+    caption: "U.S. Virgin Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/U.S. Virgin Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/U.S. Virgin Islands Flag Drinking Glass - Main.jpg",
+    caption: "U.S. Virgin Islands Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/U.S. Virgin Islands Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Uganda Flag Drinking Glass - Main.jpg",
+    caption: "Uganda Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Uganda Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Ukraine Flag Drinking Glass - Main.jpg",
+    caption: "Ukraine Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/Ukraine Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/United Arab Emirates Flag Drinking Glass - Main.jpg",
+    caption: "United Arab Emirates Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/United Arab Emirates Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/United Kingdom Flag Drinking Glass - Main.jpg",
+    caption: "United Kingdom Flag Drinking Glass",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Drinking Glasses/United Kingdom Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/United States of America Flag Drinking Glass - Main.jpg",
+    caption: "United States of America Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/United States of America Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/United States Pacific Island Wildlife Refuges Flag Drinking Glass - Main.jpg",
+    caption: "United States Pacific Island Wildlife Refuges Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/United States Pacific Island Wildlife Refuges Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Uruguay Flag Drinking Glass - Main.jpg",
+    caption: "Uruguay Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Uruguay Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Utah Flag Drinking Glass - Main.jpg",
+    caption: "Utah Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Utah Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Uzbekistan Flag Drinking Glass - Main.jpg",
+    caption: "Uzbekistan Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Uzbekistan Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Vanuatu Flag Drinking Glass - Main.jpg",
+    caption: "Vanuatu Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Vanuatu Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Venezuela Flag Drinking Glass - Main.jpg",
+    caption: "Venezuela Flag Drinking Glass",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Drinking Glasses/Venezuela Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Vermont Flag Drinking Glass - Main.jpg",
+    caption: "Vermont Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Vermont Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Vietnam Flag Drinking Glass - Main.jpg",
+    caption: "Vietnam Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Vietnam Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Virginia Flag Drinking Glass - Main.jpg",
+    caption: "Virginia Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Virginia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Wake Island Flag Drinking Glass - Main.jpg",
+    caption: "Wake Island Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Wake Island Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Wallis and Futuna Flag Drinking Glass - Main.jpg",
+    caption: "Wallis and Futuna Flag Drinking Glass",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Drinking Glasses/Wallis and Futuna Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Washington Flag Drinking Glass - Main.jpg",
+    caption: "Washington Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Washington Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/West Bank Flag Drinking Glass - Main.jpg",
+    caption: "West Bank Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/West Bank Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/West Virginia Flag Drinking Glass - Main.jpg",
+    caption: "West Virginia Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/West Virginia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Wisconsin Flag Drinking Glass - Main.jpg",
+    caption: "Wisconsin Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Wisconsin Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Wyoming Flag Drinking Glass - Main.jpg",
+    caption: "Wyoming Flag Drinking Glass",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Drinking Glasses/Wyoming Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Yemen Flag Drinking Glass - Main.jpg",
+    caption: "Yemen Flag Drinking Glass",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Drinking Glasses/Yemen Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Zambia Flag Drinking Glass - Main.jpg",
+    caption: "Zambia Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Zambia Flag Drinking Glass.html"
+  },
+  {
+    src: "/images/educational/Zimbabwe Flag Drinking Glass - Main.jpg",
+    caption: "Zimbabwe Flag Drinking Glass",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Drinking Glasses/Zimbabwe Flag Drinking Glass.html"
+  },
 
   // Add more flags here...
 ];

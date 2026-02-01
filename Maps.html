@@ -100,10 +100,15 @@
         <!-- FILTERS -->
         <div class="filter-container">
             <select id="filter-category">
-                <option value="all">All Maps</option>
-                <option value="world">World Maps</option>
-                <option value="country">Country Maps</option>
-                <option value="historical">Historical Maps</option>
+                <option value="endangered">Africa</option>
+                <option value="vulnerable">All Continents</option>
+                <option value="threatened">Antarctica</option>
+                <option value="vulnerable">Asia</option>
+                <option value="endangered">Australia / Oceania</option>
+                <option value="threatened">Europe</option>
+                <option value="vulnerable">Multiple Continents</option>
+                <option value="endangered">North America</option>
+                <option value="threatened">South America</option>
             </select>
         </div>
 
@@ -130,6 +135,9 @@
 ============================ -->
 <footer class="site-footer">
     <div class="footer-inner">
+
+        <h2 class="heading">******************</h2>
+        
         <p>Questions?</p>
 
         <p>Email: selfaryexpression@hotmail.com</p>
@@ -148,35 +156,3645 @@
 ----------------------------------------- */
 const photos = [
   {
-    src: "/images/maps/world-map.webp",
-    caption: "World Map",
-    price: 19.99,
-    category: "world"
+    src: "/images/educational/Afghanistan Map Camping Mug - Main.jpg",
+    caption: "Afghanistan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Afghanistan Map Camping Mug.html"
   },
   {
-    src: "/images/maps/us-map.webp",
-    caption: "United States Map",
-    price: 17.99,
-    category: "country"
+    src: "/images/educational/Afghanistan Map Decal - Main.jpg",
+    caption: "Afghanistan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Afghanistan Map Decal.html"
   },
   {
-    src: "/images/maps/europe-map.webp",
-    caption: "Europe Map",
-    price: 17.99,
-    category: "country"
+    src: "/images/educational/Akrotiri and Dhekelia Map Camping Mug - Main.jpg",
+    caption: "Akrotiri and Dhekelia Map Camping Mug",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Camping Mugs/Akrotiri and Dhekelia Map Camping Mug.html"
   },
   {
-    src: "/images/maps/ancient-rome.webp",
-    caption: "Ancient Rome Map",
-    price: 22.99,
-    category: "historical"
+    src: "/images/educational/Akrotiri and Dhekelia Map Decal - Main.jpg",
+    caption: "Akrotiri and Dhekelia Map Decal",
+    price: 10,
+    category: "Multiple Continents",
+    page: "/items/educational/Decals/Akrotiri and Dhekelia Map Decal.html"
   },
   {
-    src: "/images/maps/medieval-europe.webp",
-    caption: "Medieval Europe Map",
-    price: 22.99,
-    category: "historical"
-  }
+    src: "/images/educational/Albania Map Camping Mug - Main.jpg",
+    caption: "Albania Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Albania Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Albania Map Decal - Main.jpg",
+    caption: "Albania Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Albania Map Decal.html"
+  },
+  {
+    src: "/images/educational/Algeria Map Camping Mug - Main.jpg",
+    caption: "Algeria Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Algeria Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Algeria Map Decal - Main.jpg",
+    caption: "Algeria Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Algeria Map Decal.html"
+  },
+  {
+    src: "/images/educational/American Samoa Map Camping Mug - Main.jpg",
+    caption: "American Samoa Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/American Samoa Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/American Samoa Map Decal - Main.jpg",
+    caption: "American Samoa Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/American Samoa Map Decal.html"
+  },
+  {
+    src: "/images/educational/Andorra Map Camping Mug - Main.jpg",
+    caption: "Andorra Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Andorra Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Andorra Map Decal - Main.jpg",
+    caption: "Andorra Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Andorra Map Decal.html"
+  },
+  {
+    src: "/images/educational/Angola Map Camping Mug - Main.jpg",
+    caption: "Angola Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Angola Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Angola Map Decal - Main.jpg",
+    caption: "Angola Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Angola Map Decal.html"
+  },
+  {
+    src: "/images/educational/Anguilla Map Camping Mug - Main.jpg",
+    caption: "Anguilla Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Anguilla Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Anguilla Map Decal - Main.jpg",
+    caption: "Anguilla Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Anguilla Map Decal.html"
+  },
+  {
+    src: "/images/educational/Antarctica Map Camping Mug - Main.jpg",
+    caption: "Antarctica Map Camping Mug",
+    price: 20,
+    category: "Antarctica",
+    page: "/items/educational/Camping Mugs/Antarctica Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Antarctica Map Decal - Main.jpg",
+    caption: "Antarctica Map Decal",
+    price: 10,
+    category: "Antarctica",
+    page: "/items/educational/Decals/Antarctica Map Decal.html"
+  },
+  {
+    src: "/images/educational/Antigua and Barbuda Map Camping Mug - Main.jpg",
+    caption: "Antigua and Barbuda Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Antigua and Barbuda Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Antigua and Barbuda Map Decal - Main.jpg",
+    caption: "Antigua and Barbuda Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Antigua and Barbuda Map Decal.html"
+  },
+  {
+    src: "/images/educational/Argentina Map Camping Mug - Main.jpg",
+    caption: "Argentina Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Argentina Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Argentina Map Decal - Main.jpg",
+    caption: "Argentina Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Argentina Map Decal.html"
+  },
+  {
+    src: "/images/educational/Armenia Map Camping Mug - Main.jpg",
+    caption: "Armenia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Armenia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Armenia Map Decal - Main.jpg",
+    caption: "Armenia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Armenia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Aruba Map Camping Mug - Main.jpg",
+    caption: "Aruba Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Aruba Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Aruba Map Decal - Main.jpg",
+    caption: "Aruba Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Aruba Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ashmore and Cartier Islands Map Camping Mug - Main.jpg",
+    caption: "Ashmore and Cartier Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Ashmore and Cartier Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ashmore and Cartier Islands Map Decal - Main.jpg",
+    caption: "Ashmore and Cartier Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Ashmore and Cartier Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Australia Map Camping Mug - Main.jpg",
+    caption: "Australia Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Australia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Australia Map Decal - Main.jpg",
+    caption: "Australia Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Australia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Austria Map Camping Mug - Main.jpg",
+    caption: "Austria Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Austria Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Austria Map Decal - Main.jpg",
+    caption: "Austria Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Austria Map Decal.html"
+  },
+  {
+    src: "/images/educational/Azerbaijan Map Camping Mug - Main.jpg",
+    caption: "Azerbaijan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Azerbaijan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Azerbaijan Map Decal - Main.jpg",
+    caption: "Azerbaijan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Azerbaijan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bahrain Map Camping Mug - Main.jpg",
+    caption: "Bahrain Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Bahrain Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bahrain Map Decal - Main.jpg",
+    caption: "Bahrain Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Bahrain Map Decal.html"
+  },
+  {
+    src: "/images/educational/Baker Island Map Camping Mug - Main.jpg",
+    caption: "Baker Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Baker Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Baker Island Map Decal - Main.jpg",
+    caption: "Baker Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Baker Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bangladesh Map Camping Mug - Main.jpg",
+    caption: "Bangladesh Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Bangladesh Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bangladesh Map Decal - Main.jpg",
+    caption: "Bangladesh Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Bangladesh Map Decal.html"
+  },
+  {
+    src: "/images/educational/Barbados Map Camping Mug - Main.jpg",
+    caption: "Barbados Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Barbados Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Barbados Map Decal - Main.jpg",
+    caption: "Barbados Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Barbados Map Decal.html"
+  },
+  {
+    src: "/images/educational/Belarus Map Camping Mug - Main.jpg",
+    caption: "Belarus Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Belarus Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Belarus Map Decal - Main.jpg",
+    caption: "Belarus Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Belarus Map Decal.html"
+  },
+  {
+    src: "/images/educational/Belgium Map Camping Mug - Main.jpg",
+    caption: "Belgium Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Belgium Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Belgium Map Decal - Main.jpg",
+    caption: "Belgium Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Belgium Map Decal.html"
+  },
+  {
+    src: "/images/educational/Belize Map Camping Mug - Main.jpg",
+    caption: "Belize Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Belize Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Belize Map Decal - Main.jpg",
+    caption: "Belize Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Belize Map Decal.html"
+  },
+  {
+    src: "/images/educational/Benin Map Camping Mug - Main.jpg",
+    caption: "Benin Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Benin Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Benin Map Decal - Main.jpg",
+    caption: "Benin Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Benin Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bermuda Map Camping Mug - Main.jpg",
+    caption: "Bermuda Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Bermuda Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bermuda Map Decal - Main.jpg",
+    caption: "Bermuda Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Bermuda Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bhutan Map Camping Mug - Main.jpg",
+    caption: "Bhutan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Bhutan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bhutan Map Decal - Main.jpg",
+    caption: "Bhutan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Bhutan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bolivia Map Camping Mug - Main.jpg",
+    caption: "Bolivia Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Bolivia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bolivia Map Decal - Main.jpg",
+    caption: "Bolivia Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Bolivia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bosnia and Herzegovina Map Camping Mug - Main.jpg",
+    caption: "Bosnia and Herzegovina Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Bosnia and Herzegovina Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bosnia and Herzegovina Map Decal - Main.jpg",
+    caption: "Bosnia and Herzegovina Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Bosnia and Herzegovina Map Decal.html"
+  },
+  {
+    src: "/images/educational/Botswana Map Camping Mug - Main.jpg",
+    caption: "Botswana Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Botswana Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Botswana Map Decal - Main.jpg",
+    caption: "Botswana Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Botswana Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bouvet Island Map Camping Mug - Main.jpg",
+    caption: "Bouvet Island Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Bouvet Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bouvet Island Map Decal - Main.jpg",
+    caption: "Bouvet Island Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Bouvet Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Brazil Map Camping Mug - Main.jpg",
+    caption: "Brazil Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Brazil Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Brazil Map Decal - Main.jpg",
+    caption: "Brazil Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Brazil Map Decal.html"
+  },
+  {
+    src: "/images/educational/British Indian Ocean Territory Map Camping Mug - Main.jpg",
+    caption: "British Indian Ocean Territory Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/British Indian Ocean Territory Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/British Indian Ocean Territory Map Decal - Main.jpg",
+    caption: "British Indian Ocean Territory Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/British Indian Ocean Territory Map Decal.html"
+  },
+  {
+    src: "/images/educational/British Virgin Islands Map Camping Mug - Main.jpg",
+    caption: "British Virgin Islands Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/British Virgin Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/British Virgin Islands Map Decal - Main.jpg",
+    caption: "British Virgin Islands Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/British Virgin Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Brunei Map Camping Mug - Main.jpg",
+    caption: "Brunei Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Brunei Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Brunei Map Decal - Main.jpg",
+    caption: "Brunei Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Brunei Map Decal.html"
+  },
+  {
+    src: "/images/educational/Bulgaria Map Camping Mug - Main.jpg",
+    caption: "Bulgaria Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Bulgaria Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Bulgaria Map Decal - Main.jpg",
+    caption: "Bulgaria Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Bulgaria Map Decal.html"
+  },
+  {
+    src: "/images/educational/Burkina Faso Map Camping Mug - Main.jpg",
+    caption: "Burkina Faso Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Burkina Faso Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Burkina Faso Map Decal - Main.jpg",
+    caption: "Burkina Faso Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Burkina Faso Map Decal.html"
+  },
+  {
+    src: "/images/educational/Burma Map Camping Mug - Main.jpg",
+    caption: "Burma Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Burma Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Burma Map Decal - Main.jpg",
+    caption: "Burma Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Burma Map Decal.html"
+  },
+  {
+    src: "/images/educational/Burundi Map Camping Mug - Main.jpg",
+    caption: "Burundi Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Burundi Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Burundi Map Decal - Main.jpg",
+    caption: "Burundi Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Burundi Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cabo Verde Map Camping Mug - Main.jpg",
+    caption: "Cabo Verde Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Cabo Verde Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cabo Verde Map Decal - Main.jpg",
+    caption: "Cabo Verde Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Cabo Verde Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cambodia Map Camping Mug - Main.jpg",
+    caption: "Cambodia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Cambodia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cambodia Map Decal - Main.jpg",
+    caption: "Cambodia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Cambodia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cameroon Map Camping Mug - Main.jpg",
+    caption: "Cameroon Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Cameroon Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cameroon Map Decal - Main.jpg",
+    caption: "Cameroon Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Cameroon Map Decal.html"
+  },
+  {
+    src: "/images/educational/Canada Map Camping Mug - Main.jpg",
+    caption: "Canada Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Canada Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Canada Map Decal - Main.jpg",
+    caption: "Canada Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Canada Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cayman Islands Map Camping Mug - Main.jpg",
+    caption: "Cayman Islands Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Cayman Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cayman Islands Map Decal - Main.jpg",
+    caption: "Cayman Islands Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Cayman Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Central African Republic Map Camping Mug - Main.jpg",
+    caption: "Central African Republic Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Central African Republic Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Central African Republic Map Decal - Main.jpg",
+    caption: "Central African Republic Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Central African Republic Map Decal.html"
+  },
+  {
+    src: "/images/educational/Chad Map Camping Mug - Main.jpg",
+    caption: "Chad Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Chad Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Chad Map Decal - Main.jpg",
+    caption: "Chad Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Chad Map Decal.html"
+  },
+  {
+    src: "/images/educational/Chile Map Camping Mug - Main.jpg",
+    caption: "Chile Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Chile Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Chile Map Decal - Main.jpg",
+    caption: "Chile Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Chile Map Decal.html"
+  },
+  {
+    src: "/images/educational/China Map Camping Mug - Main.jpg",
+    caption: "China Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/China Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/China Map Decal - Main.jpg",
+    caption: "China Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/China Map Decal.html"
+  },
+  {
+    src: "/images/educational/Christmas Island Map Camping Mug - Main.jpg",
+    caption: "Christmas Island Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Christmas Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Christmas Island Map Decal - Main.jpg",
+    caption: "Christmas Island Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Christmas Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Clipperton Island Map Camping Mug - Main.jpg",
+    caption: "Clipperton Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Clipperton Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Clipperton Island Map Decal - Main.jpg",
+    caption: "Clipperton Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Clipperton Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cocos (Keeling) Islands Map Camping Mug - Main.jpg",
+    caption: "Cocos (Keeling) Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Cocos (Keeling) Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cocos (Keeling) Islands Map Decal - Main.jpg",
+    caption: "Cocos (Keeling) Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Cocos (Keeling) Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Colombia Map Camping Mug - Main.jpg",
+    caption: "Colombia Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Colombia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Colombia Map Decal - Main.jpg",
+    caption: "Colombia Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Colombia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Comoros Map Camping Mug - Main.jpg",
+    caption: "Comoros Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Comoros Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Comoros Map Decal - Main.jpg",
+    caption: "Comoros Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Comoros Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cook Islands Map Camping Mug - Main.jpg",
+    caption: "Cook Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Cook Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cook Islands Map Decal - Main.jpg",
+    caption: "Cook Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Cook Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Coral Sea Islands Map Camping Mug - Main.jpg",
+    caption: "Coral Sea Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Coral Sea Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Coral Sea Islands Map Decal - Main.jpg",
+    caption: "Coral Sea Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Coral Sea Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Costa Rica Map Camping Mug - Main.jpg",
+    caption: "Costa Rica Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Costa Rica Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Costa Rica Map Decal - Main.jpg",
+    caption: "Costa Rica Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Costa Rica Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cote d'Ivoire Map Camping Mug - Main.jpg",
+    caption: "Cote d'Ivoire Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Cote d'Ivoire Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cote d'Ivoire Map Decal - Main.jpg",
+    caption: "Cote d'Ivoire Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Cote d'Ivoire Map Decal.html"
+  },
+  {
+    src: "/images/educational/Croatia Map Camping Mug - Main.jpg",
+    caption: "Croatia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Croatia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Croatia Map Decal - Main.jpg",
+    caption: "Croatia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Croatia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cuba Map Camping Mug - Main.jpg",
+    caption: "Cuba Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Cuba Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cuba Map Decal - Main.jpg",
+    caption: "Cuba Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Cuba Map Decal.html"
+  },
+  {
+    src: "/images/educational/Curacao Map Camping Mug - Main.jpg",
+    caption: "Curacao Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Curacao Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Curacao Map Decal - Main.jpg",
+    caption: "Curacao Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Curacao Map Decal.html"
+  },
+  {
+    src: "/images/educational/Cyprus Map Camping Mug - Main.jpg",
+    caption: "Cyprus Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Cyprus Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Cyprus Map Decal - Main.jpg",
+    caption: "Cyprus Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Cyprus Map Decal.html"
+  },
+  {
+    src: "/images/educational/Czechia Map Camping Mug - Main.jpg",
+    caption: "Czechia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Czechia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Czechia Map Decal - Main.jpg",
+    caption: "Czechia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Czechia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Democratic Republic of the Congo Map Camping Mug - Main.jpg",
+    caption: "Democratic Republic of the Congo Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Democratic Republic of the Congo Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Democratic Republic of the Congo Map Decal - Main.jpg",
+    caption: "Democratic Republic of the Congo Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Democratic Republic of the Congo Map Decal.html"
+  },
+  {
+    src: "/images/educational/Denmark Map Camping Mug - Main.jpg",
+    caption: "Denmark Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Denmark Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Denmark Map Decal - Main.jpg",
+    caption: "Denmark Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Denmark Map Decal.html"
+  },
+  {
+    src: "/images/educational/Djibouti Map Camping Mug - Main.jpg",
+    caption: "Djibouti Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Djibouti Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Djibouti Map Decal - Main.jpg",
+    caption: "Djibouti Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Djibouti Map Decal.html"
+  },
+  {
+    src: "/images/educational/Dominica Map Camping Mug - Main.jpg",
+    caption: "Dominica Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Dominica Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dominica Map Decal - Main.jpg",
+    caption: "Dominica Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Dominica Map Decal.html"
+  },
+  {
+    src: "/images/educational/Dominican Republic Map Camping Mug - Main.jpg",
+    caption: "Dominican Republic Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Dominican Republic Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Dominican Republic Map Decal - Main.jpg",
+    caption: "Dominican Republic Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Dominican Republic Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ecuador Map Camping Mug - Main.jpg",
+    caption: "Ecuador Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Ecuador Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ecuador Map Decal - Main.jpg",
+    caption: "Ecuador Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Ecuador Map Decal.html"
+  },
+  {
+    src: "/images/educational/Egypt Map Camping Mug - Main.jpg",
+    caption: "Egypt Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Egypt Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Egypt Map Decal - Main.jpg",
+    caption: "Egypt Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Egypt Map Decal.html"
+  },
+  {
+    src: "/images/educational/El Salvador Map Camping Mug - Main.jpg",
+    caption: "El Salvador Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/El Salvador Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/El Salvador Map Decal - Main.jpg",
+    caption: "El Salvador Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/El Salvador Map Decal.html"
+  },
+  {
+    src: "/images/educational/Equatorial Guinea Map Camping Mug - Main.jpg",
+    caption: "Equatorial Guinea Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Equatorial Guinea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Equatorial Guinea Map Decal - Main.jpg",
+    caption: "Equatorial Guinea Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Equatorial Guinea Map Decal.html"
+  },
+  {
+    src: "/images/educational/Eritrea Map Camping Mug - Main.jpg",
+    caption: "Eritrea Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Eritrea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Eritrea Map Decal - Main.jpg",
+    caption: "Eritrea Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Eritrea Map Decal.html"
+  },
+  {
+    src: "/images/educational/Estonia Map Camping Mug - Main.jpg",
+    caption: "Estonia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Estonia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Estonia Map Decal - Main.jpg",
+    caption: "Estonia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Estonia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Eswatini Map Camping Mug - Main.jpg",
+    caption: "Eswatini Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Eswatini Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Eswatini Map Decal - Main.jpg",
+    caption: "Eswatini Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Eswatini Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ethiopia Map Camping Mug - Main.jpg",
+    caption: "Ethiopia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Ethiopia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ethiopia Map Decal - Main.jpg",
+    caption: "Ethiopia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Ethiopia Map Decal.html"
+  },
+  {
+    src: "/images/educational/European Union Map Camping Mug - Main.jpg",
+    caption: "European Union Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/European Union Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/European Union Map Decal - Main.jpg",
+    caption: "European Union Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/European Union Map Decal.html"
+  },
+  {
+    src: "/images/educational/Falkland Islands (Islas Malvinas) Map Camping Mug - Main.jpg",
+    caption: "Falkland Islands (Islas Malvinas) Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Falkland Islands (Islas Malvinas) Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Falkland Islands (Islas Malvinas) Map Decal - Main.jpg",
+    caption: "Falkland Islands (Islas Malvinas) Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Falkland Islands (Islas Malvinas) Map Decal.html"
+  },
+  {
+    src: "/images/educational/Faroe Islands Map Camping Mug - Main.jpg",
+    caption: "Faroe Islands Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Faroe Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Faroe Islands Map Decal - Main.jpg",
+    caption: "Faroe Islands Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Faroe Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Federated States of Micronesia Map Camping Mug - Main.jpg",
+    caption: "Federated States of Micronesia Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Federated States of Micronesia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Federated States of Micronesia Map Decal - Main.jpg",
+    caption: "Federated States of Micronesia Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Federated States of Micronesia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Fiji Map Camping Mug - Main.jpg",
+    caption: "Fiji Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Fiji Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Fiji Map Decal - Main.jpg",
+    caption: "Fiji Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Fiji Map Decal.html"
+  },
+  {
+    src: "/images/educational/Finland Map Camping Mug - Main.jpg",
+    caption: "Finland Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Finland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Finland Map Decal - Main.jpg",
+    caption: "Finland Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Finland Map Decal.html"
+  },
+  {
+    src: "/images/educational/France Map Camping Mug - Main.jpg",
+    caption: "France Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/France Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/France Map Decal - Main.jpg",
+    caption: "France Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/France Map Decal.html"
+  },
+  {
+    src: "/images/educational/French Polynesia Map Camping Mug - Main.jpg",
+    caption: "French Polynesia Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/French Polynesia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/French Polynesia Map Decal - Main.jpg",
+    caption: "French Polynesia Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/French Polynesia Map Decal.html"
+  },
+  {
+    src: "/images/educational/French Southern and Antarctic Lands Map Camping Mug - Main.jpg",
+    caption: "French Southern and Antarctic Lands Map Camping Mug",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Camping Mugs/French Southern and Antarctic Lands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/French Southern and Antarctic Lands Map Decal - Main.jpg",
+    caption: "French Southern and Antarctic Lands Map Decal",
+    price: 10,
+    category: "Multiple Continents",
+    page: "/items/educational/Decals/French Southern and Antarctic Lands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Gabon Map Camping Mug - Main.jpg",
+    caption: "Gabon Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Gabon Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gabon Map Decal - Main.jpg",
+    caption: "Gabon Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Gabon Map Decal.html"
+  },
+  {
+    src: "/images/educational/Gaza Strip Map Camping Mug - Main.jpg",
+    caption: "Gaza Strip Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Gaza Strip Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gaza Strip Map Decal - Main.jpg",
+    caption: "Gaza Strip Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Gaza Strip Map Decal.html"
+  },
+  {
+    src: "/images/educational/Georgia Map Camping Mug - Main.jpg",
+    caption: "Georgia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Georgia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Georgia Map Decal - Main.jpg",
+    caption: "Georgia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Georgia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Germany Map Camping Mug - Main.jpg",
+    caption: "Germany Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Germany Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Germany Map Decal - Main.jpg",
+    caption: "Germany Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Germany Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ghana Map Camping Mug - Main.jpg",
+    caption: "Ghana Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Ghana Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ghana Map Decal - Main.jpg",
+    caption: "Ghana Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Ghana Map Decal.html"
+  },
+  {
+    src: "/images/educational/Gibraltar Map Camping Mug - Main.jpg",
+    caption: "Gibraltar Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Gibraltar Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Gibraltar Map Decal - Main.jpg",
+    caption: "Gibraltar Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Gibraltar Map Decal.html"
+  },
+  {
+    src: "/images/educational/Greece Map Camping Mug - Main.jpg",
+    caption: "Greece Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Greece Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Greece Map Decal - Main.jpg",
+    caption: "Greece Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Greece Map Decal.html"
+  },
+  {
+    src: "/images/educational/Greenland Map Camping Mug - Main.jpg",
+    caption: "Greenland Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Greenland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Greenland Map Decal - Main.jpg",
+    caption: "Greenland Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Greenland Map Decal.html"
+  },
+  {
+    src: "/images/educational/Grenada Map Camping Mug - Main.jpg",
+    caption: "Grenada Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Grenada Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Grenada Map Decal - Main.jpg",
+    caption: "Grenada Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Grenada Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guam Map Camping Mug - Main.jpg",
+    caption: "Guam Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Guam Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guam Map Decal - Main.jpg",
+    caption: "Guam Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Guam Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guatemala Map Camping Mug - Main.jpg",
+    caption: "Guatemala Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Guatemala Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guatemala Map Decal - Main.jpg",
+    caption: "Guatemala Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Guatemala Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guernsey Map Camping Mug - Main.jpg",
+    caption: "Guernsey Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Guernsey Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guernsey Map Decal - Main.jpg",
+    caption: "Guernsey Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Guernsey Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guinea Map Camping Mug - Main.jpg",
+    caption: "Guinea Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Guinea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guinea Map Decal - Main.jpg",
+    caption: "Guinea Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Guinea Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guinea-Bissau Map Camping Mug - Main.jpg",
+    caption: "Guinea-Bissau Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Guinea-Bissau Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guinea-Bissau Map Decal - Main.jpg",
+    caption: "Guinea-Bissau Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Guinea-Bissau Map Decal.html"
+  },
+  {
+    src: "/images/educational/Guyana Map Camping Mug - Main.jpg",
+    caption: "Guyana Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Guyana Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Guyana Map Decal - Main.jpg",
+    caption: "Guyana Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Guyana Map Decal.html"
+  },
+  {
+    src: "/images/educational/Haiti Map Camping Mug - Main.jpg",
+    caption: "Haiti Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Haiti Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Haiti Map Decal - Main.jpg",
+    caption: "Haiti Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Haiti Map Decal.html"
+  },
+  {
+    src: "/images/educational/Heard Island and McDonald Islands Map Camping Mug - Main.jpg",
+    caption: "Heard Island and McDonald Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Heard Island and McDonald Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Heard Island and McDonald Islands Map Decal - Main.jpg",
+    caption: "Heard Island and McDonald Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Heard Island and McDonald Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Holy See (Vatican City) Map Camping Mug - Main.jpg",
+    caption: "Holy See (Vatican City) Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Holy See (Vatican City) Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Holy See (Vatican City) Map Decal - Main.jpg",
+    caption: "Holy See (Vatican City) Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Holy See (Vatican City) Map Decal.html"
+  },
+  {
+    src: "/images/educational/Honduras Map Camping Mug - Main.jpg",
+    caption: "Honduras Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Honduras Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Honduras Map Decal - Main.jpg",
+    caption: "Honduras Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Honduras Map Decal.html"
+  },
+  {
+    src: "/images/educational/Hong Kong Map Camping Mug - Main.jpg",
+    caption: "Hong Kong Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Hong Kong Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Hong Kong Map Decal - Main.jpg",
+    caption: "Hong Kong Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Hong Kong Map Decal.html"
+  },
+  {
+    src: "/images/educational/Howland Island Map Camping Mug - Main.jpg",
+    caption: "Howland Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Howland Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Howland Island Map Decal - Main.jpg",
+    caption: "Howland Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Howland Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Hungary Map Camping Mug - Main.jpg",
+    caption: "Hungary Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Hungary Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Hungary Map Decal - Main.jpg",
+    caption: "Hungary Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Hungary Map Decal.html"
+  },
+  {
+    src: "/images/educational/Iceland Map Camping Mug - Main.jpg",
+    caption: "Iceland Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Iceland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Iceland Map Decal - Main.jpg",
+    caption: "Iceland Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Iceland Map Decal.html"
+  },
+  {
+    src: "/images/educational/India Map Camping Mug - Main.jpg",
+    caption: "India Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/India Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/India Map Decal - Main.jpg",
+    caption: "India Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/India Map Decal.html"
+  },
+  {
+    src: "/images/educational/Indonesia Map Camping Mug - Main.jpg",
+    caption: "Indonesia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Indonesia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Indonesia Map Decal - Main.jpg",
+    caption: "Indonesia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Indonesia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Iraq Map Camping Mug - Main.jpg",
+    caption: "Iraq Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Iraq Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Iraq Map Decal - Main.jpg",
+    caption: "Iraq Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Iraq Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ireland Map Camping Mug - Main.jpg",
+    caption: "Ireland Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Ireland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ireland Map Decal - Main.jpg",
+    caption: "Ireland Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Ireland Map Decal.html"
+  },
+  {
+    src: "/images/educational/Isle of Man Map Camping Mug - Main.jpg",
+    caption: "Isle of Man Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Isle of Man Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Isle of Man Map Decal - Main.jpg",
+    caption: "Isle of Man Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Isle of Man Map Decal.html"
+  },
+  {
+    src: "/images/educational/Israel Map Camping Mug - Main.jpg",
+    caption: "Israel Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Israel Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Israel Map Decal - Main.jpg",
+    caption: "Israel Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Israel Map Decal.html"
+  },
+  {
+    src: "/images/educational/Italy Map Camping Mug - Main.jpg",
+    caption: "Italy Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Italy Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Italy Map Decal - Main.jpg",
+    caption: "Italy Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Italy Map Decal.html"
+  },
+  {
+    src: "/images/educational/Jamaica Map Camping Mug - Main.jpg",
+    caption: "Jamaica Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Jamaica Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jamaica Map Decal - Main.jpg",
+    caption: "Jamaica Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Jamaica Map Decal.html"
+  },
+  {
+    src: "/images/educational/Jan Mayen Map Camping Mug - Main.jpg",
+    caption: "Jan Mayen Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Jan Mayen Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jan Mayen Map Decal - Main.jpg",
+    caption: "Jan Mayen Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Jan Mayen Map Decal.html"
+  },
+  {
+    src: "/images/educational/Japan Map Camping Mug - Main.jpg",
+    caption: "Japan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Japan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Japan Map Decal - Main.jpg",
+    caption: "Japan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Japan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Jarvis Island Map Camping Mug - Main.jpg",
+    caption: "Jarvis Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Jarvis Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jarvis Island Map Decal - Main.jpg",
+    caption: "Jarvis Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Jarvis Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Jersey Map Camping Mug - Main.jpg",
+    caption: "Jersey Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Jersey Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jersey Map Decal - Main.jpg",
+    caption: "Jersey Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Jersey Map Decal.html"
+  },
+  {
+    src: "/images/educational/Johnston Atoll Map Camping Mug - Main.jpg",
+    caption: "Johnston Atoll Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Johnston Atoll Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Johnston Atoll Map Decal - Main.jpg",
+    caption: "Johnston Atoll Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Johnston Atoll Map Decal.html"
+  },
+  {
+    src: "/images/educational/Jordan Map Camping Mug - Main.jpg",
+    caption: "Jordan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Jordan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Jordan Map Decal - Main.jpg",
+    caption: "Jordan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Jordan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kazakhstan Map Camping Mug - Main.jpg",
+    caption: "Kazakhstan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Kazakhstan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kazakhstan Map Decal - Main.jpg",
+    caption: "Kazakhstan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Kazakhstan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kenya Map Camping Mug - Main.jpg",
+    caption: "Kenya Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Kenya Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kenya Map Decal - Main.jpg",
+    caption: "Kenya Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Kenya Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kingman Reef Map Camping Mug - Main.jpg",
+    caption: "Kingman Reef Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Kingman Reef Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kingman Reef Map Decal - Main.jpg",
+    caption: "Kingman Reef Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Kingman Reef Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kiribati Map Camping Mug - Main.jpg",
+    caption: "Kiribati Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Kiribati Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kiribati Map Decal - Main.jpg",
+    caption: "Kiribati Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Kiribati Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kosovo Map Camping Mug - Main.jpg",
+    caption: "Kosovo Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Kosovo Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kosovo Map Decal - Main.jpg",
+    caption: "Kosovo Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Kosovo Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kuwait Map Camping Mug - Main.jpg",
+    caption: "Kuwait Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Kuwait Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kuwait Map Decal - Main.jpg",
+    caption: "Kuwait Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Kuwait Map Decal.html"
+  },
+  {
+    src: "/images/educational/Kyrgyzstan Map Camping Mug - Main.jpg",
+    caption: "Kyrgyzstan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Kyrgyzstan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Kyrgyzstan Map Decal - Main.jpg",
+    caption: "Kyrgyzstan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Kyrgyzstan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Laos Map Camping Mug - Main.jpg",
+    caption: "Laos Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Laos Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Laos Map Decal - Main.jpg",
+    caption: "Laos Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Laos Map Decal.html"
+  },
+  {
+    src: "/images/educational/Latvia Map Camping Mug - Main.jpg",
+    caption: "Latvia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Latvia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Latvia Map Decal - Main.jpg",
+    caption: "Latvia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Latvia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Lebanon Map Camping Mug - Main.jpg",
+    caption: "Lebanon Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Lebanon Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lebanon Map Decal - Main.jpg",
+    caption: "Lebanon Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Lebanon Map Decal.html"
+  },
+  {
+    src: "/images/educational/Lesotho Map Camping Mug - Main.jpg",
+    caption: "Lesotho Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Lesotho Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lesotho Map Decal - Main.jpg",
+    caption: "Lesotho Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Lesotho Map Decal.html"
+  },
+  {
+    src: "/images/educational/Liberia Map Camping Mug - Main.jpg",
+    caption: "Liberia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Liberia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Liberia Map Decal - Main.jpg",
+    caption: "Liberia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Liberia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Libya Map Camping Mug - Main.jpg",
+    caption: "Libya Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Libya Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Libya Map Decal - Main.jpg",
+    caption: "Libya Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Libya Map Decal.html"
+  },
+  {
+    src: "/images/educational/Liechtenstein Map Camping Mug - Main.jpg",
+    caption: "Liechtenstein Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Liechtenstein Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Liechtenstein Map Decal - Main.jpg",
+    caption: "Liechtenstein Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Liechtenstein Map Decal.html"
+  },
+  {
+    src: "/images/educational/Lithuania Map Camping Mug - Main.jpg",
+    caption: "Lithuania Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Lithuania Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Lithuania Map Decal - Main.jpg",
+    caption: "Lithuania Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Lithuania Map Decal.html"
+  },
+  {
+    src: "/images/educational/Luxembourg Map Camping Mug - Main.jpg",
+    caption: "Luxembourg Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Luxembourg Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Luxembourg Map Decal - Main.jpg",
+    caption: "Luxembourg Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Luxembourg Map Decal.html"
+  },
+  {
+    src: "/images/educational/Macau Map Camping Mug - Main.jpg",
+    caption: "Macau Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Macau Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Macau Map Decal - Main.jpg",
+    caption: "Macau Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Macau Map Decal.html"
+  },
+  {
+    src: "/images/educational/Madagascar Map Camping Mug - Main.jpg",
+    caption: "Madagascar Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Madagascar Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Madagascar Map Decal - Main.jpg",
+    caption: "Madagascar Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Madagascar Map Decal.html"
+  },
+  {
+    src: "/images/educational/Malawi Map Camping Mug - Main.jpg",
+    caption: "Malawi Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Malawi Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Malawi Map Decal - Main.jpg",
+    caption: "Malawi Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Malawi Map Decal.html"
+  },
+  {
+    src: "/images/educational/Malaysia Map Camping Mug - Main.jpg",
+    caption: "Malaysia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Malaysia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Malaysia Map Decal - Main.jpg",
+    caption: "Malaysia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Malaysia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Maldives Map Camping Mug - Main.jpg",
+    caption: "Maldives Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Maldives Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Maldives Map Decal - Main.jpg",
+    caption: "Maldives Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Maldives Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mali Map Camping Mug - Main.jpg",
+    caption: "Mali Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Mali Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mali Map Decal - Main.jpg",
+    caption: "Mali Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Mali Map Decal.html"
+  },
+  {
+    src: "/images/educational/Malta Map Camping Mug - Main.jpg",
+    caption: "Malta Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Malta Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Malta Map Decal - Main.jpg",
+    caption: "Malta Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Malta Map Decal.html"
+  },
+  {
+    src: "/images/educational/Marshall Islands Map Camping Mug - Main.jpg",
+    caption: "Marshall Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Marshall Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Marshall Islands Map Decal - Main.jpg",
+    caption: "Marshall Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Marshall Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mauritania Map Camping Mug - Main.jpg",
+    caption: "Mauritania Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Mauritania Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mauritania Map Decal - Main.jpg",
+    caption: "Mauritania Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Mauritania Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mauritius Map Camping Mug - Main.jpg",
+    caption: "Mauritius Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Mauritius Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mauritius Map Decal - Main.jpg",
+    caption: "Mauritius Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Mauritius Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mexico Map Camping Mug - Main.jpg",
+    caption: "Mexico Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Mexico Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mexico Map Decal - Main.jpg",
+    caption: "Mexico Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Mexico Map Decal.html"
+  },
+  {
+    src: "/images/educational/Midway Islands Map Camping Mug - Main.jpg",
+    caption: "Midway Islands Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Midway Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Midway Islands Map Decal - Main.jpg",
+    caption: "Midway Islands Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Midway Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Moldova Map Camping Mug - Main.jpg",
+    caption: "Moldova Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Moldova Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Moldova Map Decal - Main.jpg",
+    caption: "Moldova Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Moldova Map Decal.html"
+  },
+  {
+    src: "/images/educational/Monaco Map Camping Mug - Main.jpg",
+    caption: "Monaco Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Monaco Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Monaco Map Decal - Main.jpg",
+    caption: "Monaco Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Monaco Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mongolia Map Camping Mug - Main.jpg",
+    caption: "Mongolia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Mongolia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mongolia Map Decal - Main.jpg",
+    caption: "Mongolia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Mongolia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Montenegro Map Camping Mug - Main.jpg",
+    caption: "Montenegro Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Montenegro Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Montenegro Map Decal - Main.jpg",
+    caption: "Montenegro Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Montenegro Map Decal.html"
+  },
+  {
+    src: "/images/educational/Montserrat Map Camping Mug - Main.jpg",
+    caption: "Montserrat Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Montserrat Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Montserrat Map Decal - Main.jpg",
+    caption: "Montserrat Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Montserrat Map Decal.html"
+  },
+  {
+    src: "/images/educational/Morocco Map Camping Mug - Main.jpg",
+    caption: "Morocco Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Morocco Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Morocco Map Decal - Main.jpg",
+    caption: "Morocco Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Morocco Map Decal.html"
+  },
+  {
+    src: "/images/educational/Mozambique Map Camping Mug - Main.jpg",
+    caption: "Mozambique Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Mozambique Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Mozambique Map Decal - Main.jpg",
+    caption: "Mozambique Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Mozambique Map Decal.html"
+  },
+  {
+    src: "/images/educational/Namibia Map Camping Mug - Main.jpg",
+    caption: "Namibia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Namibia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Namibia Map Decal - Main.jpg",
+    caption: "Namibia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Namibia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Nauru Map Camping Mug - Main.jpg",
+    caption: "Nauru Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Nauru Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nauru Map Decal - Main.jpg",
+    caption: "Nauru Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Nauru Map Decal.html"
+  },
+  {
+    src: "/images/educational/Navassa Island Map Camping Mug - Main.jpg",
+    caption: "Navassa Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Navassa Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Navassa Island Map Decal - Main.jpg",
+    caption: "Navassa Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Navassa Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Nepal Map Camping Mug - Main.jpg",
+    caption: "Nepal Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Nepal Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nepal Map Decal - Main.jpg",
+    caption: "Nepal Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Nepal Map Decal.html"
+  },
+  {
+    src: "/images/educational/Netherlands Map Camping Mug - Main.jpg",
+    caption: "Netherlands Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Netherlands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Netherlands Map Decal - Main.jpg",
+    caption: "Netherlands Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Netherlands Map Decal.html"
+  },
+  {
+    src: "/images/educational/New Caledonia Map Camping Mug - Main.jpg",
+    caption: "New Caledonia Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/New Caledonia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/New Caledonia Map Decal - Main.jpg",
+    caption: "New Caledonia Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/New Caledonia Map Decal.html"
+  },
+  {
+    src: "/images/educational/New Zealand Map Camping Mug - Main.jpg",
+    caption: "New Zealand Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/New Zealand Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/New Zealand Map Decal - Main.jpg",
+    caption: "New Zealand Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/New Zealand Map Decal.html"
+  },
+  {
+    src: "/images/educational/Nicaragua Map Camping Mug - Main.jpg",
+    caption: "Nicaragua Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Nicaragua Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nicaragua Map Decal - Main.jpg",
+    caption: "Nicaragua Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Nicaragua Map Decal.html"
+  },
+  {
+    src: "/images/educational/Niger Map Camping Mug - Main.jpg",
+    caption: "Niger Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Niger Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Niger Map Decal - Main.jpg",
+    caption: "Niger Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Niger Map Decal.html"
+  },
+  {
+    src: "/images/educational/Nigeria Map Camping Mug - Main.jpg",
+    caption: "Nigeria Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Nigeria Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Nigeria Map Decal - Main.jpg",
+    caption: "Nigeria Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Nigeria Map Decal.html"
+  },
+  {
+    src: "/images/educational/Niue Map Camping Mug - Main.jpg",
+    caption: "Niue Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Niue Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Niue Map Decal - Main.jpg",
+    caption: "Niue Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Niue Map Decal.html"
+  },
+  {
+    src: "/images/educational/Norfolk Island Map Camping Mug - Main.jpg",
+    caption: "Norfolk Island Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Norfolk Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Norfolk Island Map Decal - Main.jpg",
+    caption: "Norfolk Island Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Norfolk Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/North Korea Map Camping Mug - Main.jpg",
+    caption: "North Korea Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/North Korea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/North Korea Map Decal - Main.jpg",
+    caption: "North Korea Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/North Korea Map Decal.html"
+  },
+  {
+    src: "/images/educational/North Macedonia Map Camping Mug - Main.jpg",
+    caption: "North Macedonia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/North Macedonia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/North Macedonia Map Decal - Main.jpg",
+    caption: "North Macedonia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/North Macedonia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Northern Mariana Islands Map Camping Mug - Main.jpg",
+    caption: "Northern Mariana Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Northern Mariana Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Northern Mariana Islands Map Decal - Main.jpg",
+    caption: "Northern Mariana Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Northern Mariana Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Norway Map Camping Mug - Main.jpg",
+    caption: "Norway Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Norway Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Norway Map Decal - Main.jpg",
+    caption: "Norway Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Norway Map Decal.html"
+  },
+  {
+    src: "/images/educational/Oman Map Camping Mug - Main.jpg",
+    caption: "Oman Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Oman Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Oman Map Decal - Main.jpg",
+    caption: "Oman Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Oman Map Decal.html"
+  },
+  {
+    src: "/images/educational/Pakistan Map Camping Mug - Main.jpg",
+    caption: "Pakistan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Pakistan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pakistan Map Decal - Main.jpg",
+    caption: "Pakistan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Pakistan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Palau Map Camping Mug - Main.jpg",
+    caption: "Palau Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Palau Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Palau Map Decal - Main.jpg",
+    caption: "Palau Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Palau Map Decal.html"
+  },
+  {
+    src: "/images/educational/Palmyra Atoll Map Camping Mug - Main.jpg",
+    caption: "Palmyra Atoll Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Palmyra Atoll Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Palmyra Atoll Map Decal - Main.jpg",
+    caption: "Palmyra Atoll Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Palmyra Atoll Map Decal.html"
+  },
+  {
+    src: "/images/educational/Panama Map Camping Mug - Main.jpg",
+    caption: "Panama Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Panama Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Panama Map Decal - Main.jpg",
+    caption: "Panama Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Panama Map Decal.html"
+  },
+  {
+    src: "/images/educational/Papua New Guinea Map Camping Mug - Main.jpg",
+    caption: "Papua New Guinea Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Papua New Guinea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Papua New Guinea Map Decal - Main.jpg",
+    caption: "Papua New Guinea Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Papua New Guinea Map Decal.html"
+  },
+  {
+    src: "/images/educational/Paracel Islands Map Camping Mug - Main.jpg",
+    caption: "Paracel Islands Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Paracel Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Paracel Islands Map Decal - Main.jpg",
+    caption: "Paracel Islands Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Paracel Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Paraguay Map Camping Mug - Main.jpg",
+    caption: "Paraguay Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Paraguay Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Paraguay Map Decal - Main.jpg",
+    caption: "Paraguay Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Paraguay Map Decal.html"
+  },
+  {
+    src: "/images/educational/Peru Map Camping Mug - Main.jpg",
+    caption: "Peru Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Peru Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Peru Map Decal - Main.jpg",
+    caption: "Peru Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Peru Map Decal.html"
+  },
+  {
+    src: "/images/educational/Philippines Map Camping Mug - Main.jpg",
+    caption: "Philippines Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Philippines Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Philippines Map Decal - Main.jpg",
+    caption: "Philippines Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Philippines Map Decal.html"
+  },
+  {
+    src: "/images/educational/Pitcairn Islands Map Camping Mug - Main.jpg",
+    caption: "Pitcairn Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Pitcairn Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Pitcairn Islands Map Decal - Main.jpg",
+    caption: "Pitcairn Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Pitcairn Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Poland Map Camping Mug - Main.jpg",
+    caption: "Poland Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Poland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Poland Map Decal - Main.jpg",
+    caption: "Poland Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Poland Map Decal.html"
+  },
+  {
+    src: "/images/educational/Portugal Map Camping Mug - Main.jpg",
+    caption: "Portugal Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Portugal Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Portugal Map Decal - Main.jpg",
+    caption: "Portugal Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Portugal Map Decal.html"
+  },
+  {
+    src: "/images/educational/Puerto Rico Map Camping Mug - Main.jpg",
+    caption: "Puerto Rico Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Puerto Rico Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Puerto Rico Map Decal - Main.jpg",
+    caption: "Puerto Rico Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Puerto Rico Map Decal.html"
+  },
+  {
+    src: "/images/educational/Qatar Map Camping Mug - Main.jpg",
+    caption: "Qatar Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Qatar Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Qatar Map Decal - Main.jpg",
+    caption: "Qatar Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Qatar Map Decal.html"
+  },
+  {
+    src: "/images/educational/Republic of the Congo Map Camping Mug - Main.jpg",
+    caption: "Republic of the Congo Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Republic of the Congo Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Republic of the Congo Map Decal - Main.jpg",
+    caption: "Republic of the Congo Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Republic of the Congo Map Decal.html"
+  },
+  {
+    src: "/images/educational/Romania Map Camping Mug - Main.jpg",
+    caption: "Romania Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Romania Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Romania Map Decal - Main.jpg",
+    caption: "Romania Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Romania Map Decal.html"
+  },
+  {
+    src: "/images/educational/Russia Map Camping Mug - Main.jpg",
+    caption: "Russia Map Camping Mug",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Camping Mugs/Russia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Russia Map Decal - Main.jpg",
+    caption: "Russia Map Decal",
+    price: 10,
+    category: "Multiple Continents",
+    page: "/items/educational/Decals/Russia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Rwanda Map Camping Mug - Main.jpg",
+    caption: "Rwanda Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Rwanda Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Rwanda Map Decal - Main.jpg",
+    caption: "Rwanda Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Rwanda Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Barthelemy Map Camping Mug - Main.jpg",
+    caption: "Saint Barthelemy Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Barthelemy Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Barthelemy Map Decal - Main.jpg",
+    caption: "Saint Barthelemy Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Barthelemy Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Helena, Ascension, and Tristan da Cunha Map Camping Mug - Main.jpg",
+    caption: "Saint Helena, Ascension, and Tristan da Cunha Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Saint Helena, Ascension, and Tristan da Cunha Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Helena, Ascension, and Tristan da Cunha Map Decal - Main.jpg",
+    caption: "Saint Helena, Ascension, and Tristan da Cunha Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Saint Helena, Ascension, and Tristan da Cunha Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Kitts and Nevis Map Camping Mug - Main.jpg",
+    caption: "Saint Kitts and Nevis Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Kitts and Nevis Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Kitts and Nevis Map Decal - Main.jpg",
+    caption: "Saint Kitts and Nevis Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Kitts and Nevis Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Lucia Map Camping Mug - Main.jpg",
+    caption: "Saint Lucia Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Lucia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Lucia Map Decal - Main.jpg",
+    caption: "Saint Lucia Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Lucia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Martin Map Camping Mug - Main.jpg",
+    caption: "Saint Martin Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Martin Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Martin Map Decal - Main.jpg",
+    caption: "Saint Martin Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Martin Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Pierre and Miquelon Map Camping Mug - Main.jpg",
+    caption: "Saint Pierre and Miquelon Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Pierre and Miquelon Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Pierre and Miquelon Map Decal - Main.jpg",
+    caption: "Saint Pierre and Miquelon Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Pierre and Miquelon Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saint Vincent and the Grenadines Map Camping Mug - Main.jpg",
+    caption: "Saint Vincent and the Grenadines Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Saint Vincent and the Grenadines Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saint Vincent and the Grenadines Map Decal - Main.jpg",
+    caption: "Saint Vincent and the Grenadines Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Saint Vincent and the Grenadines Map Decal.html"
+  },
+  {
+    src: "/images/educational/Samoa Map Camping Mug - Main.jpg",
+    caption: "Samoa Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Samoa Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Samoa Map Decal - Main.jpg",
+    caption: "Samoa Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Samoa Map Decal.html"
+  },
+  {
+    src: "/images/educational/San Marino Map Camping Mug - Main.jpg",
+    caption: "San Marino Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/San Marino Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/San Marino Map Decal - Main.jpg",
+    caption: "San Marino Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/San Marino Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sao Tome and Principe Map Camping Mug - Main.jpg",
+    caption: "Sao Tome and Principe Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Sao Tome and Principe Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sao Tome and Principe Map Decal - Main.jpg",
+    caption: "Sao Tome and Principe Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Sao Tome and Principe Map Decal.html"
+  },
+  {
+    src: "/images/educational/Saudi Arabia Map Camping Mug - Main.jpg",
+    caption: "Saudi Arabia Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Saudi Arabia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Saudi Arabia Map Decal - Main.jpg",
+    caption: "Saudi Arabia Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Saudi Arabia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Senegal Map Camping Mug - Main.jpg",
+    caption: "Senegal Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Senegal Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Senegal Map Decal - Main.jpg",
+    caption: "Senegal Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Senegal Map Decal.html"
+  },
+  {
+    src: "/images/educational/Serbia Map Camping Mug - Main.jpg",
+    caption: "Serbia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Serbia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Serbia Map Decal - Main.jpg",
+    caption: "Serbia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Serbia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Seychelles Map Camping Mug - Main.jpg",
+    caption: "Seychelles Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Seychelles Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Seychelles Map Decal - Main.jpg",
+    caption: "Seychelles Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Seychelles Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sierra Leone Map Camping Mug - Main.jpg",
+    caption: "Sierra Leone Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Sierra Leone Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sierra Leone Map Decal - Main.jpg",
+    caption: "Sierra Leone Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Sierra Leone Map Decal.html"
+  },
+  {
+    src: "/images/educational/Singapore Map Camping Mug - Main.jpg",
+    caption: "Singapore Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Singapore Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Singapore Map Decal - Main.jpg",
+    caption: "Singapore Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Singapore Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sint Maarten Map Camping Mug - Main.jpg",
+    caption: "Sint Maarten Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Sint Maarten Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sint Maarten Map Decal - Main.jpg",
+    caption: "Sint Maarten Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Sint Maarten Map Decal.html"
+  },
+  {
+    src: "/images/educational/Slovakia Map Camping Mug - Main.jpg",
+    caption: "Slovakia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Slovakia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Slovakia Map Decal - Main.jpg",
+    caption: "Slovakia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Slovakia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Slovenia Map Camping Mug - Main.jpg",
+    caption: "Slovenia Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Slovenia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Slovenia Map Decal - Main.jpg",
+    caption: "Slovenia Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Slovenia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Solomon Islands Map Camping Mug - Main.jpg",
+    caption: "Solomon Islands Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Solomon Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Solomon Islands Map Decal - Main.jpg",
+    caption: "Solomon Islands Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Solomon Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Somalia Map Camping Mug - Main.jpg",
+    caption: "Somalia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Somalia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Somalia Map Decal - Main.jpg",
+    caption: "Somalia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Somalia Map Decal.html"
+  },
+  {
+    src: "/images/educational/South Africa Map Camping Mug - Main.jpg",
+    caption: "South Africa Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/South Africa Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/South Africa Map Decal - Main.jpg",
+    caption: "South Africa Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/South Africa Map Decal.html"
+  },
+  {
+    src: "/images/educational/South Georgia and South Sandwich Islands Map Camping Mug - Main.jpg",
+    caption: "South Georgia and South Sandwich Islands Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/South Georgia and South Sandwich Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/South Georgia and South Sandwich Islands Map Decal - Main.jpg",
+    caption: "South Georgia and South Sandwich Islands Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/South Georgia and South Sandwich Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/South Korea Map Camping Mug - Main.jpg",
+    caption: "South Korea Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/South Korea Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/South Korea Map Decal - Main.jpg",
+    caption: "South Korea Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/South Korea Map Decal.html"
+  },
+  {
+    src: "/images/educational/South Sudan Map Camping Mug - Main.jpg",
+    caption: "South Sudan Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/South Sudan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/South Sudan Map Decal - Main.jpg",
+    caption: "South Sudan Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/South Sudan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Spain Map Camping Mug - Main.jpg",
+    caption: "Spain Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Spain Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Spain Map Decal - Main.jpg",
+    caption: "Spain Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Spain Map Decal.html"
+  },
+  {
+    src: "/images/educational/Spratly Islands Map Camping Mug - Main.jpg",
+    caption: "Spratly Islands Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Spratly Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Spratly Islands Map Decal - Main.jpg",
+    caption: "Spratly Islands Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Spratly Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sri Lanka Map Camping Mug - Main.jpg",
+    caption: "Sri Lanka Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Sri Lanka Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sri Lanka Map Decal - Main.jpg",
+    caption: "Sri Lanka Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Sri Lanka Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sudan Map Camping Mug - Main.jpg",
+    caption: "Sudan Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Sudan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sudan Map Decal - Main.jpg",
+    caption: "Sudan Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Sudan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Suriname Map Camping Mug - Main.jpg",
+    caption: "Suriname Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Suriname Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Suriname Map Decal - Main.jpg",
+    caption: "Suriname Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Suriname Map Decal.html"
+  },
+  {
+    src: "/images/educational/Svalbard Map Camping Mug - Main.jpg",
+    caption: "Svalbard Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Svalbard Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Svalbard Map Decal - Main.jpg",
+    caption: "Svalbard Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Svalbard Map Decal.html"
+  },
+  {
+    src: "/images/educational/Sweden Map Camping Mug - Main.jpg",
+    caption: "Sweden Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Sweden Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Sweden Map Decal - Main.jpg",
+    caption: "Sweden Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Sweden Map Decal.html"
+  },
+  {
+    src: "/images/educational/Switzerland Map Camping Mug - Main.jpg",
+    caption: "Switzerland Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Switzerland Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Switzerland Map Decal - Main.jpg",
+    caption: "Switzerland Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Switzerland Map Decal.html"
+  },
+  {
+    src: "/images/educational/Syria Map Camping Mug - Main.jpg",
+    caption: "Syria Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Syria Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Syria Map Decal - Main.jpg",
+    caption: "Syria Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Syria Map Decal.html"
+  },
+  {
+    src: "/images/educational/Taiwan Map Camping Mug - Main.jpg",
+    caption: "Taiwan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Taiwan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Taiwan Map Decal - Main.jpg",
+    caption: "Taiwan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Taiwan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tajikistan Map Camping Mug - Main.jpg",
+    caption: "Tajikistan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Tajikistan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tajikistan Map Decal - Main.jpg",
+    caption: "Tajikistan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Tajikistan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tanzania Map Camping Mug - Main.jpg",
+    caption: "Tanzania Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Tanzania Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tanzania Map Decal - Main.jpg",
+    caption: "Tanzania Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Tanzania Map Decal.html"
+  },
+  {
+    src: "/images/educational/Thailand Map Camping Mug - Main.jpg",
+    caption: "Thailand Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Thailand Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Thailand Map Decal - Main.jpg",
+    caption: "Thailand Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Thailand Map Decal.html"
+  },
+  {
+    src: "/images/educational/The Bahamas Map Camping Mug - Main.jpg",
+    caption: "The Bahamas Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/The Bahamas Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/The Bahamas Map Decal - Main.jpg",
+    caption: "The Bahamas Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/The Bahamas Map Decal.html"
+  },
+  {
+    src: "/images/educational/The Gambia Map Camping Mug - Main.jpg",
+    caption: "The Gambia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/The Gambia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/The Gambia Map Decal - Main.jpg",
+    caption: "The Gambia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/The Gambia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Timor-Leste Map Camping Mug - Main.jpg",
+    caption: "Timor-Leste Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Timor-Leste Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Timor-Leste Map Decal - Main.jpg",
+    caption: "Timor-Leste Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Timor-Leste Map Decal.html"
+  },
+  {
+    src: "/images/educational/Togo Map Camping Mug - Main.jpg",
+    caption: "Togo Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Togo Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Togo Map Decal - Main.jpg",
+    caption: "Togo Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Togo Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tokelau Map Camping Mug - Main.jpg",
+    caption: "Tokelau Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Tokelau Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tokelau Map Decal - Main.jpg",
+    caption: "Tokelau Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Tokelau Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tonga Map Camping Mug - Main.jpg",
+    caption: "Tonga Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Tonga Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tonga Map Decal - Main.jpg",
+    caption: "Tonga Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Tonga Map Decal.html"
+  },
+  {
+    src: "/images/educational/Trinidad and Tobago Map Camping Mug - Main.jpg",
+    caption: "Trinidad and Tobago Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Trinidad and Tobago Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Trinidad and Tobago Map Decal - Main.jpg",
+    caption: "Trinidad and Tobago Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Trinidad and Tobago Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tunisia Map Camping Mug - Main.jpg",
+    caption: "Tunisia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Tunisia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tunisia Map Decal - Main.jpg",
+    caption: "Tunisia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Tunisia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Turkey (Turkiye) Map Camping Mug - Main.jpg",
+    caption: "Turkey (Turkiye) Map Camping Mug",
+    price: 20,
+    category: "Multiple Continents",
+    page: "/items/educational/Camping Mugs/Turkey (Turkiye) Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Turkey (Turkiye) Map Decal - Main.jpg",
+    caption: "Turkey (Turkiye) Map Decal",
+    price: 10,
+    category: "Multiple Continents",
+    page: "/items/educational/Decals/Turkey (Turkiye) Map Decal.html"
+  },
+  {
+    src: "/images/educational/Turkmenistan Map Camping Mug - Main.jpg",
+    caption: "Turkmenistan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Turkmenistan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Turkmenistan Map Decal - Main.jpg",
+    caption: "Turkmenistan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Turkmenistan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Turks and Caicos Islands Map Camping Mug - Main.jpg",
+    caption: "Turks and Caicos Islands Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Turks and Caicos Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Turks and Caicos Islands Map Decal - Main.jpg",
+    caption: "Turks and Caicos Islands Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Turks and Caicos Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Tuvalu Map Camping Mug - Main.jpg",
+    caption: "Tuvalu Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Tuvalu Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Tuvalu Map Decal - Main.jpg",
+    caption: "Tuvalu Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Tuvalu Map Decal.html"
+  },
+  {
+    src: "/images/educational/U.S. Virgin Islands Map Camping Mug - Main.jpg",
+    caption: "U.S. Virgin Islands Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/U.S. Virgin Islands Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/U.S. Virgin Islands Map Decal - Main.jpg",
+    caption: "U.S. Virgin Islands Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/U.S. Virgin Islands Map Decal.html"
+  },
+  {
+    src: "/images/educational/Uganda Map Camping Mug - Main.jpg",
+    caption: "Uganda Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Uganda Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Uganda Map Decal - Main.jpg",
+    caption: "Uganda Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Uganda Map Decal.html"
+  },
+  {
+    src: "/images/educational/Ukraine Map Camping Mug - Main.jpg",
+    caption: "Ukraine Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/Ukraine Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Ukraine Map Decal - Main.jpg",
+    caption: "Ukraine Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/Ukraine Map Decal.html"
+  },
+  {
+    src: "/images/educational/United Arab Emirates Map Camping Mug - Main.jpg",
+    caption: "United Arab Emirates Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/United Arab Emirates Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/United Arab Emirates Map Decal - Main.jpg",
+    caption: "United Arab Emirates Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/United Arab Emirates Map Decal.html"
+  },
+  {
+    src: "/images/educational/United Kingdom Map Camping Mug - Main.jpg",
+    caption: "United Kingdom Map Camping Mug",
+    price: 20,
+    category: "Europe",
+    page: "/items/educational/Camping Mugs/United Kingdom Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/United Kingdom Map Decal - Main.jpg",
+    caption: "United Kingdom Map Decal",
+    price: 10,
+    category: "Europe",
+    page: "/items/educational/Decals/United Kingdom Map Decal.html"
+  },
+  {
+    src: "/images/educational/United States of America Map Camping Mug - Main.jpg",
+    caption: "United States of America Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/United States of America Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/United States of America Map Decal - Main.jpg",
+    caption: "United States of America Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/United States of America Map Decal.html"
+  },
+  {
+    src: "/images/educational/United States Pacific Island Wildlife Refuges Map Camping Mug - Main.jpg",
+    caption: "United States Pacific Island Wildlife Refuges Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/United States Pacific Island Wildlife Refuges Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/United States Pacific Island Wildlife Refuges Map Decal - Main.jpg",
+    caption: "United States Pacific Island Wildlife Refuges Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/United States Pacific Island Wildlife Refuges Map Decal.html"
+  },
+  {
+    src: "/images/educational/Uruguay Map Camping Mug - Main.jpg",
+    caption: "Uruguay Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Uruguay Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Uruguay Map Decal - Main.jpg",
+    caption: "Uruguay Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Uruguay Map Decal.html"
+  },
+  {
+    src: "/images/educational/Uzbekistan Map Camping Mug - Main.jpg",
+    caption: "Uzbekistan Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Uzbekistan Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Uzbekistan Map Decal - Main.jpg",
+    caption: "Uzbekistan Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Uzbekistan Map Decal.html"
+  },
+  {
+    src: "/images/educational/Vanuatu Map Camping Mug - Main.jpg",
+    caption: "Vanuatu Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Vanuatu Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Vanuatu Map Decal - Main.jpg",
+    caption: "Vanuatu Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Vanuatu Map Decal.html"
+  },
+  {
+    src: "/images/educational/Venezuela Map Camping Mug - Main.jpg",
+    caption: "Venezuela Map Camping Mug",
+    price: 20,
+    category: "South America",
+    page: "/items/educational/Camping Mugs/Venezuela Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Venezuela Map Decal - Main.jpg",
+    caption: "Venezuela Map Decal",
+    price: 10,
+    category: "South America",
+    page: "/items/educational/Decals/Venezuela Map Decal.html"
+  },
+  {
+    src: "/images/educational/Vietnam Map Camping Mug - Main.jpg",
+    caption: "Vietnam Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Vietnam Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Vietnam Map Decal - Main.jpg",
+    caption: "Vietnam Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Vietnam Map Decal.html"
+  },
+  {
+    src: "/images/educational/Wake Island Map Camping Mug - Main.jpg",
+    caption: "Wake Island Map Camping Mug",
+    price: 20,
+    category: "North America",
+    page: "/items/educational/Camping Mugs/Wake Island Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wake Island Map Decal - Main.jpg",
+    caption: "Wake Island Map Decal",
+    price: 10,
+    category: "North America",
+    page: "/items/educational/Decals/Wake Island Map Decal.html"
+  },
+  {
+    src: "/images/educational/Wallis and Futuna Map Camping Mug - Main.jpg",
+    caption: "Wallis and Futuna Map Camping Mug",
+    price: 20,
+    category: "Australia / Oceania",
+    page: "/items/educational/Camping Mugs/Wallis and Futuna Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Wallis and Futuna Map Decal - Main.jpg",
+    caption: "Wallis and Futuna Map Decal",
+    price: 10,
+    category: "Australia / Oceania",
+    page: "/items/educational/Decals/Wallis and Futuna Map Decal.html"
+  },
+  {
+    src: "/images/educational/West Bank Map Camping Mug - Main.jpg",
+    caption: "West Bank Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/West Bank Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/West Bank Map Decal - Main.jpg",
+    caption: "West Bank Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/West Bank Map Decal.html"
+  },
+  {
+    src: "/images/educational/World Map Camping Mug - Main.jpg",
+    caption: "World Map Camping Mug",
+    price: 20,
+    category: "All Continents",
+    page: "/items/educational/Camping Mugs/World Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/World Map Decal - Main.jpg",
+    caption: "World Map Decal",
+    price: 10,
+    category: "All Continents",
+    page: "/items/educational/Decals/World Map Decal.html"
+  },
+  {
+    src: "/images/educational/Yemen Map Camping Mug - Main.jpg",
+    caption: "Yemen Map Camping Mug",
+    price: 20,
+    category: "Asia",
+    page: "/items/educational/Camping Mugs/Yemen Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Yemen Map Decal - Main.jpg",
+    caption: "Yemen Map Decal",
+    price: 10,
+    category: "Asia",
+    page: "/items/educational/Decals/Yemen Map Decal.html"
+  },
+  {
+    src: "/images/educational/Zambia Map Camping Mug - Main.jpg",
+    caption: "Zambia Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Zambia Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Zambia Map Decal - Main.jpg",
+    caption: "Zambia Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Zambia Map Decal.html"
+  },
+  {
+    src: "/images/educational/Zimbabwe Map Camping Mug - Main.jpg",
+    caption: "Zimbabwe Map Camping Mug",
+    price: 20,
+    category: "Africa",
+    page: "/items/educational/Camping Mugs/Zimbabwe Map Camping Mug.html"
+  },
+  {
+    src: "/images/educational/Zimbabwe Map Decal - Main.jpg",
+    caption: "Zimbabwe Map Decal",
+    price: 10,
+    category: "Africa",
+    page: "/items/educational/Decals/Zimbabwe Map Decal.html"
+  },
 
   // Add more maps here...
 ];
